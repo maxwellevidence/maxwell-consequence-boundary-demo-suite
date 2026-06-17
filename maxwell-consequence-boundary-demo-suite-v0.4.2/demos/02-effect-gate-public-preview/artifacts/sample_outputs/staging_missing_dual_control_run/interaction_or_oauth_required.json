@@ -1,0 +1,5 @@
+{
+  "reason": "Additional authority is required before downstream effect.",
+  "source_decision_receipt": "decision_receipt.json",
+  "status": "required"
+}

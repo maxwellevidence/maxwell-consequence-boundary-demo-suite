@@ -1,0 +1,41 @@
+{
+  "authority_summary": {
+    "approver_id": "human_commander_01",
+    "authority_present": true,
+    "target_in_scope": true
+  },
+  "case_id": "06_stale_policy_context_requires_review",
+  "decision_summary": {
+    "decision": "review",
+    "explanation": "Request carries stale policy context and must be reviewed.",
+    "lifecycle_status": "review_routed",
+    "policy_version": "0.1.0",
+    "reason_code": "IR_REVIEW_STALE_POLICY_CONTEXT",
+    "request_policy_context": "policy-v0"
+  },
+  "effect_status": {
+    "effect_record_exists": false,
+    "no_effect_marker_exists": true,
+    "review_ticket_exists": true,
+    "suppression_notice_exists": false
+  },
+  "evidence_summary": {
+    "complete": true,
+    "missing_refs": []
+  },
+  "integrity_status": {
+    "errors": [
+      "manifest missing"
+    ],
+    "tamper_detected": null,
+    "verified": null
+  },
+  "proposed_action": {
+    "action_id": "ACT-006",
+    "requested_effect": "synthetic_patch_apply",
+    "risk_level": "medium",
+    "summary": "Synthetic proposed incident action.",
+    "target_system": "patch_service"
+  },
+  "record_type": "reconstruction_report"
+}

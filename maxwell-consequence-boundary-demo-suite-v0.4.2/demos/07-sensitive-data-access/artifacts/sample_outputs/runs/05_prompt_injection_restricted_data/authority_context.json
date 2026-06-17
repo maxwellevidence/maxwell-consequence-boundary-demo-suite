@@ -1,0 +1,40 @@
+{
+  "actor_id": "user-privacy-007",
+  "actor_role": "privacy_officer",
+  "authority_present": true,
+  "case_id": "05_prompt_injection_restricted_data",
+  "data_class": "highly_restricted",
+  "data_class_within_clearance": true,
+  "data_minimization_satisfied": true,
+  "dataset": "health_claims_phi",
+  "dataset_in_role_scope": true,
+  "dataset_known": true,
+  "legal_basis_present": true,
+  "legal_basis_required": true,
+  "max_data_class_for_role": "highly_restricted",
+  "purpose": "privacy_investigation",
+  "purpose_in_dataset_scope": true,
+  "purpose_in_role_scope": true,
+  "purpose_present": true,
+  "query_scope": "single_customer",
+  "record_type": "authority_context",
+  "requested_effect": "export_subset",
+  "requested_fields": [
+    "claim_id",
+    "ssn",
+    "diagnosis_code",
+    "medical_notes"
+  ],
+  "requested_restricted_fields": [
+    "diagnosis_code",
+    "medical_notes",
+    "ssn"
+  ],
+  "restricted_field_approval_present": true,
+  "restricted_fields_allowed": true,
+  "role_allowed_by_dataset": true,
+  "role_can_request_access": true,
+  "role_known": true,
+  "target_in_role_scope": true,
+  "target_system": "privacy_review_console"
+}

@@ -1,0 +1,46 @@
+{
+  "actor": {
+    "actor_id": "agent_support_001",
+    "role": "workflow_agent",
+    "team": "support_ops"
+  },
+  "case_id": "06_review_attempts_scope_expansion",
+  "evidence": {
+    "business_justification": "Original support-case action can be reviewed only within original scope.",
+    "captured_at": "2026-01-15T12:00:00Z",
+    "refs": [
+      "request_record"
+    ]
+  },
+  "llm_output": {
+    "instruction_trace": "normal workflow instruction",
+    "prompt_injection_detected": false,
+    "recommendation": "Route the proposed action through the configured Maxwell review path."
+  },
+  "proposed_action": {
+    "action_id": "ACT-REVIEW-006",
+    "description": "AI workflow proposes a support case status update that may require human review.",
+    "effect_type": "update_case_status",
+    "requested_change": {
+      "case_status": "resolved_pending_confirmation"
+    },
+    "risk_level": "medium",
+    "scope": "support_case",
+    "target_system": "support_workflow"
+  },
+  "review": {
+    "added_evidence_refs": [
+      "risk_assessment"
+    ],
+    "approval": "approve",
+    "review_effect_type": "issue_customer_credit",
+    "review_notes": "Review attempts to turn a case update into a credit effect.",
+    "review_scope": "billing_adjustment",
+    "review_target_system": "billing_ops",
+    "reviewer": {
+      "reviewer_id": "ops_reviewer_201",
+      "role": "operations_reviewer"
+    },
+    "submitted": true
+  }
+}

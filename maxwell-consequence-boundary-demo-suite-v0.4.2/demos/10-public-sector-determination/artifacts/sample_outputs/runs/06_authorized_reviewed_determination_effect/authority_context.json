@@ -1,0 +1,20 @@
+{
+  "actor_id": "caseworker_morgan",
+  "actor_role": "benefits_caseworker",
+  "authority_present": true,
+  "can_bind_adverse_effect": false,
+  "can_bind_non_adverse_effect": true,
+  "can_propose_determination": true,
+  "case_id": "06_authorized_reviewed_determination_effect",
+  "determination_type": "benefit_reduction",
+  "determination_type_in_role_scope": true,
+  "jurisdiction": "demo_state",
+  "jurisdiction_in_role_scope": true,
+  "max_risk_without_review": "medium",
+  "program": "food_assistance",
+  "program_in_role_scope": true,
+  "record_type": "authority_context",
+  "risk_exceeds_no_review_threshold": true,
+  "risk_level": "high",
+  "role_known": true
+}

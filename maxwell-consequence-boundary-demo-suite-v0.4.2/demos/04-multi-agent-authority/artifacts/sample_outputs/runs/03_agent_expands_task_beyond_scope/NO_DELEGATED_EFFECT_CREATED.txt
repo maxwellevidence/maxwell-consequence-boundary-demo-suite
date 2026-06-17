@@ -1,0 +1,2 @@
+No delegated downstream effect record was created because policy did not permit effect.
+Reason code: AGENT_SCOPE_EXPANSION_SUPPRESSED

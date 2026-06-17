@@ -1,0 +1,16 @@
+{
+  "adverse_determination": true,
+  "ai_claims_final_authority": true,
+  "ai_output_treated_as_authority": false,
+  "appeal_rights_notice_attached": false,
+  "automated_final_action_requested": true,
+  "case_id": "04_unauthorized_auto_denial",
+  "human_review_complete": false,
+  "record_type": "due_process_analysis",
+  "unsafe_instruction_detected": true,
+  "unsafe_instruction_indicators": [
+    "auto-deny",
+    "skip appeal rights"
+  ],
+  "written_notice_attached": true
+}

@@ -1,0 +1,11 @@
+{
+  "case_id": "03_inconsistent_case_record",
+  "case_record_id": "CASE-DEMO-003",
+  "case_review_ticket_id": "sha256:19a6cde9ca8240ef5809d4012fc48bb76c5b77800261ab5931883f3c8f98f231",
+  "decision_receipt_id": "sha256:63c39c6dc9d49502d33d8829fdf1e13c1be28ba05cabb8ea37299628003c666f",
+  "determination_id": "DET-DEMO-003",
+  "effect_created": false,
+  "reason_code": "CASE_RECORD_INCONSISTENT_REQUIRES_REVIEW",
+  "record_type": "case_review_ticket",
+  "review_queue": "public_sector_case_review"
+}

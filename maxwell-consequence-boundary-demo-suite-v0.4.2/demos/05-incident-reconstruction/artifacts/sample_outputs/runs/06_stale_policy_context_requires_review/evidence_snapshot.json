@@ -1,0 +1,15 @@
+{
+  "captured_at": "2026-01-15T10:03:00Z",
+  "case_id": "06_stale_policy_context_requires_review",
+  "complete": true,
+  "evidence_refs": [
+    "incident_ticket",
+    "system_snapshot"
+  ],
+  "missing_refs": [],
+  "record_type": "evidence_snapshot",
+  "required_refs": [
+    "incident_ticket",
+    "system_snapshot"
+  ]
+}

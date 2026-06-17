@@ -1,0 +1,18 @@
+{
+  "case_id": "02_handoff_missing_authority_scope",
+  "created_at": "2026-06-12T21:06:29Z",
+  "delegation_chain_id": "sha256:115febc988477eef1f7f6d3ec02ff7f3296c27088858c9f0a8f9e8f336af49d9",
+  "delegation_id": "delegation-002",
+  "delegation_participants_match": true,
+  "evidence_bundle_id": "sha256:caa0f8097c95ec3c5ca7c5d720c049f80e84274259d6a430ad781f4f769671b5",
+  "evidence_continuity_ok": true,
+  "from_agent_id": "agent-triage-a",
+  "handoff_id": "handoff-001",
+  "handoff_participants_match": true,
+  "handoff_scope": "security.patch.remediation",
+  "public_preview_note": "Synthetic public-safe delegation chain for demo review.",
+  "requested_scope": "security.patch.remediation",
+  "requested_target_system": "change_ticket_system",
+  "schema": "maxwell.multi_agent_authority.delegation_chain.v0.1",
+  "to_agent_id": "agent-remediate-b"
+}

@@ -1,0 +1,20 @@
+{
+  "action_id": "act-03_urgent_override_attempt",
+  "authority_context_hash": "sha256:a8b20ca368c555203ee270383a9ef921eae6990ed1ec6a1025c3560a3a73e9d2",
+  "case_id": "03_urgent_override_attempt",
+  "decision": "quarantine",
+  "decision_receipt_id": "sha256:d35af5c2217420498045181b871204c2e6eebee8d198ddae48b72b91344e50ca",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-01T00:00:00Z",
+  "explanation": "Prompt-injected override language was preserved as evidence, not treated as authority.",
+  "instruction_evidence_bundle_hash": "sha256:4251375671571ec7c56791138f3d6d1809ebf8c947f313747df2d8b79ce63cbd",
+  "lifecycle_status": "prompt_quarantined_effect_suppressed",
+  "policy_hash": "sha256:2ce92f6cbdd54054e4d31f0709ecc5d95333dc23cec4818e18cc5f8aaa42eeeb",
+  "policy_id": "maxwell.prompt_injection_boundary.public_preview",
+  "policy_version": "0.1.0",
+  "prompt_boundary_analysis_hash": "sha256:9eb7d0d3b8905fd1f59a402ee8fb036a1895270d0581e526a50c1ee9f7f6073f",
+  "quarantine_required": true,
+  "reason_code": "PROMPT_INJECTION_BOUNDARY_TRIGGERED",
+  "record_type": "decision_receipt",
+  "security_review_required": false
+}

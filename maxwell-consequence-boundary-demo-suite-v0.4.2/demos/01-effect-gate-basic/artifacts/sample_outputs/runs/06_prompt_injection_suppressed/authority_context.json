@@ -1,0 +1,14 @@
+{
+  "actor_id": "agent-comms-01",
+  "allowed_scopes": [
+    "customer_communications"
+  ],
+  "authority_present": true,
+  "can_execute": true,
+  "case_id": "06_prompt_injection_suppressed",
+  "delegation_id": "DEMO-COMMS-LOW-RISK-2026",
+  "public_preview_note": "Synthetic effect-gate authority context only; not a production authorization record.",
+  "role": "communications_agent",
+  "schema": "maxwell.demo.authority_context.v0.1",
+  "target_scope": "customer_communications"
+}

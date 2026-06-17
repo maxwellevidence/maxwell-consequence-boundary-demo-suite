@@ -1,0 +1,55 @@
+{
+  "approval_chain": {
+    "dual_approval_present": false,
+    "primary_approver_id": "finance_manager_01",
+    "requester_id": "procurement_agent_03",
+    "secondary_approver_id": null
+  },
+  "case_id": "03_suspicious_vendor_bank_change",
+  "claimed_authority": {
+    "actor_id": "finance_manager_01",
+    "allowed_payment_scopes": [
+      "vendor_payment"
+    ],
+    "approval_limit_usd": 50000,
+    "can_approve_payment": true,
+    "can_request_payment": true,
+    "delegation_id": "demo-delegation-finance-manager-01",
+    "role": "finance_manager"
+  },
+  "evidence_refs": [
+    {
+      "digest": "demo-sha256-invoice-3099",
+      "ref_id": "invoice:INV-3099",
+      "type": "invoice"
+    },
+    {
+      "digest": "demo-sha256-po-3099",
+      "ref_id": "po:PO-3099",
+      "type": "purchase_order"
+    },
+    {
+      "digest": "demo-sha256-vendor-delta",
+      "ref_id": "vendor:VND-DELTA-003",
+      "type": "vendor_record"
+    }
+  ],
+  "payment_request": {
+    "amount_usd": 4800.0,
+    "currency": "USD",
+    "description": "Synthetic vendor payment proposal for public demo review.",
+    "invoice_id": "INV-3099",
+    "payment_method": "ach",
+    "vendor_bank_change": true,
+    "vendor_id": "VND-DELTA-003",
+    "vendor_status": "approved"
+  },
+  "proposed_instruction": "Recommend payment after vendor submitted a same-day bank account change.",
+  "requested_effect": {
+    "effect_type": "payment.release",
+    "target_scope": "vendor_payment",
+    "target_system": "synthetic_accounts_payable"
+  },
+  "risk_level": "low",
+  "target_scope": "vendor_payment"
+}

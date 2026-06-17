@@ -1,0 +1,10 @@
+{
+  "action_id": "act-01",
+  "case_id": "01_allowed_under_policy_v1",
+  "created_under_policy_version": "2025-10-v1",
+  "decision_receipt_hash": "sha256:161b9ae876858cb5a5a18f6c0bab22e735d5c424af647440deec195de889a05e",
+  "effect_type": "config_change",
+  "record_type": "effect_record",
+  "synthetic_no_real_execution": true,
+  "target_system": "staging_api"
+}

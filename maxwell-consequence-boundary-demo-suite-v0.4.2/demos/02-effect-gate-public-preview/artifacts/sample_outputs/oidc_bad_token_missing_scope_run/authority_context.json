@@ -1,0 +1,14 @@
+{
+  "audience": "unverified",
+  "expires_at": "1970-01-01T00:00:00Z",
+  "issuer": "unverified",
+  "oauth_status": "invalid",
+  "roles": [
+    "unverified"
+  ],
+  "scopes": [
+    "unverified"
+  ],
+  "subject": "requester@example.test",
+  "token_claims_bound": false
+}

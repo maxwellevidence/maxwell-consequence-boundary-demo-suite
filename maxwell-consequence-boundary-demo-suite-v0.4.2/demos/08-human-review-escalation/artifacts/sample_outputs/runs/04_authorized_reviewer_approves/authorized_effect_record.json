@@ -1,0 +1,18 @@
+{
+  "action_id": "ACT-REVIEW-004",
+  "case_id": "04_authorized_reviewer_approves",
+  "effect_basis": "sha256:64ce7e9bc518f4715f3ceb17d585d0304482c8be4b61acf56818ee1bb23e763b",
+  "effect_committed": true,
+  "effect_payload": {
+    "credit_amount_usd": 950,
+    "reason": "documented service failure"
+  },
+  "effect_record_id": "sha256:46ffd62d348426a12678d822b5ae35532ad2bf7e8bec9a5ada025a3b79bd7ecc",
+  "effect_type": "issue_customer_credit",
+  "note": "This synthetic demo records an authorized effect; it does not call downstream systems.",
+  "record_type": "authorized_effect_record",
+  "reviewer_id": "compliance_reviewer_301",
+  "reviewer_role": "compliance_reviewer",
+  "scope": "billing_adjustment",
+  "target_system": "billing_ops"
+}

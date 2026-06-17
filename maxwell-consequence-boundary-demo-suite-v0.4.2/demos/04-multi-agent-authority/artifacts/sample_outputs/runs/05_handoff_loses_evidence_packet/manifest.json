@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-06-12T21:06:29Z",
+  "files": [
+    {
+      "bytes": 136,
+      "path": "NO_DELEGATED_EFFECT_CREATED.txt",
+      "sha256": "be6a0e3a3462bc21afe365811cb86f13d6154a50374ad798f0e1667ebdb02594"
+    },
+    {
+      "bytes": 1550,
+      "path": "authority_context.json",
+      "sha256": "d9c5cf700b108d2c0e8939c26bc8d6129a925d0ce3661d835bd0038c1b2ee259"
+    },
+    {
+      "bytes": 1403,
+      "path": "decision_receipt.json",
+      "sha256": "715005e609c9a15b6bbfe0d21e0c3ab60cf4946666324620261d9aade9246e6d"
+    },
+    {
+      "bytes": 852,
+      "path": "delegation_chain.json",
+      "sha256": "8987b6880e85673f210120be12d7803d9bca92a96c32aa6b60f94e12114e5f25"
+    },
+    {
+      "bytes": 655,
+      "path": "handoff_evidence_bundle.json",
+      "sha256": "a7d69d773421f2fa2e04b882c3cf5771769dd95c73b39ffc445ab1dfb06c3df3"
+    },
+    {
+      "bytes": 2230,
+      "path": "input.json",
+      "sha256": "55db33561d67bc37b7a85134c756eaa1c191858db1754e317c724fa109742df4"
+    },
+    {
+      "bytes": 647,
+      "path": "review_ticket.json",
+      "sha256": "714f550959f83ad3dac737284f6849bbcddb17d8f3dd6ab7ec70471eb93b3dc3"
+    }
+  ],
+  "manifest_version": "multi-agent-authority-demo-v0.1.0",
+  "schema": "maxwell.multi_agent_authority.manifest.v0.1"
+}

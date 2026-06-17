@@ -1,0 +1,26 @@
+{
+  "action_type": "update_enterprise_record",
+  "case_id": "05_high_risk_requires_review",
+  "claimed_authority": {
+    "actor_id": "agent-case-02",
+    "allowed_scopes": [
+      "case_management"
+    ],
+    "can_execute": true,
+    "delegation_id": "DEMO-CASE-REVIEW-2026",
+    "role": "case_operations_agent"
+  },
+  "evidence_refs": [
+    "case_file:CASE-5105",
+    "analysis_summary:AS-5105",
+    "case_policy:CASE-2026-01"
+  ],
+  "proposed_instruction": "Update a synthetic enterprise case status after automated analysis.",
+  "requested_effect": {
+    "destination": "case_update_queue",
+    "effect_type": "update_case_status",
+    "target_system": "synthetic_case_system"
+  },
+  "risk_level": "high",
+  "target_scope": "case_management"
+}

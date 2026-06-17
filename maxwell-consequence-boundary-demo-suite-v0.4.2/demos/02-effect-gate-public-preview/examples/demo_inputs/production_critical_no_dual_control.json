@@ -1,0 +1,20 @@
+{
+  "description": "Production critical-risk request without dual control.",
+  "action_proposal": {
+    "action_type": "create_change_control_record",
+    "target_environment": "production",
+    "risk_level": "critical",
+    "requester_id": "requester@example.test",
+    "approver_id": "approver@example.test",
+    "dual_control_present": false
+  },
+  "authority_context": {
+    "subject": "requester@example.test",
+    "issuer": "https://issuer.example.test",
+    "audience": "maxwell-effect-gate-public-proof",
+    "expires_at": "2035-01-01T00:00:00Z",
+    "scopes": ["change_record:create:staging"],
+    "roles": ["change_manager"],
+    "oauth_status": "complete"
+  }
+}

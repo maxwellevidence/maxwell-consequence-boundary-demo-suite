@@ -1,0 +1,39 @@
+{
+  "authority_summary": {
+    "approver_id": null,
+    "authority_present": false,
+    "target_in_scope": true
+  },
+  "case_id": "04_attempted_action_missing_authority",
+  "decision_summary": {
+    "decision": "block",
+    "explanation": "No valid authority context supports downstream effect.",
+    "lifecycle_status": "effect_suppressed",
+    "policy_version": "0.1.0",
+    "reason_code": "IR_BLOCK_MISSING_AUTHORITY",
+    "request_policy_context": "policy-v1"
+  },
+  "effect_status": {
+    "effect_record_exists": false,
+    "no_effect_marker_exists": true,
+    "review_ticket_exists": false,
+    "suppression_notice_exists": true
+  },
+  "evidence_summary": {
+    "complete": true,
+    "missing_refs": []
+  },
+  "integrity_status": {
+    "errors": [],
+    "tamper_detected": false,
+    "verified": true
+  },
+  "proposed_action": {
+    "action_id": "ACT-004",
+    "requested_effect": "synthetic_service_restart",
+    "risk_level": "medium",
+    "summary": "Synthetic proposed incident action.",
+    "target_system": "patch_service"
+  },
+  "record_type": "reconstruction_report"
+}

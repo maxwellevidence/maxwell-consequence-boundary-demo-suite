@@ -1,0 +1,9 @@
+{
+  "action_id": "ACT-REVIEW-003",
+  "case_id": "03_reviewer_lacks_authority",
+  "decision_receipt_id": "sha256:b525019ed5441ab92e92120fdf339e18da2ad2ac3a95881feca5cbd446b8ded5",
+  "effect_created": false,
+  "reason_code": "REVIEWER_LACKS_AUTHORITY",
+  "record_type": "review_rejection_notice",
+  "review_rejection_notice_id": "sha256:6551b49cd6625dffffb84cf329cab2f086cf61be8ed41681e0d400cfef79d85c"
+}

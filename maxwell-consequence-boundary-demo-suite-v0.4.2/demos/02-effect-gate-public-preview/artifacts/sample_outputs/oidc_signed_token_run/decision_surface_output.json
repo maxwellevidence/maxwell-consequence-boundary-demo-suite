@@ -1,0 +1,13 @@
+{
+  "claims_boundary": "Public decision surface only. This does not disclose Maxwell's private authority model, evaluator chain, scoring rules, or thresholds.",
+  "decision": "allow",
+  "downstream_effect_allowed": true,
+  "downstream_instruction": "create_bounded_change_control_record",
+  "effect_boundary": "change_control_record_creation",
+  "reason_codes": [
+    "AUTHORITY_CONTEXT_SUFFICIENT",
+    "EVIDENCE_BUNDLE_PRESENT",
+    "POLICY_BRANCH_ALLOW_STAGING_BOUNDED_CHANGE"
+  ],
+  "receipt_reference": "decision_receipt.json"
+}

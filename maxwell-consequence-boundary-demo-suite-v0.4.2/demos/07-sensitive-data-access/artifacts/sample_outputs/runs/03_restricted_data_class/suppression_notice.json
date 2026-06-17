@@ -1,0 +1,9 @@
+{
+  "access_id": "DA-1003",
+  "case_id": "03_restricted_data_class",
+  "decision_receipt_id": "sha256:52b417c2d76eaec0366689c21b778129227aeebf27197322892a7e63494ff902",
+  "effect_created": false,
+  "reason_code": "DATA_CLASSIFICATION_EXCEEDS_CLEARANCE",
+  "record_type": "suppression_notice",
+  "suppression_notice_id": "sha256:1d86fc3e15a7a671464d8cda2c22ab525150bf06945a30acb8d885bb106a5ea1"
+}

@@ -1,0 +1,8 @@
+{
+  "case_id": "04_outside_scope_employee_record",
+  "checked_files": 7,
+  "errors": [],
+  "record_type": "verification_report",
+  "tamper_detected": false,
+  "verified": true
+}

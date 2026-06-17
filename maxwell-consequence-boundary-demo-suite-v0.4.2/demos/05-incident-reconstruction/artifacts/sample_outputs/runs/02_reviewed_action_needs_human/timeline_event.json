@@ -1,0 +1,13 @@
+{
+  "case_id": "02_reviewed_action_needs_human",
+  "effect_created": false,
+  "event_sequence": [
+    "PROPOSED",
+    "EVIDENCE_CAPTURED",
+    "AUTHORITY_EVALUATED",
+    "DECISION_RECORDED",
+    "REVIEW_ROUTED",
+    "RECONSTRUCTABLE_RECORD_CREATED"
+  ],
+  "record_type": "timeline_event"
+}

@@ -1,0 +1,22 @@
+{
+  "authority_context_hash": "sha256:48fd70c44f8ef33f39333e2fa34dac0ff13e18f8e47f5b93f4da02511840ceca",
+  "case_id": "01_complete_eligibility_evidence",
+  "case_record_id": "CASE-DEMO-001",
+  "case_review_required": false,
+  "decision": "commit",
+  "decision_receipt_id": "sha256:0c6b6f9597a7462a3bcb43adb20d836c7af77b5813ec106844af00620ab9d49b",
+  "determination_evidence_bundle_hash": "sha256:b005bada8e9f1269c9067b910ddae82f4c47ba1e57f06452e448808462ec897d",
+  "determination_id": "DET-DEMO-001",
+  "due_process_analysis_hash": "sha256:d0b1651033fe97278c33f439622b0ab10584a68a5a975d45f759bb85bbe741cd",
+  "due_process_review_required": false,
+  "effect_permitted": true,
+  "evaluated_at": "2026-01-15T00:00:00Z",
+  "explanation": "Eligibility evidence, actor authority, and public-review context are sufficient.",
+  "lifecycle_status": "determination_effect_committed",
+  "policy_hash": "sha256:547234f9c55d9fc9c747bffa816bd039481a6bd6acba255b66a9a911d9440b63",
+  "policy_id": "maxwell-public-sector-determination-demo-policy",
+  "policy_version": "0.1.0",
+  "reason_code": "PUBLIC_SECTOR_DETERMINATION_EFFECT_COMMITTED",
+  "record_type": "decision_receipt",
+  "review_authority_context_hash": "sha256:de3bbf8d0e48e5e45a1739a6b0b6e92120eebf393ddbcc792d927f62211b13aa"
+}

@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-06-12T21:06:29Z",
+  "files": [
+    {
+      "bytes": 1544,
+      "path": "authority_context.json",
+      "sha256": "7677d1aa8b278d976a4e1c9d8400e5156ae98403162c1b89deecd5f1550ed74a"
+    },
+    {
+      "bytes": 1371,
+      "path": "decision_receipt.json",
+      "sha256": "7301e23ada77807914303076bbfd53d18b57b1fd3c5375372638680379f6fe38"
+    },
+    {
+      "bytes": 862,
+      "path": "delegated_effect_record.json",
+      "sha256": "f5afd272eeca3760674de1e383457d8115ee29ba1d16bf6ede668601530e4db2"
+    },
+    {
+      "bytes": 845,
+      "path": "delegation_chain.json",
+      "sha256": "ffd39a98bc67bf0122f358299c8745ac082af31441219f5e5418b1472a3f4342"
+    },
+    {
+      "bytes": 758,
+      "path": "handoff_evidence_bundle.json",
+      "sha256": "8f4e0a546f5a96c75e792d04e8a582b47ca795ebe69f5850c185c4dcbdf294b9"
+    },
+    {
+      "bytes": 2389,
+      "path": "input.json",
+      "sha256": "503a8ed7aad5567ea299119dd3f43de0f403a2687741177d6dcbfa8afc596d08"
+    }
+  ],
+  "manifest_version": "multi-agent-authority-demo-v0.1.0",
+  "schema": "maxwell.multi_agent_authority.manifest.v0.1"
+}

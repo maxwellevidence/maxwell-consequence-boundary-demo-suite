@@ -1,0 +1,39 @@
+{
+  "actor": {
+    "actor_id": "user-support-014",
+    "department": "customer_operations",
+    "role": "support_analyst"
+  },
+  "case_id": "adv02_restricted_field_requested",
+  "evidence": {
+    "business_purpose": "customer_support",
+    "captured_at": "2026-01-01T00:01:00Z",
+    "data_minimization": true,
+    "legal_basis": "customer_service_contract",
+    "refs": [
+      "requester_role_assertion",
+      "data_inventory_entry",
+      "ticket_reference",
+      "business_purpose_record"
+    ]
+  },
+  "llm_output": {
+    "instruction_trace": "No override request detected.",
+    "prompt_injection_detected": false,
+    "recommendation": "Retrieve a minimal case summary for the support workflow."
+  },
+  "requested_access": {
+    "access_id": "DA-1001",
+    "data_class": "restricted",
+    "dataset": "payroll_employee_records",
+    "purpose": "customer_support",
+    "query_scope": "single_customer",
+    "requested_effect": "retrieve_summary",
+    "requested_fields": [
+      "name",
+      "payroll_bank_account"
+    ],
+    "target_system": "support_console",
+    "user_instruction": "Summarize the open support case for the authenticated customer record."
+  }
+}

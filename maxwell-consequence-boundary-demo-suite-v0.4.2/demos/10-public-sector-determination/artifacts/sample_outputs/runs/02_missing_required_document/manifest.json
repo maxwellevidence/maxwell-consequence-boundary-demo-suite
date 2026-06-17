@@ -1,0 +1,51 @@
+{
+  "case_id": "02_missing_required_document",
+  "files": [
+    {
+      "bytes": 133,
+      "path": "NO_DETERMINATION_EFFECT_CREATED.txt",
+      "sha256": "9b7ef6831321c0efbc6ebe0ccf833b18a742eabce676486899b67709b081dd4d"
+    },
+    {
+      "bytes": 662,
+      "path": "authority_context.json",
+      "sha256": "48c20f22c68dfea1438ac8a98be6109ff4b3a79159f35934f897e4b41c4238d9"
+    },
+    {
+      "bytes": 496,
+      "path": "case_review_ticket.json",
+      "sha256": "5943dee676a469fde8d3362e7a9aef49810a3f5f9b3e87674812fa566cac9a58"
+    },
+    {
+      "bytes": 1258,
+      "path": "decision_receipt.json",
+      "sha256": "3edc4eeac282259a244a47d7720cc7237fe217c1b37b268fd3eb95538a1fac8e"
+    },
+    {
+      "bytes": 784,
+      "path": "determination_evidence_bundle.json",
+      "sha256": "b64c3e1e4bf7b860a870387e953e1424ebe9d0cdcf065e62e4a16944e8bb1f7f"
+    },
+    {
+      "bytes": 438,
+      "path": "due_process_analysis.json",
+      "sha256": "9c1f98472d86f5946c1f82a848c813dcee7a148c9136a1ca98a3f692e89892b6"
+    },
+    {
+      "bytes": 1348,
+      "path": "input_request.json",
+      "sha256": "6be45f606e33720341ed6634b2941d03f476c4e313c56532aaf693f054dd5f25"
+    },
+    {
+      "bytes": 4817,
+      "path": "policy_snapshot.json",
+      "sha256": "75bdcb8303a1406662da10a83fe30cd3be8ce7cbca8d087c4c231b01262d9554"
+    },
+    {
+      "bytes": 455,
+      "path": "review_authority_context.json",
+      "sha256": "18725015bc312ded319deb1f9cb7e93f519f1dfbbb0ade042e3f8e156e876e3b"
+    }
+  ],
+  "record_type": "manifest"
+}

@@ -1,0 +1,17 @@
+{
+  "action_type": "send_customer_notice",
+  "case_id": "03_missing_authority_context",
+  "evidence_refs": [
+    "notice_template:T-17",
+    "case_status:CS-2043",
+    "communications_policy:COMM-2026-01"
+  ],
+  "proposed_instruction": "Send approved status notice to customer C-2043 using template T-17.",
+  "requested_effect": {
+    "destination": "customer_notice_queue",
+    "effect_type": "send_customer_notice",
+    "target_system": "synthetic_crm"
+  },
+  "risk_level": "low",
+  "target_scope": "customer_communications"
+}

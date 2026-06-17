@@ -1,0 +1,22 @@
+{
+  "authority_context_hash": "sha256:89073005faf00db539bfb0aefc9cd046055b885dc19a63c8f30910b69b5c543a",
+  "case_id": "05_review_required_due_process",
+  "case_record_id": "CASE-DEMO-005",
+  "case_review_required": true,
+  "decision": "due_process_review",
+  "decision_receipt_id": "sha256:9357a2397b0e61055e49018a1ebce6d662fac1e45fbafe0a63c740e23711489e",
+  "determination_evidence_bundle_hash": "sha256:069ce40172e5ac39c5e8847b3f65bd86cc09b9eaf1f1c598d307c48a6ab0a586",
+  "determination_id": "DET-DEMO-005",
+  "due_process_analysis_hash": "sha256:667d6aee7bab9cbaff2b00ddf1ac3d3b423a17b0a151af251b578d59e044e834",
+  "due_process_review_required": true,
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T00:00:00Z",
+  "explanation": "Adverse or high-risk determinations require authorized human review before effect.",
+  "lifecycle_status": "due_process_review_routed",
+  "policy_hash": "sha256:547234f9c55d9fc9c747bffa816bd039481a6bd6acba255b66a9a911d9440b63",
+  "policy_id": "maxwell-public-sector-determination-demo-policy",
+  "policy_version": "0.1.0",
+  "reason_code": "DUE_PROCESS_REVIEW_REQUIRED",
+  "record_type": "decision_receipt",
+  "review_authority_context_hash": "sha256:30220ca31ac81b763feb69b237b5162a9bb836264a7ace79a9d2aac850c1aa4d"
+}

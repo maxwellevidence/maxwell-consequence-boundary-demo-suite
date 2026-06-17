@@ -1,0 +1,19 @@
+{
+  "access_id": "DA-1001",
+  "approved_fields": [
+    "case_id",
+    "account_status",
+    "last_contact_reason"
+  ],
+  "case_id": "01_valid_role_and_purpose",
+  "data_payload_included": false,
+  "dataset": "customer_support_cases",
+  "effect_basis": "sha256:dfb99dca68dc63800638a5c5ac551a9cf49c097188152dce82e7859a6a36bffa",
+  "effect_committed": true,
+  "effect_record_id": "sha256:6f5af751087a90d3e8107b0cb1bf331e0599a1dd022f1b3f5b98a9db0a525bdb",
+  "effect_type": "retrieve_summary",
+  "note": "This synthetic demo records a permitted access effect; it does not return data.",
+  "purpose": "customer_support",
+  "record_type": "data_access_effect_record",
+  "target_system": "support_console"
+}

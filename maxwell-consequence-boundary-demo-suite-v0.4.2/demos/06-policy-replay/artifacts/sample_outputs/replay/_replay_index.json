@@ -1,0 +1,42 @@
+{
+  "record_type": "policy_replay_index",
+  "reports": [
+    {
+      "case_id": "01_allowed_under_policy_v1",
+      "drift_class": "NO_OUTCOME_CHANGE",
+      "effect_record_mutated": false,
+      "outcome_changed": false
+    },
+    {
+      "case_id": "02_same_evidence_policy_v2_requires_review",
+      "drift_class": "PREVIOUSLY_ALLOWED_NOW_REVIEW",
+      "effect_record_mutated": false,
+      "outcome_changed": true
+    },
+    {
+      "case_id": "03_threshold_changed",
+      "drift_class": "PREVIOUSLY_ALLOWED_NOW_REVIEW",
+      "effect_record_mutated": false,
+      "outcome_changed": true
+    },
+    {
+      "case_id": "04_authority_rule_changed",
+      "drift_class": "PREVIOUSLY_ALLOWED_NOW_REVIEW",
+      "effect_record_mutated": false,
+      "outcome_changed": true
+    },
+    {
+      "case_id": "05_blocked_under_both_scope_violation",
+      "drift_class": "NO_OUTCOME_CHANGE",
+      "effect_record_mutated": false,
+      "outcome_changed": false
+    },
+    {
+      "case_id": "06_current_policy_would_allow_but_no_retroactive_effect",
+      "drift_class": "PREVIOUSLY_SUPPRESSED_NOW_ALLOWED",
+      "effect_record_mutated": false,
+      "outcome_changed": true
+    }
+  ],
+  "target_policy_version": "2026-02-v2"
+}

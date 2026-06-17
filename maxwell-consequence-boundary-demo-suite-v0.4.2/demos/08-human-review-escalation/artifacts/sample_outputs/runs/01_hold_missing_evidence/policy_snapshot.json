@@ -1,0 +1,121 @@
+{
+  "policy": {
+    "base_required_evidence_refs": [
+      "request_record",
+      "risk_assessment"
+    ],
+    "evaluation_time": "2026-01-15T12:00:00Z",
+    "high_risk_required_evidence_refs": [
+      "business_owner_approval",
+      "secondary_approval",
+      "review_rationale"
+    ],
+    "policy_id": "maxwell.review_escalation.public_preview",
+    "policy_version": "0.1.0",
+    "prompt_injection_indicators": [
+      "ignore review",
+      "bypass approval",
+      "override policy",
+      "no need for review"
+    ],
+    "proposer_roles": {
+      "untrusted_agent": {
+        "allowed_effect_types": [],
+        "allowed_scopes": [],
+        "allowed_target_systems": [],
+        "can_propose_action": false,
+        "max_risk_without_review": "low"
+      },
+      "workflow_agent": {
+        "allowed_effect_types": [
+          "update_case_status",
+          "issue_customer_credit"
+        ],
+        "allowed_scopes": [
+          "support_case",
+          "billing_adjustment"
+        ],
+        "allowed_target_systems": [
+          "support_workflow",
+          "billing_ops"
+        ],
+        "can_propose_action": true,
+        "max_risk_without_review": "medium"
+      }
+    },
+    "reason_codes": {
+      "block_missing_authority": "MISSING_AUTHORITY_CONTEXT",
+      "block_prompt_injection": "PROMPT_INJECTION_NOT_AUTHORITY",
+      "block_scope_expansion": "REVIEW_SCOPE_EXPANSION_BLOCKED",
+      "block_scope_violation": "NON_REVIEWABLE_SCOPE_VIOLATION",
+      "effect_committed": "EFFECT_COMMITTED",
+      "review_approved_effect_committed": "REVIEW_APPROVED_EFFECT_COMMITTED",
+      "review_failed": "REVIEW_FAILED_REJECTED",
+      "review_high_risk": "REVIEW_REQUIRED_HIGH_RISK",
+      "review_missing_evidence": "REVIEW_REQUIRED_MISSING_EVIDENCE",
+      "review_missing_evidence_after_review": "REVIEW_FAILED_MISSING_EVIDENCE",
+      "reviewer_lacks_authority": "REVIEWER_LACKS_AUTHORITY"
+    },
+    "review_required_risk_levels": [
+      "high",
+      "critical"
+    ],
+    "reviewer_roles": {
+      "compliance_reviewer": {
+        "allowed_effect_types": [
+          "update_case_status",
+          "issue_customer_credit"
+        ],
+        "allowed_scopes": [
+          "support_case",
+          "billing_adjustment"
+        ],
+        "allowed_target_systems": [
+          "support_workflow",
+          "billing_ops"
+        ],
+        "can_review": true,
+        "max_review_risk": "critical"
+      },
+      "junior_reviewer": {
+        "allowed_effect_types": [
+          "update_case_status"
+        ],
+        "allowed_scopes": [
+          "support_case"
+        ],
+        "allowed_target_systems": [
+          "support_workflow"
+        ],
+        "can_review": false,
+        "max_review_risk": "low"
+      },
+      "operations_reviewer": {
+        "allowed_effect_types": [
+          "update_case_status",
+          "issue_customer_credit"
+        ],
+        "allowed_scopes": [
+          "support_case",
+          "billing_adjustment"
+        ],
+        "allowed_target_systems": [
+          "support_workflow",
+          "billing_ops"
+        ],
+        "can_review": true,
+        "max_review_risk": "medium"
+      }
+    },
+    "risk_order": {
+      "critical": 4,
+      "high": 3,
+      "low": 1,
+      "medium": 2
+    }
+  },
+  "policy_hash": "sha256:4030a6a6c9ca78f336d76be3014f3102a85eda7886611b984b36640375d2faee",
+  "policy_id": "maxwell.review_escalation.public_preview",
+  "policy_version": "0.1.0",
+  "record_type": "policy_snapshot"
+}

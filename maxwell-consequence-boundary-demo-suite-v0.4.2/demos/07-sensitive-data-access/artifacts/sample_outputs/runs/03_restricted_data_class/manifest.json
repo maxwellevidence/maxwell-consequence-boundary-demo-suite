@@ -1,0 +1,41 @@
+{
+  "case_id": "03_restricted_data_class",
+  "files": [
+    {
+      "bytes": 114,
+      "path": "NO_DATA_ACCESS_EFFECT_CREATED.txt",
+      "sha256": "d42a202179de43f3ab7ddeb3a2e6b8c7f554e7d21645c4c8933cbb896673a722"
+    },
+    {
+      "bytes": 1116,
+      "path": "authority_context.json",
+      "sha256": "3b2a12b41f997154f12540ba0cf0796b9123b0a3dbb534e105d4e1b1d5d65190"
+    },
+    {
+      "bytes": 744,
+      "path": "data_evidence_bundle.json",
+      "sha256": "fa80bab0bfe668e2a9e7c25101b10e9ab10f6335a533bb66971c9555f944cfd8"
+    },
+    {
+      "bytes": 895,
+      "path": "decision_receipt.json",
+      "sha256": "c8229c05c76a7238249cdf86ab4697c84840982e3c1a21849242e5a3821043a2"
+    },
+    {
+      "bytes": 1163,
+      "path": "input_request.json",
+      "sha256": "211c1f1fb86863b647193ed647dbbed4f9a9b2da86f4ff2c0ce560303839b919"
+    },
+    {
+      "bytes": 5275,
+      "path": "policy_snapshot.json",
+      "sha256": "32c847b2adeb091b3fe3768e01b55dea7e6f4f0caaf0ce8713985bb93e3734ae"
+    },
+    {
+      "bytes": 396,
+      "path": "suppression_notice.json",
+      "sha256": "c59fa6489e0be7227d333132f1c64f1950d9fcce6915f309e9c381320d247a66"
+    }
+  ],
+  "record_type": "manifest"
+}

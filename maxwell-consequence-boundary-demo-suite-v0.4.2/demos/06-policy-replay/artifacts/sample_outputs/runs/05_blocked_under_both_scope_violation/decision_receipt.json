@@ -1,0 +1,18 @@
+{
+  "action_id": "act-05",
+  "authority_context_hash": "sha256:36dacb77b7df1859c73bd8f4a6fce33db04c069161f03ae2be792d6725baf2a9",
+  "case_id": "05_blocked_under_both_scope_violation",
+  "decision": "block",
+  "decision_receipt_id": "sha256:f0aeab7d666a5c51b1a65d304bb73243721d961c76c59c572d000316eeaeb702",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T09:00:00Z",
+  "evidence_bundle_hash": "sha256:3922936826fd96c0b9465cb9c3534e606ba69d427532af5391f6efdc24f7f0be",
+  "explanation": "Target system is outside the approver's policy scope.",
+  "lifecycle_status": "effect_suppressed",
+  "policy_hash": "sha256:0fac20648dcd3cf5d77e64cba12e97d9ee3996a0ba98359c167674e44657970f",
+  "policy_id": "maxwell-policy-replay-demo",
+  "policy_version": "2025-10-v1",
+  "reason_code": "PR_BLOCK_SCOPE_VIOLATION",
+  "record_type": "decision_receipt",
+  "review_required": false
+}

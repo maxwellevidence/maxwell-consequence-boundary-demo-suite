@@ -1,0 +1,18 @@
+{
+  "action_id": "ACT-002",
+  "authority_snapshot_hash": "sha256:1b0b12a2dc5c4874296703956a567f050cb3e38b774cca89ecdb027798bc34d7",
+  "case_id": "02_reviewed_action_needs_human",
+  "decision": "review",
+  "decision_receipt_id": "sha256:7044d7e8be630b7cac100adf0cb32144e6bdcacfd0299ab335089c1ba8cde6d2",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T00:00:00Z",
+  "evidence_snapshot_hash": "sha256:2b5dce2e6d734b1b23a3a18f08ae1b81161258599d72f8f0ab7af1b68ec2e38e",
+  "explanation": "Risk level requires controlled review before effect.",
+  "lifecycle_status": "review_routed",
+  "policy_id": "maxwell.incident_reconstruction.public_demo",
+  "policy_version": "0.1.0",
+  "reason_code": "IR_REVIEW_HIGH_RISK",
+  "record_type": "decision_receipt",
+  "request_policy_context": "policy-v1",
+  "review_required": true
+}

@@ -1,0 +1,13 @@
+{
+  "case_id": "04_attempted_action_missing_authority",
+  "effect_created": false,
+  "event_sequence": [
+    "PROPOSED",
+    "EVIDENCE_CAPTURED",
+    "AUTHORITY_EVALUATED",
+    "DECISION_RECORDED",
+    "EFFECT_SUPPRESSED",
+    "RECONSTRUCTABLE_RECORD_CREATED"
+  ],
+  "record_type": "timeline_event"
+}

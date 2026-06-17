@@ -1,0 +1,74 @@
+{
+  "case_id": "05_handoff_loses_evidence_packet",
+  "claimed_delegation": {
+    "constraints": [
+      "staging or ticketing only",
+      "no production config changes"
+    ],
+    "delegated_scopes": [
+      "security.patch.remediation",
+      "security.patch.ticket_update"
+    ],
+    "delegatee_agent_id": "agent-remediate-b",
+    "delegation_id": "delegation-005",
+    "delegator_agent_id": "agent-triage-a",
+    "evidence_packet_id": "evidence-packet-005",
+    "expires_at": "2026-01-15T12:30:00Z",
+    "may_execute_downstream_effect": true,
+    "present": true,
+    "target_systems": [
+      "change_ticket_system"
+    ]
+  },
+  "evaluation_time": "2026-01-15T12:00:00Z",
+  "evidence_packet": {
+    "continuity_hash": null,
+    "packet_id": null,
+    "present": false,
+    "refs": []
+  },
+  "executing_agent": {
+    "agent_id": "agent-remediate-b",
+    "authorized_systems": [
+      "change_ticket_system",
+      "staging_change_api"
+    ],
+    "local_authority_scopes": [
+      "security.patch.remediation",
+      "security.patch.ticket_update"
+    ],
+    "role": "remediation_execution_agent"
+  },
+  "initiating_agent": {
+    "agent_id": "agent-triage-a",
+    "authority_scopes": [
+      "security.patch.remediation",
+      "security.patch.ticket_update"
+    ],
+    "authorized_systems": [
+      "change_ticket_system",
+      "staging_change_api"
+    ],
+    "may_delegate": true,
+    "role": "incident_triage_agent"
+  },
+  "proposed_instruction": "Proceed with the remediation ticket based on the previous agent's summary.",
+  "public_preview_note": "Synthetic multi-agent handoff example only.",
+  "requested_effect": {
+    "change_id": "CHG-SYN-005",
+    "effect_type": "change_ticket.create",
+    "risk_level": "medium",
+    "target_scope": "security.patch.remediation",
+    "target_system": "change_ticket_system"
+  },
+  "task_handoff": {
+    "from_agent_id": "agent-triage-a",
+    "handoff_id": "handoff-005",
+    "requested_action": "open remediation change ticket with bounded patch plan",
+    "risk_level": "medium",
+    "target_system": "change_ticket_system",
+    "task_scope": "security.patch.remediation",
+    "to_agent_id": "agent-remediate-b"
+  },
+  "title": "Evidence packet does not survive the handoff."
+}

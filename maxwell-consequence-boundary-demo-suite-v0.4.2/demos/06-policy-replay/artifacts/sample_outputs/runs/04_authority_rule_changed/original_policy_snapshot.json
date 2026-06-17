@@ -1,0 +1,118 @@
+{
+  "policy": {
+    "allowed_effect_types": [
+      "config_change",
+      "vendor_exception",
+      "data_export"
+    ],
+    "authority_roles": {
+      "business_owner": {
+        "allowed_effect_types": [],
+        "authorized_systems": [
+          "vendor_master",
+          "ticketing"
+        ],
+        "can_commit_effect": true,
+        "max_risk": "low"
+      },
+      "director": {
+        "allowed_effect_types": [
+          "config_change",
+          "vendor_exception",
+          "data_export"
+        ],
+        "authorized_systems": [
+          "staging_api",
+          "production_api",
+          "vendor_master",
+          "data_warehouse",
+          "ticketing"
+        ],
+        "can_commit_effect": true,
+        "max_risk": "critical"
+      },
+      "engineering_manager": {
+        "allowed_effect_types": [
+          "config_change",
+          "vendor_exception"
+        ],
+        "authorized_systems": [
+          "staging_api",
+          "production_api",
+          "vendor_master",
+          "ticketing"
+        ],
+        "can_commit_effect": true,
+        "max_risk": "high"
+      },
+      "privacy_officer": {
+        "allowed_effect_types": [
+          "data_export"
+        ],
+        "authorized_systems": [
+          "data_warehouse",
+          "ticketing"
+        ],
+        "can_commit_effect": true,
+        "max_risk": "high"
+      },
+      "team_lead": {
+        "allowed_effect_types": [
+          "config_change"
+        ],
+        "authorized_systems": [
+          "staging_api",
+          "ticketing"
+        ],
+        "can_commit_effect": true,
+        "max_risk": "medium"
+      }
+    },
+    "dual_control_required_effects": [],
+    "evaluation_time": "2026-01-15T09:00:00Z",
+    "minimum_role_by_effect": {
+      "config_change": "team_lead",
+      "data_export": "director",
+      "vendor_exception": "engineering_manager"
+    },
+    "permitted_approver_roles_by_effect": {},
+    "policy_id": "maxwell-policy-replay-demo",
+    "policy_version": "2025-10-v1",
+    "reason_codes": {
+      "allow": "PR_POLICY_ALLOW",
+      "block_effect_not_in_role_scope": "PR_BLOCK_EFFECT_NOT_IN_ROLE_SCOPE",
+      "block_forbidden_effect": "PR_BLOCK_FORBIDDEN_EFFECT",
+      "block_missing_authority": "PR_BLOCK_MISSING_AUTHORITY",
+      "block_scope_violation": "PR_BLOCK_SCOPE_VIOLATION",
+      "review_approver_role_required": "PR_REVIEW_APPROVER_ROLE_REQUIRED",
+      "review_dual_control_required": "PR_REVIEW_DUAL_CONTROL_REQUIRED",
+      "review_missing_evidence": "PR_REVIEW_REQUIRED_EVIDENCE_MISSING",
+      "review_risk_threshold": "PR_REVIEW_RISK_THRESHOLD",
+      "review_role_insufficient": "PR_REVIEW_ROLE_INSUFFICIENT",
+      "review_role_risk_limit": "PR_REVIEW_ROLE_RISK_LIMIT"
+    },
+    "required_evidence_refs": [
+      "request_ticket",
+      "system_owner_note"
+    ],
+    "review_required_risk_at_or_above": "critical",
+    "risk_order": {
+      "critical": 4,
+      "high": 3,
+      "low": 1,
+      "medium": 2
+    },
+    "role_rank": {
+      "analyst": 1,
+      "business_owner": 2,
+      "director": 4,
+      "engineering_manager": 3,
+      "privacy_officer": 4,
+      "team_lead": 2
+    }
+  },
+  "policy_hash": "sha256:0fac20648dcd3cf5d77e64cba12e97d9ee3996a0ba98359c167674e44657970f",
+  "policy_id": "maxwell-policy-replay-demo",
+  "policy_version": "2025-10-v1",
+  "record_type": "policy_snapshot"
+}

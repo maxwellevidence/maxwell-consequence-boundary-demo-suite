@@ -1,0 +1,6 @@
+{
+  "case_id": "06_current_policy_would_allow_but_no_retroactive_effect",
+  "effect_created": false,
+  "reason_code": "PR_BLOCK_EFFECT_NOT_IN_ROLE_SCOPE",
+  "record_type": "suppression_notice"
+}

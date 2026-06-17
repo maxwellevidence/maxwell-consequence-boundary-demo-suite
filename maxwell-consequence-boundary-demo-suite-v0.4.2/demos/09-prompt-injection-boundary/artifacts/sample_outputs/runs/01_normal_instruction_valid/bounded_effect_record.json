@@ -1,0 +1,17 @@
+{
+  "action_id": "act-01_normal_instruction_valid",
+  "bounded_effect_committed": true,
+  "bounded_effect_record_id": "sha256:d8cc3aafdb34922df9af8795960533e70d1106533307327cfac53b77e79710c6",
+  "case_id": "01_normal_instruction_valid",
+  "effect_basis": "sha256:9af77f3cfeabc9785ac2db1b71a6dd7b73722f0f0bdbf591df904363baec36a0",
+  "effect_payload": {
+    "priority": "normal",
+    "ticket_type": "investigation"
+  },
+  "effect_type": "create_ticket",
+  "note": "This synthetic demo records a bounded effect; it does not call downstream tools.",
+  "record_type": "bounded_effect_record",
+  "scope": "incident_response",
+  "target_system": "ticketing_system",
+  "tool_name": "ticket.create"
+}

@@ -1,0 +1,22 @@
+{
+  "authority_context_hash": "sha256:d9f0afa001998d3d4c593e7f21ba3639ace9da59e25f8eea067c010c523ab9ba",
+  "case_id": "06_authorized_reviewed_determination_effect",
+  "case_record_id": "CASE-DEMO-006",
+  "case_review_required": false,
+  "decision": "commit",
+  "decision_receipt_id": "sha256:5a89a570f85de250d55fc3f75f68573314a36271892472e8343842731b44241c",
+  "determination_evidence_bundle_hash": "sha256:f54e3cbcf549b4b5ea58a9d81a9a3229c8272213f7f8816e4199acdb725df55c",
+  "determination_id": "DET-DEMO-006",
+  "due_process_analysis_hash": "sha256:1891c2ac05dcc0c83b36a37bfbb93caefb772d500cacc5a97822a2b463abedf3",
+  "due_process_review_required": false,
+  "effect_permitted": true,
+  "evaluated_at": "2026-01-15T00:00:00Z",
+  "explanation": "Adverse determination effect is permitted only after notice, appeal-rights evidence, and authorized human review.",
+  "lifecycle_status": "determination_effect_committed",
+  "policy_hash": "sha256:547234f9c55d9fc9c747bffa816bd039481a6bd6acba255b66a9a911d9440b63",
+  "policy_id": "maxwell-public-sector-determination-demo-policy",
+  "policy_version": "0.1.0",
+  "reason_code": "PUBLIC_SECTOR_DETERMINATION_EFFECT_COMMITTED",
+  "record_type": "decision_receipt",
+  "review_authority_context_hash": "sha256:fc8cf6c54cb18a4b93588e215bb4da51e1110fd848fb48b56c5cc06a4642060a"
+}

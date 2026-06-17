@@ -1,0 +1,18 @@
+{
+  "case_id": "04_wrong_system_authority_reuse",
+  "created_at": "2026-06-12T21:06:29Z",
+  "delegation_chain_id": "sha256:9ad3e65fc5d69e150599da8620cac0621bfa5bb9251fca81f809a9c5f4806468",
+  "delegation_id": "delegation-004",
+  "delegation_participants_match": true,
+  "evidence_bundle_id": "sha256:8bd1d344c0a4736a6076e14f8c6a4e8d65b363a14548972cc6a6a509cd193b99",
+  "evidence_continuity_ok": true,
+  "from_agent_id": "agent-triage-a",
+  "handoff_id": "handoff-004",
+  "handoff_participants_match": true,
+  "handoff_scope": "security.patch.remediation",
+  "public_preview_note": "Synthetic public-safe delegation chain for demo review.",
+  "requested_scope": "customer.notification.draft",
+  "requested_target_system": "customer_notice_system",
+  "schema": "maxwell.multi_agent_authority.delegation_chain.v0.1",
+  "to_agent_id": "agent-remediate-b"
+}

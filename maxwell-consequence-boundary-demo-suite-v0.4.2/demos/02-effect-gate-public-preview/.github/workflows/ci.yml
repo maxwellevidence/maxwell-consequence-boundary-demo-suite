@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install package and test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Run Ruff lint
+        run: make lint
+
+      - name: Run Maxwell Effect Gate demo
+        run: make demo
+
+      - name: Verify generated artifacts
+        run: make verify
+
+      - name: Export sample artifacts
+        run: make samples
+
+      - name: Run adversarial corpus
+        run: make adversarial
+      - name: Run tests
+        run: make test
+
+      - name: Run fail-closed fuzz quick set
+        run: make fuzz-quick
+
+      - name: Run bounded mutation-smoke harness
+        run: make mutation-smoke
+
+      - name: Package hygiene check
+        run: make package-check

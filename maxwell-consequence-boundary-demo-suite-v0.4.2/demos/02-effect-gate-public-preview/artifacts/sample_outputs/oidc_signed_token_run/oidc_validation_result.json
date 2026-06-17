@@ -1,0 +1,21 @@
+{
+  "audiences_expected": [
+    "maxwell-effect-gate-public-proof"
+  ],
+  "authority_context_source": "validate_oidc_token_to_authority_context",
+  "demo_case": "oidc_signed_token",
+  "issuer_expected": "https://issuer.example.test",
+  "issuer_public_key_source": "fixtures/oidc_demo_issuer_public_key.pem",
+  "required_roles": [
+    "change_manager"
+  ],
+  "required_scope": "change_record:create:staging",
+  "signed_token_algorithm": "RS256",
+  "token_failure_variant": "valid_fixture_signed_token",
+  "token_material_written_to_artifacts": false,
+  "validation_reason_codes": [
+    "OIDC_TOKEN_VALIDATED",
+    "AUTHORITY_CONTEXT_MAPPED_FROM_SIGNED_TOKEN"
+  ],
+  "validation_valid": true
+}

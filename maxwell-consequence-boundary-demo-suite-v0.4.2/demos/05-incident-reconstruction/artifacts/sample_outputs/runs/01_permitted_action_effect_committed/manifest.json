@@ -1,0 +1,41 @@
+{
+  "case_id": "01_permitted_action_effect_committed",
+  "files": [
+    {
+      "bytes": 431,
+      "path": "authority_snapshot.json",
+      "sha256": "579d39c80fba59b87ee028664ec612911b248878ecbfa66a88c39311447ab5b0"
+    },
+    {
+      "bytes": 842,
+      "path": "decision_receipt.json",
+      "sha256": "54a058a085ccdb2c0bb98f35db88ef67d7ed9585fbd4df9d23fcec3f65936da0"
+    },
+    {
+      "bytes": 335,
+      "path": "effect_record.json",
+      "sha256": "7472e85a5e0214a234074ce84c0a1c9b947f9f896be728871261d402ebe2b854"
+    },
+    {
+      "bytes": 319,
+      "path": "evidence_snapshot.json",
+      "sha256": "56a08e47c2eb18042db5d1120db976d49dba3eba9705718f88f75fd1e01df334"
+    },
+    {
+      "bytes": 902,
+      "path": "input_request.json",
+      "sha256": "8c467b2a012118e9b0092d40a4ab900737809aea2096aefecb4b869dfd39086d"
+    },
+    {
+      "bytes": 1121,
+      "path": "reconstruction_report.json",
+      "sha256": "5eb827baeb1de352c289057c6853c79af68cde738293876623578543726ee94b"
+    },
+    {
+      "bytes": 298,
+      "path": "timeline_event.json",
+      "sha256": "21035816439d98232a4b2e164a1989c208df707123b48a274ee98fd2aeeb05b3"
+    }
+  ],
+  "record_type": "manifest"
+}

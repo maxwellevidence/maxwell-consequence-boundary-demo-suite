@@ -1,0 +1,40 @@
+{
+  "actor": {
+    "actor_id": "user-support-019",
+    "department": "customer_operations",
+    "role": "support_analyst"
+  },
+  "case_id": "03_restricted_data_class",
+  "evidence": {
+    "business_purpose": "customer_support",
+    "captured_at": "2026-01-01T00:03:00Z",
+    "data_minimization": true,
+    "legal_basis": "customer_service_contract",
+    "refs": [
+      "requester_role_assertion",
+      "data_inventory_entry",
+      "ticket_reference",
+      "business_purpose_record"
+    ]
+  },
+  "llm_output": {
+    "instruction_trace": "No explicit human privacy review attached.",
+    "prompt_injection_detected": false,
+    "recommendation": "Open highly restricted claim details."
+  },
+  "requested_access": {
+    "access_id": "DA-1003",
+    "data_class": "highly_restricted",
+    "dataset": "health_claims_phi",
+    "purpose": "customer_support",
+    "query_scope": "single_customer",
+    "requested_effect": "view_record",
+    "requested_fields": [
+      "claim_id",
+      "diagnosis_code",
+      "medical_notes"
+    ],
+    "target_system": "support_console",
+    "user_instruction": "Open the health claim details to answer the support question."
+  }
+}

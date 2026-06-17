@@ -1,0 +1,21 @@
+{
+  "action_id": "ACT-REVIEW-004",
+  "added_evidence_refs": [
+    "secondary_approval",
+    "review_rationale"
+  ],
+  "approval": "approve",
+  "case_id": "04_authorized_reviewer_approves",
+  "initial_decision_receipt_id": "sha256:42c75fb09d6e4db4ccd1e9c0763d01bff98aa8b580b064b63133ee1f50b1b4de",
+  "record_type": "review_event",
+  "review_effect_type": "issue_customer_credit",
+  "review_event_id": "sha256:f250924c2454325547ffe6340c109e436f63c1a6d384c9b230c0e8ff0e7f295d",
+  "review_notes": "Compliance reviewer confirms high-risk evidence and secondary approval.",
+  "review_scope": "billing_adjustment",
+  "review_target_system": "billing_ops",
+  "reviewer": {
+    "reviewer_id": "compliance_reviewer_301",
+    "role": "compliance_reviewer"
+  },
+  "submitted": true
+}

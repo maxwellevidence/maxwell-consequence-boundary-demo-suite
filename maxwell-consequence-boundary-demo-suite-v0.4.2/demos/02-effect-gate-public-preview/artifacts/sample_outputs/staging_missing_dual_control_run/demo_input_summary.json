@@ -1,0 +1,5 @@
+{
+  "description": "Bounded staging change with otherwise valid authority but missing dual control.",
+  "outcome_label_in_input": false,
+  "source_file": "examples/demo_inputs/staging_missing_dual_control.json"
+}

@@ -1,0 +1,22 @@
+{
+  "authority_context_hash": "sha256:3a9ede9e4e2a57c541cf2bf8714fc2cce4d297c1c9b171fcd10ffc333f318042",
+  "case_id": "02_missing_required_document",
+  "case_record_id": "CASE-DEMO-002",
+  "case_review_required": true,
+  "decision": "review",
+  "decision_receipt_id": "sha256:e05271daa5536502d9ca3257f189051355286acf4064891695080b99f2aec80c",
+  "determination_evidence_bundle_hash": "sha256:1e7136ad342ed1c14d084c1675b47eeb5a63a28d6bf5a75bd873268293df3b80",
+  "determination_id": "DET-DEMO-002",
+  "due_process_analysis_hash": "sha256:527be644ec9d822db219094db6a09ca912c5505b60a18cfec027a29453afd2a8",
+  "due_process_review_required": false,
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T00:00:00Z",
+  "explanation": "Required eligibility or notice evidence is missing; no determination effect is created.",
+  "lifecycle_status": "case_review_routed",
+  "policy_hash": "sha256:547234f9c55d9fc9c747bffa816bd039481a6bd6acba255b66a9a911d9440b63",
+  "policy_id": "maxwell-public-sector-determination-demo-policy",
+  "policy_version": "0.1.0",
+  "reason_code": "REQUIRED_ELIGIBILITY_EVIDENCE_MISSING",
+  "record_type": "decision_receipt",
+  "review_authority_context_hash": "sha256:97e2a11241456cd59104fff77a6a9e1ac18960e5bd6853892892faf76e960b3d"
+}

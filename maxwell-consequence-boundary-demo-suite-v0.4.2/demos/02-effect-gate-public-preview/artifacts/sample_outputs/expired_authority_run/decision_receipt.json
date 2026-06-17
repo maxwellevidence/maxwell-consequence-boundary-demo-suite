@@ -1,0 +1,14 @@
+{
+  "claims_boundary": "Public proof only. This receipt does not disclose Maxwell private authority logic, evaluator chains, scoring rules, or thresholds.",
+  "decision": "block",
+  "demo_case": "expired_authority",
+  "downstream_effect_allowed": false,
+  "effect_boundary": "change_control_record_creation",
+  "matched_policy_rule_id": "block_expired_authority",
+  "policy_id": "maxwell.public.change_control.v0_3",
+  "policy_version": "0.3.0",
+  "reason_codes": [
+    "AUTHORITY_CONTEXT_EXPIRED",
+    "NO_EFFECT_STALE_AUTHORITY"
+  ]
+}

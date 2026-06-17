@@ -1,0 +1,60 @@
+{
+  "case_id": "01_valid_low_risk_notice",
+  "checks": [
+    {
+      "detail": "",
+      "name": "manifest_exists",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "hash_matches:authority_context.json",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "hash_matches:decision_receipt.json",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "hash_matches:effect_record.json",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "hash_matches:evidence_bundle.json",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "hash_matches:input_request.json",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "decision_receipt_exists",
+      "ok": true
+    },
+    {
+      "detail": "effect_permitted=true",
+      "name": "effect_record_required",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "no_effect_marker_absent",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "effect_bound_to_decision_receipt",
+      "ok": true
+    }
+  ],
+  "effect_permitted": true,
+  "run_dir": "01_valid_low_risk_notice",
+  "schema": "maxwell.demo.verification_report.v0.1",
+  "verified": true,
+  "verified_at": "2026-06-12T17:48:16+00:00"
+}

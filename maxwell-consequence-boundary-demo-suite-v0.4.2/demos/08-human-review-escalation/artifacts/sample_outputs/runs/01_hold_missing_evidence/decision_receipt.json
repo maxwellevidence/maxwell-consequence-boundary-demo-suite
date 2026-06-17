@@ -1,0 +1,20 @@
+{
+  "action_id": "ACT-REVIEW-001",
+  "case_id": "01_hold_missing_evidence",
+  "decision": "review",
+  "decision_receipt_id": "sha256:7fd82c92929a1b632c37cbc159705c5ada5eafbf96f5143d45ad0b6f478b4ec0",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T12:00:00Z",
+  "explanation": "The action remains in review because no reviewer decision was submitted.",
+  "initial_decision_receipt_id": "sha256:4498f89e33f7025bab0ba425d6df63a105ae67a37268b01135c031e49927ba78",
+  "lifecycle_status": "review_routed",
+  "policy_hash": "sha256:4030a6a6c9ca78f336d76be3014f3102a85eda7886611b984b36640375d2faee",
+  "policy_id": "maxwell.review_escalation.public_preview",
+  "policy_version": "0.1.0",
+  "reason_code": "REVIEW_REQUIRED_MISSING_EVIDENCE",
+  "record_type": "decision_receipt",
+  "review_authority_context_hash": null,
+  "review_event_id": null,
+  "review_required": true,
+  "reviewable": true
+}

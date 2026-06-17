@@ -1,0 +1,19 @@
+{
+  "bundle_id": "sha256:24eec809c1b8ad06ec316dde124a24a9094be8b5215de2fa0883cfda6aa8542a",
+  "case_id": "01_valid_delegated_handoff",
+  "claimed_delegation_packet_id": "evidence-packet-001",
+  "created_at": "2026-06-12T21:06:29Z",
+  "evidence_continuity_ok": true,
+  "evidence_count": 3,
+  "evidence_packet_present": true,
+  "evidence_refs": [
+    "cve-summary:CVE-2099-0001",
+    "asset-inventory:svc-217",
+    "test-plan:patch-safe"
+  ],
+  "handoff_id": "handoff-001",
+  "input_sha256": "a80ef81356e121c3001b076d41c830c34b06140fc1a9f182381ddc4a13578b51",
+  "packet_id": "evidence-packet-001",
+  "public_preview_note": "Synthetic handoff evidence only; not a production evidence record.",
+  "schema": "maxwell.multi_agent_authority.evidence_bundle.v0.1"
+}

@@ -1,0 +1,27 @@
+# Maxwell Effect Gate public proof evaluation configuration
+
+evaluation:
+  name: maxwell_gate_acceptance_eval
+  version: "0.3.0"
+
+acceptance_criteria:
+  policy_file_is_loaded: true
+  trust_roots_are_yaml_defined: true
+  demo_inputs_are_shape_named: true
+  oidc_signed_token_demo_present: true
+  bad_oidc_token_fails_closed: true
+  allow_creates_effect_record: true
+  pause_does_not_create_effect_record: true
+  block_does_not_create_effect_record: true
+  all_runs_emit_decision_receipt: true
+  decision_receipt_surfaces_matched_policy_rule: true
+  all_runs_emit_replay_manifest: true
+  all_runs_emit_signed_hash_manifest: true
+  malformed_inputs_fail_closed: true
+  missing_authority_fails_closed: true
+
+claims_boundary:
+  this_is_not_third_party_validation: true
+  this_is_not_production_readiness: true
+  this_is_not_legal_sufficiency: true
+  this_is_not_an_external_trust_root: true

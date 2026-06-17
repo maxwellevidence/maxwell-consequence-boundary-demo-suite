@@ -1,0 +1,32 @@
+"""Evidence bundle builder for the public Maxwell Effect Gate proof."""
+
+from typing import Any, Dict
+
+
+def build_evidence_bundle() -> Dict[str, Any]:
+    """Build a simulated evidence bundle.
+
+    This is a public-safe example. It shows the shape of evidence
+    traveling with the proposed action without disclosing private
+    Maxwell evidence machinery.
+    """
+
+    return {
+        "evidence_bundle_id": "EVID-2026-1043-PAYMENTS-API",
+        "evidence_type": "simulated_cve_remediation_research",
+        "source_workflow": "ai_assisted_cve_incident_research",
+        "target_system": "payments-api",
+        "cve_id": "CVE-2026-1043",
+        "research_summary": (
+            "Simulated workflow output indicates that payments-api may require "
+            "a bounded remediation review before any operational change is recorded."
+        ),
+        "supporting_artifacts": [
+            "action_proposal.json",
+            "authority_context.json"
+        ],
+        "limitations": [
+            "This proof does not validate technical correctness of the remediation.",
+            "This proof does not replay model calls or external CVE source state."
+        ]
+    }

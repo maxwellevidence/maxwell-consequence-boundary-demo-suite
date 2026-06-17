@@ -1,0 +1,150 @@
+policy_id: maxwell.demo.sensitive_data_access
+policy_version: 0.1.0
+evaluation_time: "2026-01-01T00:00:00Z"
+
+allowed_effect_types:
+  - retrieve_summary
+  - view_record
+  - export_subset
+
+required_evidence_refs:
+  - requester_role_assertion
+  - data_inventory_entry
+  - ticket_reference
+  - business_purpose_record
+
+data_class_order:
+  public: 0
+  internal: 1
+  confidential: 2
+  restricted: 3
+  highly_restricted: 4
+
+roles:
+  support_analyst:
+    can_request_access: true
+    max_data_class: confidential
+    allowed_datasets:
+      - customer_support_cases
+    approved_purposes:
+      - customer_support
+      - account_review
+    allowed_target_systems:
+      - support_console
+      - customer_case_tool
+  finance_analyst:
+    can_request_access: true
+    max_data_class: restricted
+    allowed_datasets:
+      - invoice_accounts
+    approved_purposes:
+      - account_reconciliation
+      - payment_exception_review
+    allowed_target_systems:
+      - finance_console
+  hr_manager:
+    can_request_access: true
+    max_data_class: restricted
+    allowed_datasets:
+      - payroll_employee_records
+    approved_purposes:
+      - hr_case_review
+      - legal_hold
+    allowed_target_systems:
+      - hr_case_tool
+  privacy_officer:
+    can_request_access: true
+    max_data_class: highly_restricted
+    allowed_datasets:
+      - customer_support_cases
+      - invoice_accounts
+      - payroll_employee_records
+      - health_claims_phi
+    approved_purposes:
+      - privacy_investigation
+      - legal_hold
+      - data_subject_request
+    allowed_target_systems:
+      - privacy_review_console
+      - legal_hold_system
+
+datasets:
+  customer_support_cases:
+    data_class: confidential
+    allowed_roles:
+      - support_analyst
+      - privacy_officer
+    approved_purposes:
+      - customer_support
+      - account_review
+      - privacy_investigation
+      - data_subject_request
+    legal_basis_required: false
+  invoice_accounts:
+    data_class: restricted
+    allowed_roles:
+      - finance_analyst
+      - privacy_officer
+    approved_purposes:
+      - account_reconciliation
+      - payment_exception_review
+      - privacy_investigation
+      - legal_hold
+    legal_basis_required: false
+  payroll_employee_records:
+    data_class: restricted
+    allowed_roles:
+      - hr_manager
+      - privacy_officer
+    approved_purposes:
+      - hr_case_review
+      - legal_hold
+      - privacy_investigation
+    legal_basis_required: true
+  health_claims_phi:
+    data_class: highly_restricted
+    allowed_roles:
+      - privacy_officer
+    approved_purposes:
+      - privacy_investigation
+      - legal_hold
+      - data_subject_request
+    legal_basis_required: true
+
+restricted_fields:
+  - ssn
+  - diagnosis_code
+  - medical_notes
+  - payroll_bank_account
+  - government_id
+
+restricted_field_roles:
+  - privacy_officer
+
+review_required_query_scopes:
+  - bulk_export
+  - all_records
+
+prompt_injection_indicators:
+  - ignore policy
+  - bypass approval
+  - reveal ssn
+  - dump the raw file
+  - override access controls
+  - no audit trail
+
+reason_codes:
+  grant_access: DATA_ACCESS_EFFECT_COMMITTED
+  review_missing_purpose: DATA_PURPOSE_MISSING
+  review_missing_evidence: DATA_EVIDENCE_INCOMPLETE
+  block_missing_authority: DATA_AUTHORITY_MISSING
+  block_dataset_scope: DATASET_SCOPE_VIOLATION
+  block_role_not_authorized: DATA_ROLE_NOT_AUTHORIZED
+  block_classification: DATA_CLASSIFICATION_EXCEEDS_CLEARANCE
+  block_purpose_scope: DATA_PURPOSE_OUTSIDE_SCOPE
+  review_legal_basis: DATA_LEGAL_BASIS_MISSING
+  block_restricted_fields: DATA_RESTRICTED_FIELD_REQUESTED
+  review_minimization: DATA_MINIMIZATION_REVIEW_REQUIRED
+  block_prompt_injection: PROMPT_INJECTION_NOT_AUTHORITY
+  block_target_system: DATA_TARGET_SYSTEM_SCOPE_VIOLATION
+  block_forbidden_effect: DATA_EFFECT_FORBIDDEN

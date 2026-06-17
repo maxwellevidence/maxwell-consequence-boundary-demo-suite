@@ -1,0 +1,6 @@
+{
+  "attack_class": "JWT alg=none token must not map to authority.",
+  "case_id": "adv01_alg_none_token_descriptor",
+  "expected_effect_artifact": "absent",
+  "runtime_test": "tests/adversarial/test_adversarial_corpus.py"
+}

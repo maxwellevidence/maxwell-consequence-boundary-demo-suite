@@ -1,0 +1,12 @@
+{
+  "claims_boundary": "Public decision surface only. This does not disclose Maxwell's private authority model, evaluator chain, scoring rules, or thresholds.",
+  "decision": "block",
+  "downstream_effect_allowed": false,
+  "downstream_instruction": "refuse_downstream_effect",
+  "effect_boundary": "change_control_record_creation",
+  "reason_codes": [
+    "SELF_APPROVAL_NOT_PERMITTED",
+    "NO_EFFECT_DUAL_CONTROL_FAILURE"
+  ],
+  "receipt_reference": "decision_receipt.json"
+}

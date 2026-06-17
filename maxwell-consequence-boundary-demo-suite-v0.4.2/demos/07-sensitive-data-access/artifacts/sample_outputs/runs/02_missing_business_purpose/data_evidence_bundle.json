@@ -1,0 +1,27 @@
+{
+  "access_id": "DA-1002",
+  "business_purpose": "",
+  "business_purpose_present": false,
+  "captured_at": "2026-01-01T00:02:00Z",
+  "case_id": "02_missing_business_purpose",
+  "data_minimization": true,
+  "evidence_complete": true,
+  "evidence_refs": [
+    "requester_role_assertion",
+    "data_inventory_entry",
+    "ticket_reference",
+    "business_purpose_record"
+  ],
+  "instruction_trace_preserved": true,
+  "legal_basis": "",
+  "legal_basis_present": false,
+  "missing_refs": [],
+  "prompt_injection_detected": false,
+  "record_type": "data_evidence_bundle",
+  "required_refs": [
+    "requester_role_assertion",
+    "data_inventory_entry",
+    "ticket_reference",
+    "business_purpose_record"
+  ]
+}

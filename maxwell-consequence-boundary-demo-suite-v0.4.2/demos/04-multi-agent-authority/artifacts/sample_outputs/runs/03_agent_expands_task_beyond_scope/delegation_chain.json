@@ -1,0 +1,18 @@
+{
+  "case_id": "03_agent_expands_task_beyond_scope",
+  "created_at": "2026-06-12T21:06:29Z",
+  "delegation_chain_id": "sha256:560c047f00a72f5ff704d4c1f2511eb2bb17d8ce2fa31875b14c10ab21089b06",
+  "delegation_id": "delegation-003",
+  "delegation_participants_match": true,
+  "evidence_bundle_id": "sha256:7ca54729f2286d7e4050de655be94d8fcecd628a50258fad4b75b1913a44c8a3",
+  "evidence_continuity_ok": true,
+  "from_agent_id": "agent-triage-a",
+  "handoff_id": "handoff-003",
+  "handoff_participants_match": true,
+  "handoff_scope": "security.patch.remediation",
+  "public_preview_note": "Synthetic public-safe delegation chain for demo review.",
+  "requested_scope": "security.production.firewall_change",
+  "requested_target_system": "production_firewall_api",
+  "schema": "maxwell.multi_agent_authority.delegation_chain.v0.1",
+  "to_agent_id": "agent-remediate-b"
+}

@@ -1,0 +1,21 @@
+Proprietary Public Preview License
+
+Copyright (c) Maxwell Evidence Systems Inc. All rights reserved.
+
+This repository is provided for review, demonstration, and evaluation of a
+public-safe Maxwell Effect Gate proof. No broad open-source license is granted.
+
+You may inspect and run the included demo locally for evaluation. You may not
+copy, redistribute, sublicense, sell, host as a competing product, or represent
+this code, documentation, artifacts, or structure as open source unless Maxwell
+Evidence Systems Inc. later grants a separate written license.
+
+The included fixture private keys are intentionally public demo material. They
+are not production secrets, not custody controls, and not evidence of external
+trust-root signing. Treat anything signed by them as unauthenticated outside
+this local proof.
+
+This public preview is not production software, legal advice, audit
+certification, regulatory compliance validation, third-party attestation, or
+disclosure of Maxwell's private authority model, evaluator chains, scoring
+thresholds, internal evidence machinery, or production enforcement logic.

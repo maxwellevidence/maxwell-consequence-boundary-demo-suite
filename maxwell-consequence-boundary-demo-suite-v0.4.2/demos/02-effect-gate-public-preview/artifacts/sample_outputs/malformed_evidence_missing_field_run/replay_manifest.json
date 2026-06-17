@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    "action_proposal.json",
+    "authority_context.json",
+    "decision_receipt.json",
+    "decision_surface_output.json",
+    "demo_input_summary.json",
+    "evidence_bundle.json",
+    "workflow_output.json",
+    "workflow_profiling_metrics.json"
+  ],
+  "decision": "block",
+  "not_replayed": [
+    "model_call_outputs",
+    "external_cve_source_state",
+    "live_tool_state"
+  ],
+  "replay_scope": "evidence_and_decision_chain_only",
+  "run_name": "malformed_evidence_missing_field_run",
+  "verification_note": "Inspect the proposal, evidence bundle, authority context, decision receipt, optional effect record, and SHA-256 manifest."
+}

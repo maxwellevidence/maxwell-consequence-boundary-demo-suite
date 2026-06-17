@@ -1,0 +1,2 @@
+No downstream effect record was created because policy did not permit effect.
+Reason code: EFFECT_GATE_SCOPE_NOT_AUTHORIZED

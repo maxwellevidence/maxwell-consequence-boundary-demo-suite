@@ -1,0 +1,18 @@
+{
+  "action_id": "ACT-006",
+  "authority_snapshot_hash": "sha256:cb3b71c6bf30a42a6bb203009435536c624f495b3051a6a2246e400be05b8691",
+  "case_id": "06_stale_policy_context_requires_review",
+  "decision": "review",
+  "decision_receipt_id": "sha256:e50ddbf6a6edac75803aca57724460d3c987a8cbf2ded6b36b0d0ab1f1f91dea",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T00:00:00Z",
+  "evidence_snapshot_hash": "sha256:8e7225e590ef4ce528b2107df01c259e9d857463b6946b830068613673adcc89",
+  "explanation": "Request carries stale policy context and must be reviewed.",
+  "lifecycle_status": "review_routed",
+  "policy_id": "maxwell.incident_reconstruction.public_demo",
+  "policy_version": "0.1.0",
+  "reason_code": "IR_REVIEW_STALE_POLICY_CONTEXT",
+  "record_type": "decision_receipt",
+  "request_policy_context": "policy-v0",
+  "review_required": true
+}

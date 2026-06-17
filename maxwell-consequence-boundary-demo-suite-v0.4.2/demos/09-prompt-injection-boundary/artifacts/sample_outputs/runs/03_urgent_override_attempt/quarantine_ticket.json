@@ -1,0 +1,15 @@
+{
+  "action_id": "act-03_urgent_override_attempt",
+  "case_id": "03_urgent_override_attempt",
+  "decision_receipt_id": "sha256:d35af5c2217420498045181b871204c2e6eebee8d198ddae48b72b91344e50ca",
+  "effect_created": false,
+  "matched_indicators": [
+    "approve this without review",
+    "skip review",
+    "urgent override"
+  ],
+  "quarantine_queue": "prompt_injection_boundary_quarantine",
+  "quarantine_ticket_id": "sha256:1f448004d0368696fd07fd9b5368919b06cff370774b42f6ef77c773c2571f82",
+  "reason_code": "PROMPT_INJECTION_BOUNDARY_TRIGGERED",
+  "record_type": "quarantine_ticket"
+}

@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-06-12T17:48:14+00:00",
+  "files": [
+    {
+      "bytes": 129,
+      "path": "NO_EFFECT_CREATED.txt",
+      "sha256": "34fa6e36bf9d743a1c5d28c2b6bfcecbc413906a38f8b47e74960e8d7975fbdd"
+    },
+    {
+      "bytes": 396,
+      "path": "authority_context.json",
+      "sha256": "fb4b51b90ad51a0a1fcd49e2af50a304da798af54ea3d4d23e1c0024c838160a"
+    },
+    {
+      "bytes": 886,
+      "path": "decision_receipt.json",
+      "sha256": "10ebd66bbe35fe0eef1462201e35028509eb4dc46ddc16b15f118cf81cd16247"
+    },
+    {
+      "bytes": 562,
+      "path": "evidence_bundle.json",
+      "sha256": "d4f38e1eebce6f7c50c2802d99794d7008a1495f48e9130a28817021001c1243"
+    },
+    {
+      "bytes": 529,
+      "path": "input_request.json",
+      "sha256": "f16d24ea9a94502f4b39313807b268e3b93c14791b92eb78c63603896abb6f15"
+    }
+  ],
+  "manifest_version": "effect-gate-basic-manifest-v0.1.0",
+  "schema": "maxwell.demo.manifest.v0.1"
+}

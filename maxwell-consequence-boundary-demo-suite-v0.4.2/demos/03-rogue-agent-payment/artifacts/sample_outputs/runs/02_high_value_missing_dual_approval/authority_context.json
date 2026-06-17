@@ -1,0 +1,23 @@
+{
+  "actor_id": "finance_manager_01",
+  "allowed_payment_scopes": [
+    "vendor_payment"
+  ],
+  "approval_limit_usd": 50000.0,
+  "authority_present": true,
+  "can_approve_payment": true,
+  "can_request_payment": true,
+  "case_id": "02_high_value_missing_dual_approval",
+  "delegation_id": "demo-delegation-finance-manager-01",
+  "dual_approval_present": false,
+  "primary_approver_id": "finance_manager_01",
+  "public_preview_note": "Synthetic payment authority context only; not a production authorization record.",
+  "request_amount_usd": 25000.0,
+  "requested_scope": "vendor_payment",
+  "requester_id": "procurement_agent_02",
+  "role": "finance_manager",
+  "schema": "maxwell.payment_demo.authority_context.v0.1",
+  "secondary_approver_id": null,
+  "self_approval_detected": false,
+  "target_system": "synthetic_accounts_payable"
+}

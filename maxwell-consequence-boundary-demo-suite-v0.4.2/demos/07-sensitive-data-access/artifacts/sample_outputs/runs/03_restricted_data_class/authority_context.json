@@ -1,0 +1,38 @@
+{
+  "actor_id": "user-support-019",
+  "actor_role": "support_analyst",
+  "authority_present": true,
+  "case_id": "03_restricted_data_class",
+  "data_class": "highly_restricted",
+  "data_class_within_clearance": false,
+  "data_minimization_satisfied": true,
+  "dataset": "health_claims_phi",
+  "dataset_in_role_scope": false,
+  "dataset_known": true,
+  "legal_basis_present": true,
+  "legal_basis_required": true,
+  "max_data_class_for_role": "confidential",
+  "purpose": "customer_support",
+  "purpose_in_dataset_scope": false,
+  "purpose_in_role_scope": true,
+  "purpose_present": true,
+  "query_scope": "single_customer",
+  "record_type": "authority_context",
+  "requested_effect": "view_record",
+  "requested_fields": [
+    "claim_id",
+    "diagnosis_code",
+    "medical_notes"
+  ],
+  "requested_restricted_fields": [
+    "diagnosis_code",
+    "medical_notes"
+  ],
+  "restricted_field_approval_present": false,
+  "restricted_fields_allowed": false,
+  "role_allowed_by_dataset": false,
+  "role_can_request_access": true,
+  "role_known": true,
+  "target_in_role_scope": true,
+  "target_system": "support_console"
+}

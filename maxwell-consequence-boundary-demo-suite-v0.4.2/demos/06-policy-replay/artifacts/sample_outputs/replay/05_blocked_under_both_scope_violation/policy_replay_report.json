@@ -1,0 +1,63 @@
+{
+  "case_id": "05_blocked_under_both_scope_violation",
+  "drift_class": "NO_OUTCOME_CHANGE",
+  "effect_record_existed_before_replay": false,
+  "effect_record_exists_after_replay": false,
+  "effect_record_mutated": false,
+  "governance_note": "Replay is a comparison result. It does not create, delete, or modify the original downstream effect record.",
+  "original_decision": {
+    "decision": "block",
+    "effect_permitted": false,
+    "lifecycle_status": "effect_suppressed",
+    "policy_version": "2025-10-v1",
+    "reason_code": "PR_BLOCK_SCOPE_VIOLATION"
+  },
+  "original_integrity": {
+    "errors": [],
+    "tamper_detected": false,
+    "verified_before_replay": true
+  },
+  "original_policy": {
+    "policy_hash": "sha256:0fac20648dcd3cf5d77e64cba12e97d9ee3996a0ba98359c167674e44657970f",
+    "policy_id": "maxwell-policy-replay-demo",
+    "policy_version": "2025-10-v1"
+  },
+  "outcome_changed": false,
+  "record_type": "policy_replay_report",
+  "replay_authority_summary": {
+    "approver_role": "team_lead",
+    "dual_control_present": false,
+    "dual_control_required": false,
+    "effect_in_role_scope": true,
+    "exact_role_requirement_satisfied": true,
+    "role_meets_minimum": true,
+    "target_in_scope": false
+  },
+  "replay_decision": {
+    "decision": "block",
+    "effect_permitted": false,
+    "explanation": "Target system is outside the approver's policy scope.",
+    "lifecycle_status": "effect_suppressed",
+    "policy_version": "2026-02-v2",
+    "reason_code": "PR_BLOCK_SCOPE_VIOLATION"
+  },
+  "replay_decision_receipt_hash": "sha256:6e961117eb39f7931d60086057cbc57a7dc6bb3e6b9c252664f48b06335b8078",
+  "replay_evidence_summary": {
+    "complete_under_target_policy": true,
+    "missing_refs_under_target_policy": []
+  },
+  "replay_lifecycle": [
+    "ORIGINAL_RECORD_LOADED",
+    "ORIGINAL_INTEGRITY_VERIFIED",
+    "TARGET_POLICY_LOADED",
+    "FROZEN_EVIDENCE_REEVALUATED",
+    "DRIFT_CLASSIFIED",
+    "NO_RETROACTIVE_EFFECT_MUTATION",
+    "REPLAY_REPORT_WRITTEN"
+  ],
+  "target_policy": {
+    "policy_hash": "sha256:7188e2668be710e2a762e0981e5fb8121e5d64496c05e758f4d02d1531a9c600",
+    "policy_id": "maxwell-policy-replay-demo",
+    "policy_version": "2026-02-v2"
+  }
+}

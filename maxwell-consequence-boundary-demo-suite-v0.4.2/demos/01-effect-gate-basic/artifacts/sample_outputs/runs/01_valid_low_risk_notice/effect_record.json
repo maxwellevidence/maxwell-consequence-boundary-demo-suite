@@ -1,0 +1,12 @@
+{
+  "case_id": "01_valid_low_risk_notice",
+  "committed_at": "2026-06-12T17:48:14+00:00",
+  "decision_receipt_id": "sha256:618dec9dedd9c88301d4112c1a509a577652694eba8d3f4de6dc8b8f7b015ac2",
+  "decision_receipt_sha256": "eb73bf8aa0dd50a9c81e410df0dcc4a787eb96ec96fdc13290bac2e78048164d",
+  "effect_record_id": "sha256:c075472b63d4a82f6e0915a734865c9f6366e2c18feaa996288641596aad2aba",
+  "effect_type": "send_customer_notice",
+  "public_preview_note": "Synthetic effect record only; no real downstream action occurred.",
+  "reason_code": "EFFECT_GATE_EFFECT_PERMITTED",
+  "schema": "maxwell.demo.effect_record.v0.1",
+  "target_system": "synthetic_crm"
+}

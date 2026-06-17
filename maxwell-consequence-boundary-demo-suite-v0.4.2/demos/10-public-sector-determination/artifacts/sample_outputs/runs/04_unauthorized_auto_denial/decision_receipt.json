@@ -1,0 +1,22 @@
+{
+  "authority_context_hash": "sha256:a6fcf4de352754a596c430750f8b1dc838b843e682aded76984289ef3c85d111",
+  "case_id": "04_unauthorized_auto_denial",
+  "case_record_id": "CASE-DEMO-004",
+  "case_review_required": false,
+  "decision": "suppress",
+  "decision_receipt_id": "sha256:02f296093a865e54d96647b33b2224afbadf27e096af50efdb5703049e876e6f",
+  "determination_evidence_bundle_hash": "sha256:d2d894d7f5b578d8072514263ac7b8af25a86a7e60d9a3656464fb5073e45a1e",
+  "determination_id": "DET-DEMO-004",
+  "due_process_analysis_hash": "sha256:4c57d6e5686ebc54a613aa7517dba8ab99ac10bcdd14bed8056cad2dc72dc4b7",
+  "due_process_review_required": false,
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T00:00:00Z",
+  "explanation": "AI output may recommend a determination, but it cannot bind a public-sector determination.",
+  "lifecycle_status": "determination_effect_suppressed",
+  "policy_hash": "sha256:547234f9c55d9fc9c747bffa816bd039481a6bd6acba255b66a9a911d9440b63",
+  "policy_id": "maxwell-public-sector-determination-demo-policy",
+  "policy_version": "0.1.0",
+  "reason_code": "UNAUTHORIZED_AUTOMATED_ADVERSE_DETERMINATION",
+  "record_type": "decision_receipt",
+  "review_authority_context_hash": "sha256:d537c7ab56f383782b599fb7bc8eff4ec8bd75801223c37d9384fd16749c195e"
+}

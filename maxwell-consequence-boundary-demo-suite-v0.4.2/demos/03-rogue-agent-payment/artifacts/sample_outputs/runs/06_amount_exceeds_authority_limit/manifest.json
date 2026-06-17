@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-06-12T20:02:13+00:00",
+  "files": [
+    {
+      "bytes": 138,
+      "path": "NO_PAYMENT_EFFECT_CREATED.txt",
+      "sha256": "0ea099de6da0734d09f63b0028ccbda651a951f9dc15e922532066bb65f54597"
+    },
+    {
+      "bytes": 865,
+      "path": "authority_context.json",
+      "sha256": "76bd3c884d34bb44a2b3d461847be12b8fd0d0b2dea7032b1e653589e3ff78cf"
+    },
+    {
+      "bytes": 1183,
+      "path": "decision_receipt.json",
+      "sha256": "6e8f4638b3621fb6f3f9ae0212da6795ef8868d09586a2b43d0a524f231b60d3"
+    },
+    {
+      "bytes": 1634,
+      "path": "input_request.json",
+      "sha256": "abf2d6c82f35c034f246b01db51535e928ff0950edd680e5cae55c8d791e188c"
+    },
+    {
+      "bytes": 1056,
+      "path": "payment_evidence_bundle.json",
+      "sha256": "db71cd188512165032607aec22f357a20d3fb3a4f022040f7c50388c2131d6a7"
+    },
+    {
+      "bytes": 741,
+      "path": "review_ticket.json",
+      "sha256": "0546d9be6881310cdddb6b7f51c3f3688ad3efc652d0f191f1621f3f5bc475b2"
+    }
+  ],
+  "manifest_version": "payment-demo-manifest-v0.1.0",
+  "schema": "maxwell.payment_demo.manifest.v0.1"
+}

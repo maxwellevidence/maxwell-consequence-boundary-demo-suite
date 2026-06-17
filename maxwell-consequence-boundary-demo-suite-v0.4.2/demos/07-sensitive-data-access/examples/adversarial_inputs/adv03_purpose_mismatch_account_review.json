@@ -1,0 +1,40 @@
+{
+  "actor": {
+    "actor_id": "user-support-014",
+    "department": "customer_operations",
+    "role": "support_analyst"
+  },
+  "case_id": "adv03_purpose_mismatch_account_review",
+  "evidence": {
+    "business_purpose": "growth_marketing",
+    "captured_at": "2026-01-01T00:01:00Z",
+    "data_minimization": true,
+    "legal_basis": "customer_service_contract",
+    "refs": [
+      "requester_role_assertion",
+      "data_inventory_entry",
+      "ticket_reference",
+      "business_purpose_record"
+    ]
+  },
+  "llm_output": {
+    "instruction_trace": "No override request detected.",
+    "prompt_injection_detected": false,
+    "recommendation": "Retrieve a minimal case summary for the support workflow."
+  },
+  "requested_access": {
+    "access_id": "DA-1001",
+    "data_class": "confidential",
+    "dataset": "customer_support_cases",
+    "purpose": "growth_marketing",
+    "query_scope": "single_customer",
+    "requested_effect": "retrieve_summary",
+    "requested_fields": [
+      "case_id",
+      "account_status",
+      "last_contact_reason"
+    ],
+    "target_system": "support_console",
+    "user_instruction": "Summarize the open support case for the authenticated customer record."
+  }
+}

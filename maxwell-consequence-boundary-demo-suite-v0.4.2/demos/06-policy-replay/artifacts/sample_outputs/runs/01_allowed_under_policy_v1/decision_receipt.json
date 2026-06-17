@@ -1,0 +1,18 @@
+{
+  "action_id": "act-01",
+  "authority_context_hash": "sha256:79d6e6915e605c789daf2179fcad38d16fd827334f97abd238a4cad7381a8468",
+  "case_id": "01_allowed_under_policy_v1",
+  "decision": "allow",
+  "decision_receipt_id": "sha256:144eacceb3f8448e8cd1d75e69488b62a646a937fc5105d5dd83ee1ab8d80416",
+  "effect_permitted": true,
+  "evaluated_at": "2026-01-15T09:00:00Z",
+  "evidence_bundle_hash": "sha256:d2d5789cdcb0677b61956579f13f62544d86bcc759fb5f0ba46f4c93f1b03c0a",
+  "explanation": "Evidence, authority, scope, and risk requirements are satisfied under the evaluated policy.",
+  "lifecycle_status": "effect_committed",
+  "policy_hash": "sha256:0fac20648dcd3cf5d77e64cba12e97d9ee3996a0ba98359c167674e44657970f",
+  "policy_id": "maxwell-policy-replay-demo",
+  "policy_version": "2025-10-v1",
+  "reason_code": "PR_POLICY_ALLOW",
+  "record_type": "decision_receipt",
+  "review_required": false
+}

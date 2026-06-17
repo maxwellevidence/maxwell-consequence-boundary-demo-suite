@@ -1,0 +1,2 @@
+No downstream payment effect record was created because policy did not permit effect.
+Reason code: PAYMENT_DUAL_CONTROL_REQUIRED

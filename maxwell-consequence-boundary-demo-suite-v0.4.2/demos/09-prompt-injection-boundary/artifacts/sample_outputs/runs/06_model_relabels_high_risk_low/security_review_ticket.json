@@ -1,0 +1,10 @@
+{
+  "action_id": "act-06_model_relabels_high_risk_low",
+  "case_id": "06_model_relabels_high_risk_low",
+  "decision_receipt_id": "sha256:a0ba45c8cd798c52eb3eedc257cf1833a9a97dc10e52610e89d6ea8d1165bd19",
+  "effect_created": false,
+  "reason_code": "MODEL_RISK_DOWNGRADE_REQUIRES_SECURITY_REVIEW",
+  "record_type": "security_review_ticket",
+  "review_queue": "prompt_boundary_security_review",
+  "security_review_ticket_id": "sha256:38ff6f3d569b225290622f61d6490230c143712aeedd3cde78f0b2d453eec0b3"
+}

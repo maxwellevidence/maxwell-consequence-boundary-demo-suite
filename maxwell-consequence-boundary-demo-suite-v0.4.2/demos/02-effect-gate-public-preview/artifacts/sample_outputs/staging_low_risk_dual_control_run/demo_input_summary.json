@@ -1,0 +1,5 @@
+{
+  "description": "Bounded staging change with low risk, dual control, valid scope, and valid role.",
+  "outcome_label_in_input": false,
+  "source_file": "examples/demo_inputs/staging_low_risk_dual_control.json"
+}

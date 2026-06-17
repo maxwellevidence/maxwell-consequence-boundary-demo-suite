@@ -1,0 +1,20 @@
+{
+  "action_id": "act-01_normal_instruction_valid",
+  "authority_context_hash": "sha256:f36feb4b2d36687a05f4b06fe3fe229b9c7abee91f97c820e229bdd00f19714a",
+  "case_id": "01_normal_instruction_valid",
+  "decision": "commit",
+  "decision_receipt_id": "sha256:9af77f3cfeabc9785ac2db1b71a6dd7b73722f0f0bdbf591df904363baec36a0",
+  "effect_permitted": true,
+  "evaluated_at": "2026-01-01T00:00:00Z",
+  "explanation": "Instruction evidence, actor authority, and tool boundary are sufficient for bounded effect.",
+  "instruction_evidence_bundle_hash": "sha256:eed3acd0874f26bd5de29cc657bb2a7ef6b1165d31b4e10b33140cbfff399f43",
+  "lifecycle_status": "effect_committed",
+  "policy_hash": "sha256:2ce92f6cbdd54054e4d31f0709ecc5d95333dc23cec4818e18cc5f8aaa42eeeb",
+  "policy_id": "maxwell.prompt_injection_boundary.public_preview",
+  "policy_version": "0.1.0",
+  "prompt_boundary_analysis_hash": "sha256:81a49350364beb8c4846ec10cf27caa56f5cbc59ac2e894cec41231ef2d4c6cb",
+  "quarantine_required": false,
+  "reason_code": "PROMPT_BOUNDARY_EFFECT_COMMITTED",
+  "record_type": "decision_receipt",
+  "security_review_required": false
+}

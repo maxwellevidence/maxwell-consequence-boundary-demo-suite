@@ -1,0 +1,13 @@
+{
+  "case_id": "03_blocked_scope_violation",
+  "effect_created": false,
+  "event_sequence": [
+    "PROPOSED",
+    "EVIDENCE_CAPTURED",
+    "AUTHORITY_EVALUATED",
+    "DECISION_RECORDED",
+    "EFFECT_SUPPRESSED",
+    "RECONSTRUCTABLE_RECORD_CREATED"
+  ],
+  "record_type": "timeline_event"
+}

@@ -1,0 +1,28 @@
+{
+  "authority": {
+    "actor_id": "agent_policy_workflow_demo",
+    "approver_id": "synthetic-team_lead-001",
+    "approver_role": "team_lead",
+    "dual_control": false,
+    "second_approver_role": null
+  },
+  "case_id": "05_blocked_under_both_scope_violation",
+  "case_summary": "Configuration change targets a system outside the approver's scope under both policies.",
+  "evidence": {
+    "captured_at": "2026-01-15T08:55:00Z",
+    "refs": [
+      "request_ticket",
+      "system_owner_note",
+      "policy_attestation"
+    ]
+  },
+  "original_policy_version": "2025-10-v1",
+  "proposed_action": {
+    "action_id": "act-05",
+    "description": "Configuration change targets a system outside the approver's scope under both policies.",
+    "requested_effect": "config_change",
+    "risk_level": "low",
+    "target_system": "payroll_system"
+  },
+  "synthetic": true
+}

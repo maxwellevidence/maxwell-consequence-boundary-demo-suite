@@ -1,0 +1,41 @@
+{
+  "actor": {
+    "actor_id": "user-support-025",
+    "department": "customer_operations",
+    "role": "support_analyst"
+  },
+  "case_id": "06_excessive_data_minimization_failure",
+  "evidence": {
+    "business_purpose": "account_review",
+    "captured_at": "2026-01-01T00:06:00Z",
+    "data_minimization": false,
+    "legal_basis": "customer_service_contract",
+    "refs": [
+      "requester_role_assertion",
+      "data_inventory_entry",
+      "ticket_reference",
+      "business_purpose_record"
+    ]
+  },
+  "llm_output": {
+    "instruction_trace": "Bulk export request lacks minimization evidence.",
+    "prompt_injection_detected": false,
+    "recommendation": "Export a broad subset of support cases."
+  },
+  "requested_access": {
+    "access_id": "DA-1006",
+    "data_class": "confidential",
+    "dataset": "customer_support_cases",
+    "purpose": "account_review",
+    "query_scope": "bulk_export",
+    "requested_effect": "export_subset",
+    "requested_fields": [
+      "case_id",
+      "account_status",
+      "last_contact_reason",
+      "full_case_history"
+    ],
+    "target_system": "support_console",
+    "user_instruction": "Export all matching customer-support cases for review."
+  }
+}

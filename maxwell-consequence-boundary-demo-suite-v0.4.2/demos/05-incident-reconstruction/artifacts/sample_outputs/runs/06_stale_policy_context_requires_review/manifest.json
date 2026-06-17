@@ -1,0 +1,46 @@
+{
+  "case_id": "06_stale_policy_context_requires_review",
+  "files": [
+    {
+      "bytes": 34,
+      "path": "NO_EFFECT_CREATED.txt",
+      "sha256": "1898513e7864425ed7bbe584be919e638e7b498e14ad0a34722b12c468c6f484"
+    },
+    {
+      "bytes": 434,
+      "path": "authority_snapshot.json",
+      "sha256": "aa9d724f06664ad4f12874d007fa156bc72b40374fe5b2580b31fc4110bf160a"
+    },
+    {
+      "bytes": 852,
+      "path": "decision_receipt.json",
+      "sha256": "e6a87aa9dcc5219fea7d9b17d65fe4899560d71581faa6548ff6e6b947393068"
+    },
+    {
+      "bytes": 322,
+      "path": "evidence_snapshot.json",
+      "sha256": "de5d6af24392f08dd6357309845926a297a766e775d31566f53ee5c96a52abab"
+    },
+    {
+      "bytes": 905,
+      "path": "input_request.json",
+      "sha256": "1cb8eb6d9cc826e6fc6861d88a403a3fa9bfd0a62fcf0cc62bcd2286a22d921a"
+    },
+    {
+      "bytes": 1130,
+      "path": "reconstruction_report.json",
+      "sha256": "2038e37bbea03ab6c0dd9ad8d5e7e9089d0da9d443fdad65ac5e1ed8fb1f21a6"
+    },
+    {
+      "bytes": 225,
+      "path": "review_ticket.json",
+      "sha256": "dc5e206e54f751fb74e58ee6c60c62091a9af696f1523ebc32dfbf260d65fb4e"
+    },
+    {
+      "bytes": 299,
+      "path": "timeline_event.json",
+      "sha256": "b8ea27531a64bddda4d5f05a144cd47afa5e197a9297834262215c3de954878f"
+    }
+  ],
+  "record_type": "manifest"
+}

@@ -1,0 +1,55 @@
+{
+  "approval_chain": {
+    "dual_approval_present": false,
+    "primary_approver_id": "procurement_agent_04",
+    "requester_id": "procurement_agent_04",
+    "secondary_approver_id": null
+  },
+  "case_id": "04_self_approval_attempt",
+  "claimed_authority": {
+    "actor_id": "procurement_agent_04",
+    "allowed_payment_scopes": [
+      "vendor_payment"
+    ],
+    "approval_limit_usd": 5000,
+    "can_approve_payment": true,
+    "can_request_payment": true,
+    "delegation_id": "demo-delegation-procurement-04",
+    "role": "procurement_specialist"
+  },
+  "evidence_refs": [
+    {
+      "digest": "demo-sha256-invoice-4410",
+      "ref_id": "invoice:INV-4410",
+      "type": "invoice"
+    },
+    {
+      "digest": "demo-sha256-po-4410",
+      "ref_id": "po:PO-4410",
+      "type": "purchase_order"
+    },
+    {
+      "digest": "demo-sha256-vendor-orbit",
+      "ref_id": "vendor:VND-ORBIT-004",
+      "type": "vendor_record"
+    }
+  ],
+  "payment_request": {
+    "amount_usd": 4200.0,
+    "currency": "USD",
+    "description": "Synthetic vendor payment proposal for public demo review.",
+    "invoice_id": "INV-4410",
+    "payment_method": "ach",
+    "vendor_bank_change": false,
+    "vendor_id": "VND-ORBIT-004",
+    "vendor_status": "approved"
+  },
+  "proposed_instruction": "Recommend payment for invoice INV-4410 based on requester self-approval.",
+  "requested_effect": {
+    "effect_type": "payment.release",
+    "target_scope": "vendor_payment",
+    "target_system": "synthetic_accounts_payable"
+  },
+  "risk_level": "low",
+  "target_scope": "vendor_payment"
+}

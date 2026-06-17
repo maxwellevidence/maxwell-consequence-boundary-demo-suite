@@ -1,0 +1,41 @@
+{
+  "case_id": "06_excessive_data_minimization_failure",
+  "files": [
+    {
+      "bytes": 114,
+      "path": "NO_DATA_ACCESS_EFFECT_CREATED.txt",
+      "sha256": "d42a202179de43f3ab7ddeb3a2e6b8c7f554e7d21645c4c8933cbb896673a722"
+    },
+    {
+      "bytes": 1108,
+      "path": "authority_context.json",
+      "sha256": "3d79039478c363a2b762bba8e5d259ea681a53037d8461a2d2454823d9f6aae0"
+    },
+    {
+      "bytes": 757,
+      "path": "data_evidence_bundle.json",
+      "sha256": "8b51e18570f4afa5f30a0b2711e6ac7d3a0ebf1c5a2f27cb66641d621baf8bf9"
+    },
+    {
+      "bytes": 892,
+      "path": "decision_receipt.json",
+      "sha256": "3c489e3da74885c9eb81226cbfefc724ff82519016e556f0be6bb8d8ea404f77"
+    },
+    {
+      "bytes": 1205,
+      "path": "input_request.json",
+      "sha256": "098037893d6e35b847760828ba0e84f8e019078192dfcb4070be76fdd3244132"
+    },
+    {
+      "bytes": 5275,
+      "path": "policy_snapshot.json",
+      "sha256": "32c847b2adeb091b3fe3768e01b55dea7e6f4f0caaf0ce8713985bb93e3734ae"
+    },
+    {
+      "bytes": 444,
+      "path": "review_ticket.json",
+      "sha256": "8d42c5e4248262e3f7432e327a5f76a480b492d31408b1d08feba8060fd42b5a"
+    }
+  ],
+  "record_type": "manifest"
+}

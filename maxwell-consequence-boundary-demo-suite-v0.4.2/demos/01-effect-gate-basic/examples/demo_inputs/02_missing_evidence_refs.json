@@ -1,0 +1,20 @@
+{
+  "case_id": "02_missing_evidence_refs",
+  "action_type": "send_customer_notice",
+  "target_scope": "customer_communications",
+  "risk_level": "low",
+  "proposed_instruction": "Send approved status notice to customer C-2042 using template T-17.",
+  "evidence_refs": [],
+  "requested_effect": {
+    "effect_type": "send_customer_notice",
+    "target_system": "synthetic_crm",
+    "destination": "customer_notice_queue"
+  },
+  "claimed_authority": {
+    "actor_id": "agent-comms-01",
+    "role": "communications_agent",
+    "can_execute": true,
+    "allowed_scopes": ["customer_communications"],
+    "delegation_id": "DEMO-COMMS-LOW-RISK-2026"
+  }
+}

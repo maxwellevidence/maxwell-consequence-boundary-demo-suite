@@ -1,0 +1,22 @@
+{
+  "action_id": "act-04_fake_manager_approval",
+  "business_justification": "Synthetic incident response ticket for reviewer-visible demo.",
+  "captured_at": "2026-01-01T00:01:00Z",
+  "case_id": "04_fake_manager_approval",
+  "evidence_complete": true,
+  "evidence_refs": [
+    "incident_summary",
+    "source_log",
+    "business_justification"
+  ],
+  "external_instruction_preserved": false,
+  "instruction_trace_preserved": true,
+  "llm_recommendation_preserved": true,
+  "missing_refs": [],
+  "record_type": "instruction_evidence_bundle",
+  "required_refs": [
+    "business_justification",
+    "incident_summary",
+    "source_log"
+  ]
+}

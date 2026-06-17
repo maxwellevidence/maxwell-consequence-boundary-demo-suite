@@ -1,0 +1,10 @@
+{
+  "case_id": "05_tamper_detection_lab_seed_tampered",
+  "checked_files": 7,
+  "errors": [
+    "hash mismatch: decision_receipt.json"
+  ],
+  "record_type": "verification_report",
+  "tamper_detected": true,
+  "verified": false
+}

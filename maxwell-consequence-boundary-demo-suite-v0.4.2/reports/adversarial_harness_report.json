@@ -1,0 +1,118 @@
+{
+  "generated_at_utc": "2026-06-16T16:18:49.071600+00:00",
+  "limitations": [
+    "internal automated adversarial harness pass, not independent third-party red team",
+    "public-safe synthetic inputs only",
+    "does not test production deployments or external services",
+    "does not claim exhaustive security proof"
+  ],
+  "report_version": "maxwell-adversarial-harness-v0.4.0",
+  "results": [
+    {
+      "check": "suite_spec_check",
+      "return_code": 0,
+      "scope": "suite",
+      "status": "passed"
+    },
+    {
+      "adversarial_input_count": 3,
+      "check": "adversarial_corpus_direct",
+      "detail": "ran 1 adversarial test function(s)",
+      "return_code": 0,
+      "scope": "01-effect-gate-basic",
+      "status": "passed",
+      "test_functions_ran": 1
+    },
+    {
+      "adversarial_input_count": 3,
+      "check": "adversarial_corpus_direct",
+      "detail": "ran 3 adversarial test function(s)",
+      "return_code": 0,
+      "scope": "02-effect-gate-public-preview",
+      "status": "passed",
+      "test_functions_ran": 3
+    },
+    {
+      "adversarial_input_count": 3,
+      "check": "adversarial_corpus_direct",
+      "detail": "ran 1 adversarial test function(s)",
+      "return_code": 0,
+      "scope": "03-rogue-agent-payment",
+      "status": "passed",
+      "test_functions_ran": 1
+    },
+    {
+      "adversarial_input_count": 3,
+      "check": "adversarial_corpus_direct",
+      "detail": "ran 1 adversarial test function(s)",
+      "return_code": 0,
+      "scope": "04-multi-agent-authority",
+      "status": "passed",
+      "test_functions_ran": 1
+    },
+    {
+      "adversarial_input_count": 3,
+      "check": "adversarial_corpus_direct",
+      "detail": "ran 1 adversarial test function(s)",
+      "return_code": 0,
+      "scope": "05-incident-reconstruction",
+      "status": "passed",
+      "test_functions_ran": 1
+    },
+    {
+      "adversarial_input_count": 3,
+      "check": "adversarial_corpus_direct",
+      "detail": "ran 1 adversarial test function(s)",
+      "return_code": 0,
+      "scope": "06-policy-replay",
+      "status": "passed",
+      "test_functions_ran": 1
+    },
+    {
+      "adversarial_input_count": 3,
+      "check": "adversarial_corpus_direct",
+      "detail": "ran 1 adversarial test function(s)",
+      "return_code": 0,
+      "scope": "07-sensitive-data-access",
+      "status": "passed",
+      "test_functions_ran": 1
+    },
+    {
+      "adversarial_input_count": 3,
+      "check": "adversarial_corpus_direct",
+      "detail": "ran 1 adversarial test function(s)",
+      "return_code": 0,
+      "scope": "08-human-review-escalation",
+      "status": "passed",
+      "test_functions_ran": 1
+    },
+    {
+      "adversarial_input_count": 3,
+      "check": "adversarial_corpus_direct",
+      "detail": "ran 1 adversarial test function(s)",
+      "return_code": 0,
+      "scope": "09-prompt-injection-boundary",
+      "status": "passed",
+      "test_functions_ran": 1
+    },
+    {
+      "adversarial_input_count": 3,
+      "check": "adversarial_corpus_direct",
+      "detail": "ran 1 adversarial test function(s)",
+      "return_code": 0,
+      "scope": "10-public-sector-determination",
+      "status": "passed",
+      "test_functions_ran": 1
+    }
+  ],
+  "scope": "public demo suite only; synthetic local inputs; no production systems",
+  "summary": {
+    "adversarial_input_files": 30,
+    "checks": 11,
+    "checks_failed": 0,
+    "checks_passed": 11,
+    "demos": 10,
+    "result": "passed",
+    "test_functions_ran": 12
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "action_id": "ACT-REVIEW-005",
+  "case_id": "05_review_fails_blocked",
+  "decision_receipt_id": "sha256:63d670cbd78fa501b3abc67066f5c511a97bb6bb8b0af6296b0b51912c6a58a6",
+  "effect_created": false,
+  "reason_code": "PROMPT_INJECTION_NOT_AUTHORITY",
+  "record_type": "suppression_notice",
+  "suppression_notice_id": "sha256:d14dea58bca75698bb2b32eae958e50d923031c2ed4241dcecb92a9d8c7b6afb"
+}

@@ -1,0 +1,44 @@
+{
+  "actor": {
+    "actor_id": "caseworker_avery",
+    "role": "benefits_caseworker"
+  },
+  "ai_recommendation": {
+    "claims_final_authority": false,
+    "confidence": 0.61,
+    "rationale": "The available synthetic evidence appears mostly complete, but income verification is missing.",
+    "recommendation": "approve eligibility"
+  },
+  "case_id": "02_missing_required_document",
+  "case_record": {
+    "applicant_id": "synthetic-applicant-002",
+    "case_record_id": "CASE-DEMO-002",
+    "jurisdiction": "demo_state",
+    "program": "housing_assistance"
+  },
+  "evidence": {
+    "appeal_rights_notice_attached": true,
+    "captured_at": "2026-01-15T00:02:00Z",
+    "case_record_consistent": true,
+    "refs": [
+      "application_signed",
+      "identity_verified",
+      "program_criteria_matched",
+      "notice_template_attached",
+      "residency_verified"
+    ]
+  },
+  "external_instruction": {
+    "source": "normal_case_queue",
+    "text": "Review the synthetic application packet; one income document is still pending."
+  },
+  "proposed_determination": {
+    "adverse": false,
+    "determination_effect": "provisional_eligibility_approval",
+    "determination_id": "DET-DEMO-002",
+    "determination_type": "eligibility_approval",
+    "jurisdiction": "demo_state",
+    "program": "housing_assistance",
+    "risk_level": "medium"
+  }
+}

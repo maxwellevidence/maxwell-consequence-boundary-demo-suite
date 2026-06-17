@@ -1,0 +1,15 @@
+{
+  "adverse": false,
+  "binding_effect_committed": true,
+  "case_id": "01_complete_eligibility_evidence",
+  "case_record_id": "CASE-DEMO-001",
+  "determination_effect": "provisional_eligibility_approval",
+  "determination_effect_record_id": "sha256:b60a52fad3c6803a39679e112b5bb6139443d821bcc52c8abf17c7d68297f1bf",
+  "determination_id": "DET-DEMO-001",
+  "determination_type": "eligibility_approval",
+  "effect_basis": "sha256:0c6b6f9597a7462a3bcb43adb20d836c7af77b5813ec106844af00620ab9d49b",
+  "jurisdiction": "demo_state",
+  "note": "This synthetic demo records a determination effect; it does not connect to public systems.",
+  "program": "housing_assistance",
+  "record_type": "determination_effect_record"
+}

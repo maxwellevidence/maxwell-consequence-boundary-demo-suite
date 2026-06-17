@@ -1,0 +1,7 @@
+{
+  "version": "v0.4.1",
+  "decoy_bug": "pause_and_block_emit_effect_record",
+  "baseline_targeted_tests_passed": true,
+  "patched_targeted_tests_failed_as_expected": true,
+  "claim": "The public harness catches this known fail-open regression class."
+}

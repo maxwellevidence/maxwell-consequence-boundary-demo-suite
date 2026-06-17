@@ -1,0 +1,18 @@
+{
+  "access_id": "DA-1003",
+  "authority_context_hash": "sha256:6bda02a8b167fc0ef5413dc3a6231e3d7b20ba4d9ca9dfead8681e7976271df3",
+  "case_id": "03_restricted_data_class",
+  "decision": "suppress",
+  "decision_receipt_id": "sha256:52b417c2d76eaec0366689c21b778129227aeebf27197322892a7e63494ff902",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-01T00:00:00Z",
+  "evidence_bundle_hash": "sha256:5658fd42f2e6d137992fe8e5686fa236eef2a3d98fbd1b0a74324e099d98a6cb",
+  "explanation": "Requested data class exceeds the actor role's policy clearance.",
+  "lifecycle_status": "access_suppressed",
+  "policy_hash": "sha256:72c0a9c3d191cefc4290e7eea6651cf856d2990e52e9129d28c2a471400d7097",
+  "policy_id": "maxwell.demo.sensitive_data_access",
+  "policy_version": "0.1.0",
+  "reason_code": "DATA_CLASSIFICATION_EXCEEDS_CLEARANCE",
+  "record_type": "decision_receipt",
+  "review_required": false
+}

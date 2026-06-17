@@ -1,0 +1,21 @@
+{
+  "action_id": "ACT-REVIEW-006",
+  "business_justification": "Original support-case action can be reviewed only within original scope.",
+  "business_justification_present": true,
+  "captured_at": "2026-01-15T12:00:00Z",
+  "case_id": "06_review_attempts_scope_expansion",
+  "evidence_complete": false,
+  "evidence_refs": [
+    "request_record"
+  ],
+  "instruction_trace_preserved": true,
+  "missing_refs": [
+    "risk_assessment"
+  ],
+  "prompt_injection_detected": false,
+  "record_type": "initial_evidence_bundle",
+  "required_refs": [
+    "request_record",
+    "risk_assessment"
+  ]
+}

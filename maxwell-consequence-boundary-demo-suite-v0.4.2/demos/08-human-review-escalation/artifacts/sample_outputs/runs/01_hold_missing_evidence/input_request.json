@@ -1,0 +1,34 @@
+{
+  "actor": {
+    "actor_id": "agent_support_001",
+    "role": "workflow_agent",
+    "team": "support_ops"
+  },
+  "case_id": "01_hold_missing_evidence",
+  "evidence": {
+    "business_justification": "Customer case can be closed after missing risk assessment is reviewed.",
+    "captured_at": "2026-01-15T12:00:00Z",
+    "refs": [
+      "request_record"
+    ]
+  },
+  "llm_output": {
+    "instruction_trace": "normal workflow instruction",
+    "prompt_injection_detected": false,
+    "recommendation": "Route the proposed action through the configured Maxwell review path."
+  },
+  "proposed_action": {
+    "action_id": "ACT-REVIEW-001",
+    "description": "AI workflow proposes a support case status update that may require human review.",
+    "effect_type": "update_case_status",
+    "requested_change": {
+      "case_status": "resolved_pending_confirmation"
+    },
+    "risk_level": "medium",
+    "scope": "support_case",
+    "target_system": "support_workflow"
+  },
+  "review": {
+    "submitted": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "04_unauthorized_auto_denial",
+  "determination_type_in_reviewer_scope": false,
+  "program_in_reviewer_scope": false,
+  "record_type": "review_authority_context",
+  "review_authority_present": false,
+  "review_complete": false,
+  "review_disposition": null,
+  "review_id": null,
+  "review_submitted": false,
+  "reviewer_can_authorize_adverse_effect": false,
+  "reviewer_id": null,
+  "reviewer_role": null,
+  "reviewer_role_known": false
+}

@@ -1,0 +1,8 @@
+{
+  "case_id": "02_ignore_policy_instruction",
+  "checked_files": 9,
+  "errors": [],
+  "record_type": "verification_report",
+  "tamper_detected": false,
+  "verified": true
+}

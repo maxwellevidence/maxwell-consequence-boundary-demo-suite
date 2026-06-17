@@ -1,0 +1,46 @@
+{
+  "actor": {
+    "actor_id": "caseworker_morgan",
+    "role": "benefits_caseworker"
+  },
+  "ai_recommendation": {
+    "claims_final_authority": false,
+    "confidence": 0.58,
+    "rationale": "Some evidence supports eligibility, but the synthetic household size record is inconsistent.",
+    "recommendation": "approve eligibility"
+  },
+  "case_id": "03_inconsistent_case_record",
+  "case_record": {
+    "applicant_id": "synthetic-applicant-003",
+    "case_record_id": "CASE-DEMO-003",
+    "jurisdiction": "demo_state",
+    "program": "food_assistance"
+  },
+  "evidence": {
+    "appeal_rights_notice_attached": true,
+    "captured_at": "2026-01-15T00:03:00Z",
+    "case_record_consistent": false,
+    "refs": [
+      "application_signed",
+      "identity_verified",
+      "program_criteria_matched",
+      "notice_template_attached",
+      "residency_verified",
+      "household_size_verified",
+      "income_verified"
+    ]
+  },
+  "external_instruction": {
+    "source": "normal_case_queue",
+    "text": "Review the synthetic food assistance packet; household count differs across documents."
+  },
+  "proposed_determination": {
+    "adverse": false,
+    "determination_effect": "provisional_eligibility_approval",
+    "determination_id": "DET-DEMO-003",
+    "determination_type": "eligibility_approval",
+    "jurisdiction": "demo_state",
+    "program": "food_assistance",
+    "risk_level": "medium"
+  }
+}

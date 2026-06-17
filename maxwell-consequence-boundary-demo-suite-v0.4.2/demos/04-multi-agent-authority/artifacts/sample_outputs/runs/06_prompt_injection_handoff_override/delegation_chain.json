@@ -1,0 +1,18 @@
+{
+  "case_id": "06_prompt_injection_handoff_override",
+  "created_at": "2026-06-12T21:06:30Z",
+  "delegation_chain_id": "sha256:53c3703c8b641b18e48bc99499143e2a8bae87571a15d1571ab44a2a123fc6c2",
+  "delegation_id": "delegation-006",
+  "delegation_participants_match": true,
+  "evidence_bundle_id": "sha256:0f5ab471caa568c1fe75e70b2a725f55d0bd66b17515187f7ebbb6e327615ea9",
+  "evidence_continuity_ok": true,
+  "from_agent_id": "agent-triage-a",
+  "handoff_id": "handoff-006",
+  "handoff_participants_match": true,
+  "handoff_scope": "security.patch.remediation",
+  "public_preview_note": "Synthetic public-safe delegation chain for demo review.",
+  "requested_scope": "security.production.change_apply",
+  "requested_target_system": "production_change_api",
+  "schema": "maxwell.multi_agent_authority.delegation_chain.v0.1",
+  "to_agent_id": "agent-remediate-b"
+}

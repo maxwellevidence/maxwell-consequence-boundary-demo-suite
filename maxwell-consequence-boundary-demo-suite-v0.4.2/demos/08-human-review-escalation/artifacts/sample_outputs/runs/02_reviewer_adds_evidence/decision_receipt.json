@@ -1,0 +1,20 @@
+{
+  "action_id": "ACT-REVIEW-002",
+  "case_id": "02_reviewer_adds_evidence",
+  "decision": "commit_after_review",
+  "decision_receipt_id": "sha256:2b0fd2c6c70dc79eed80cd845f0fe7f48f789fc842fc7f7b270604380f5c0c37",
+  "effect_permitted": true,
+  "evaluated_at": "2026-01-15T12:00:00Z",
+  "explanation": "Controlled review supplied sufficient evidence and reviewer authority for effect.",
+  "initial_decision_receipt_id": "sha256:645477c5efe721061d9f6657bce130275a23abaa84fe4f110e179b54548943ad",
+  "lifecycle_status": "review_approved_effect_committed",
+  "policy_hash": "sha256:4030a6a6c9ca78f336d76be3014f3102a85eda7886611b984b36640375d2faee",
+  "policy_id": "maxwell.review_escalation.public_preview",
+  "policy_version": "0.1.0",
+  "reason_code": "REVIEW_APPROVED_EFFECT_COMMITTED",
+  "record_type": "decision_receipt",
+  "review_authority_context_hash": "sha256:de2ddb83e2cb35bd0d7bd4cd0fc6c82ac35dff087632f03fc2c756235bcb9ea0",
+  "review_event_id": "sha256:e32e1df59940bd2913cc3515b17b6af97bc5c197dcab63eb42e093369ffc4923",
+  "review_required": false,
+  "reviewable": true
+}

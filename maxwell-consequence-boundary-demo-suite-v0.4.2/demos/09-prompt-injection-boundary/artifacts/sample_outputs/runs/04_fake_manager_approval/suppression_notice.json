@@ -1,0 +1,9 @@
+{
+  "action_id": "act-04_fake_manager_approval",
+  "case_id": "04_fake_manager_approval",
+  "decision_receipt_id": "sha256:c891f1e36144499ee95d519392d5bef53d09e70c889844871b835b7cd02e79e1",
+  "effect_created": false,
+  "reason_code": "UNTRUSTED_AUTHORITY_CLAIM",
+  "record_type": "suppression_notice",
+  "suppression_notice_id": "sha256:671b94d27e38bd6d422ccb8ac060be176684b042beb6a923b37faa36de107049"
+}

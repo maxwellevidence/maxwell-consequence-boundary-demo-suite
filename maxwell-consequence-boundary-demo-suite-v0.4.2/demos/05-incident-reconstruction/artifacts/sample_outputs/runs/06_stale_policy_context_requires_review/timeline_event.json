@@ -1,0 +1,13 @@
+{
+  "case_id": "06_stale_policy_context_requires_review",
+  "effect_created": false,
+  "event_sequence": [
+    "PROPOSED",
+    "EVIDENCE_CAPTURED",
+    "AUTHORITY_EVALUATED",
+    "DECISION_RECORDED",
+    "REVIEW_ROUTED",
+    "RECONSTRUCTABLE_RECORD_CREATED"
+  ],
+  "record_type": "timeline_event"
+}

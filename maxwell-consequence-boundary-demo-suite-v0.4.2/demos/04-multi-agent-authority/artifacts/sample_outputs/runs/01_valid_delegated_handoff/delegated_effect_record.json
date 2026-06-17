@@ -1,0 +1,16 @@
+{
+  "case_id": "01_valid_delegated_handoff",
+  "committed_at": "2026-06-12T21:06:29Z",
+  "decision_receipt_id": "sha256:5c861d11d080378c0498c664ca594e4cebeb1a366546dca7d606b97713d9b022",
+  "decision_receipt_sha256": "d3425506ba284cb9508a17cfb4461869ea31002ed8174209ed8c3afaafcbeeb6",
+  "delegated_effect_record_id": "sha256:e20145d5ae5f4375c0f6652969f169c36503c49e8dcf64cbbe78ae96df178435",
+  "delegation_id": "delegation-001",
+  "effect_type": "change_ticket.create",
+  "executing_agent_id": "agent-remediate-b",
+  "handoff_id": "handoff-001",
+  "public_preview_note": "Synthetic delegated effect record only; no real downstream action occurred.",
+  "schema": "maxwell.multi_agent_authority.delegated_effect_record.v0.1",
+  "synthetic_no_real_downstream_action": true,
+  "target_scope": "security.patch.remediation",
+  "target_system": "change_ticket_system"
+}

@@ -1,0 +1,10 @@
+{
+  "action_id": "ACT-REVIEW-001",
+  "case_id": "01_hold_missing_evidence",
+  "decision_receipt_id": "sha256:7fd82c92929a1b632c37cbc159705c5ada5eafbf96f5143d45ad0b6f478b4ec0",
+  "effect_created": false,
+  "reason_code": "REVIEW_REQUIRED_MISSING_EVIDENCE",
+  "record_type": "review_ticket",
+  "review_queue": "controlled_human_review_queue",
+  "review_ticket_id": "sha256:bb64aa9716f89f9de756479eaf895917b7b1cb118e427cbb38dfa6ac7368df0b"
+}

@@ -1,0 +1,44 @@
+# Maxwell Effect Gate public proof workflow configuration
+
+workflow:
+  name: maxwell_effect_gate_public_proof
+  version: "0.3.0"
+  workflow_type: ai_assisted_cve_incident_research
+
+proof_scope:
+  bounded_downstream_effect: change_control_record_creation
+  replay_scope: evidence_and_decision_chain_only
+
+claims_boundary:
+  third_party_validation_claimed: false
+  production_readiness_claimed: false
+  legal_sufficiency_claimed: false
+  deterministic_model_replay_claimed: false
+  private_decision_core_disclosed: false
+  external_trust_root_claimed: false
+
+decision_paths:
+  - allow
+  - pause
+  - block
+
+artifact_chain:
+  required_for_all_runs:
+    - action_proposal.json
+    - evidence_bundle.json
+    - authority_context.json
+    - workflow_output.json
+    - decision_surface_output.json
+    - decision_receipt.json
+    - config_original.yml
+    - config_effective.yml
+    - workflow_profiling_metrics.json
+    - replay_manifest.json
+    - artifact_hashes.sha256.txt
+    - artifact_hashes.sha256.txt.sig
+
+  allow_only:
+    - effect_record.json
+
+  pause_only:
+    - interaction_or_oauth_required.json

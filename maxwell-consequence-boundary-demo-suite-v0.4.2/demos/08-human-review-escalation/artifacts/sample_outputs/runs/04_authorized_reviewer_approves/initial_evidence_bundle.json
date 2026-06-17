@@ -1,0 +1,27 @@
+{
+  "action_id": "ACT-REVIEW-004",
+  "business_justification": "A documented service failure requires a controlled customer credit review.",
+  "business_justification_present": true,
+  "captured_at": "2026-01-15T12:00:00Z",
+  "case_id": "04_authorized_reviewer_approves",
+  "evidence_complete": false,
+  "evidence_refs": [
+    "request_record",
+    "risk_assessment",
+    "business_owner_approval"
+  ],
+  "instruction_trace_preserved": true,
+  "missing_refs": [
+    "review_rationale",
+    "secondary_approval"
+  ],
+  "prompt_injection_detected": false,
+  "record_type": "initial_evidence_bundle",
+  "required_refs": [
+    "business_owner_approval",
+    "request_record",
+    "review_rationale",
+    "risk_assessment",
+    "secondary_approval"
+  ]
+}

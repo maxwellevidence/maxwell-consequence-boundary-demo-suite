@@ -1,0 +1,46 @@
+{
+  "case_id": "06_model_relabels_high_risk_low",
+  "files": [
+    {
+      "bytes": 125,
+      "path": "NO_BOUNDARY_EFFECT_CREATED.txt",
+      "sha256": "d53be1532031fb58783f9affa04b630be869378b8605678e8d7e9df422380fbd"
+    },
+    {
+      "bytes": 760,
+      "path": "authority_context.json",
+      "sha256": "74627e6d188128513d499e392e84c6ee24b2de99a19899af64f38f0901afd10d"
+    },
+    {
+      "bytes": 1151,
+      "path": "decision_receipt.json",
+      "sha256": "f12d42d146318bf3987fb465ab7f1d01c0f26169a2c7dd465bd23e2541ab6acd"
+    },
+    {
+      "bytes": 1642,
+      "path": "input_request.json",
+      "sha256": "11e0ba6d5baca2cb810624cfa3526d2377dd5e00ded0752155bca6429145e1f5"
+    },
+    {
+      "bytes": 756,
+      "path": "instruction_evidence_bundle.json",
+      "sha256": "ddacf42db0dd032a66edbef38ae2a5a35d65e4641177e08572cece6261ae13ee"
+    },
+    {
+      "bytes": 3599,
+      "path": "policy_snapshot.json",
+      "sha256": "4dd3fd06dc7f92be683c22b266e126d702a6d522802a9443614c9dcceba595af"
+    },
+    {
+      "bytes": 592,
+      "path": "prompt_boundary_analysis.json",
+      "sha256": "4654db3e2ea35c66754617f7c1d58abc97cfee3f4165dd0f48088a450c6dc0d3"
+    },
+    {
+      "bytes": 500,
+      "path": "security_review_ticket.json",
+      "sha256": "5da2b0ca602961a230a7dff0e581bffe763ae4278c16e2af2e5736902c1b2096"
+    }
+  ],
+  "record_type": "manifest"
+}

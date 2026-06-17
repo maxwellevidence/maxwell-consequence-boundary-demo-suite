@@ -1,0 +1,10 @@
+{
+  "access_id": "DA-1006",
+  "case_id": "06_excessive_data_minimization_failure",
+  "decision_receipt_id": "sha256:54db834d4fbd6442fed472027d953966ba84b157a9675c82c73c37bda2ac7a32",
+  "effect_created": false,
+  "reason_code": "DATA_MINIMIZATION_REVIEW_REQUIRED",
+  "record_type": "review_ticket",
+  "review_queue": "privacy_data_access_review",
+  "review_ticket_id": "sha256:1c70c64e5c9082a620988b03166f6dd6765c770091772d765b747576fa66c3ce"
+}

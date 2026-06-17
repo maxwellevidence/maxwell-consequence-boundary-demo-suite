@@ -1,0 +1,46 @@
+{
+  "case_id": "01_hold_missing_evidence",
+  "files": [
+    {
+      "bytes": 105,
+      "path": "NO_AUTHORIZED_EFFECT_CREATED.txt",
+      "sha256": "df5fbbfe3b4cfdb0963a40d94dd67f10a319efbeef4bf30629a5371c72efa2cc"
+    },
+    {
+      "bytes": 899,
+      "path": "decision_receipt.json",
+      "sha256": "f5884e9abfd15f30f7a68d32ee37fc9f74d34885ab0618322ce804a08c2d3df5"
+    },
+    {
+      "bytes": 550,
+      "path": "initial_authority_context.json",
+      "sha256": "29b52bb66be8bdd6c66ca09e48a7ae96c697de180db61823815368918ea5602b"
+    },
+    {
+      "bytes": 930,
+      "path": "initial_decision_receipt.json",
+      "sha256": "2d5f350cb3091141404f0c18dac7f075282ebacac2f5f8df13449bb83c4a5b1b"
+    },
+    {
+      "bytes": 577,
+      "path": "initial_evidence_bundle.json",
+      "sha256": "22cc1088fa5cb6dc648045e3abd0244b580492e3d2b321cabe56f11845d72a29"
+    },
+    {
+      "bytes": 1011,
+      "path": "input_request.json",
+      "sha256": "1dcdb66c19dd9878ca70e80895d523f51a431f4077a149137849a02831de0e12"
+    },
+    {
+      "bytes": 3487,
+      "path": "policy_snapshot.json",
+      "sha256": "c5e67dcada80ff1b47c60f7cd9f5dde8987f7dea9de448fdbdcada14fe31569d"
+    },
+    {
+      "bytes": 439,
+      "path": "review_ticket.json",
+      "sha256": "028237fbdd0cf2c58bcb138d2e175c8f3f4c3608b83b75ed8cc78877b0d52d87"
+    }
+  ],
+  "record_type": "manifest"
+}

@@ -1,0 +1,9 @@
+{
+  "action_id": "ACT-001",
+  "case_id": "01_permitted_action_effect_committed",
+  "decision_receipt_hash": "sha256:0b9d4e80930d7643dc4e1c1cc429291decf32c94023c2b8fccc899ca7112488c",
+  "effect_type": "synthetic_patch_apply",
+  "record_type": "effect_record",
+  "synthetic_no_real_execution": true,
+  "target_system": "patch_service"
+}

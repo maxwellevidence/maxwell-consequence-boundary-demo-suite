@@ -1,0 +1,18 @@
+{
+  "access_id": "DA-1004",
+  "authority_context_hash": "sha256:ac38253a7b3d8e3ab811c847161a1b49833ebabaa786ec4583b74f196222e98c",
+  "case_id": "04_outside_scope_employee_record",
+  "decision": "suppress",
+  "decision_receipt_id": "sha256:499147b767617805f93774788f05cf74f91c6a379da3ae8b946e88f3527c6512",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-01T00:00:00Z",
+  "evidence_bundle_hash": "sha256:414013be27d8800bd2af2f4589210d829391d7bce18ae3d1e92534a9e9359f10",
+  "explanation": "Requested dataset is outside the actor role's authorized scope.",
+  "lifecycle_status": "access_suppressed",
+  "policy_hash": "sha256:72c0a9c3d191cefc4290e7eea6651cf856d2990e52e9129d28c2a471400d7097",
+  "policy_id": "maxwell.demo.sensitive_data_access",
+  "policy_version": "0.1.0",
+  "reason_code": "DATASET_SCOPE_VIOLATION",
+  "record_type": "decision_receipt",
+  "review_required": false
+}

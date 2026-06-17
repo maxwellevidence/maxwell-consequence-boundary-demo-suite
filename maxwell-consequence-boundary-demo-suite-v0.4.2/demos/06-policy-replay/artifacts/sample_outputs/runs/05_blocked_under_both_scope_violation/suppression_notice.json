@@ -1,0 +1,6 @@
+{
+  "case_id": "05_blocked_under_both_scope_violation",
+  "effect_created": false,
+  "reason_code": "PR_BLOCK_SCOPE_VIOLATION",
+  "record_type": "suppression_notice"
+}

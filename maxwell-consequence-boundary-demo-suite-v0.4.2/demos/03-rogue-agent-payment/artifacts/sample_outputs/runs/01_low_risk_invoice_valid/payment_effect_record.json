@@ -1,0 +1,20 @@
+{
+  "case_id": "01_low_risk_invoice_valid",
+  "committed_at": "2026-06-12T20:02:12+00:00",
+  "decision_receipt_id": "sha256:b32d65926c48944d86983b3e2913150efd9660fecca899ca1bbbad4e22587015",
+  "decision_receipt_sha256": "f529d4d624e6c32abfa150b34c519154e9e3bddda6d41ffd760e71f107f6c329",
+  "effect_type": "payment.release",
+  "payment_commitment": {
+    "amount_usd": 3200.0,
+    "currency": "USD",
+    "invoice_id": "INV-1001",
+    "payment_method": "ach",
+    "synthetic_no_real_payment": true,
+    "vendor_id": "VND-ACME-001"
+  },
+  "payment_effect_record_id": "sha256:b9d64d36a9f8b960ea308c49e6651ee9003060fbc8b7b1c6b5e6d8f1c0412acc",
+  "public_preview_note": "Synthetic payment effect record only; no real downstream payment occurred.",
+  "reason_code": "PAYMENT_EFFECT_PERMITTED",
+  "schema": "maxwell.payment_demo.payment_effect_record.v0.1",
+  "target_system": "synthetic_accounts_payable"
+}

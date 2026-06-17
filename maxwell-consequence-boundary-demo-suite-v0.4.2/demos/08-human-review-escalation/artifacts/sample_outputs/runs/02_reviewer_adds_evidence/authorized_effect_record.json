@@ -1,0 +1,17 @@
+{
+  "action_id": "ACT-REVIEW-002",
+  "case_id": "02_reviewer_adds_evidence",
+  "effect_basis": "sha256:2b0fd2c6c70dc79eed80cd845f0fe7f48f789fc842fc7f7b270604380f5c0c37",
+  "effect_committed": true,
+  "effect_payload": {
+    "case_status": "resolved_pending_confirmation"
+  },
+  "effect_record_id": "sha256:4dac846941dc4844f6be1ad5178eccaa211122078fe4c08c868383ecbafe1936",
+  "effect_type": "update_case_status",
+  "note": "This synthetic demo records an authorized effect; it does not call downstream systems.",
+  "record_type": "authorized_effect_record",
+  "reviewer_id": "ops_reviewer_201",
+  "reviewer_role": "operations_reviewer",
+  "scope": "support_case",
+  "target_system": "support_workflow"
+}

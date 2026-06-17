@@ -1,0 +1,11 @@
+{
+  "case_id": "05_handoff_loses_evidence_packet",
+  "created_at": "2026-06-12T21:06:29Z",
+  "decision_receipt_id": "sha256:ef85222cf777f97316945985818cb06f3940d6352fa0d0fdc9a6fb1ba5cbfdd8",
+  "decision_receipt_sha256": "b17c3ff4129ab2a74b603dae6aa9960744f08f014c889b29c4f07a3c1065c6e7",
+  "public_preview_note": "Synthetic review route only; no external ticket was opened.",
+  "reason_code": "DELEGATION_EVIDENCE_PACKET_MISSING",
+  "review_route": "evidence_continuity_review_queue",
+  "review_ticket_id": "sha256:4a2d5af0eca3958bc0ec6d202aabbf55c946f5a57554f8b0e58f8d53e69e5aab",
+  "schema": "maxwell.multi_agent_authority.review_ticket.v0.1"
+}

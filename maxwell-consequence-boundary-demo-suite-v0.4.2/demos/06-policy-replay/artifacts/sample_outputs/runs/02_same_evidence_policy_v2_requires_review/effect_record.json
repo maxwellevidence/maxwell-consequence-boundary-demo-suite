@@ -1,0 +1,10 @@
+{
+  "action_id": "act-02",
+  "case_id": "02_same_evidence_policy_v2_requires_review",
+  "created_under_policy_version": "2025-10-v1",
+  "decision_receipt_hash": "sha256:36c0cf909522bfa5875f8492682000e8332920effdde5237861c42e49ab0b6fc",
+  "effect_type": "config_change",
+  "record_type": "effect_record",
+  "synthetic_no_real_execution": true,
+  "target_system": "staging_api"
+}

@@ -1,0 +1,14 @@
+{
+  "amount_usd": 4800.0,
+  "case_id": "03_suspicious_vendor_bank_change",
+  "created_at": "2026-06-12T20:02:12+00:00",
+  "decision_receipt_id": "sha256:67210c121fe20b59a356f66699905bfb4514615c7b803a207437cd615b4ea168",
+  "decision_receipt_sha256": "4ff9760b9fb4de4dbf6ee395ca384580166e0a01288130cbd471c49e946f6794",
+  "invoice_id": "INV-3099",
+  "public_preview_note": "Synthetic review ticket only; no real workflow queue was contacted.",
+  "reason_code": "PAYMENT_VENDOR_BANK_CHANGE_REVIEW",
+  "review_route": "vendor_risk_review_queue",
+  "review_ticket_id": "sha256:16b5c5524e09b1049150293921bdd5d20589792607d468611ab00e31b9050406",
+  "schema": "maxwell.payment_demo.review_ticket.v0.1",
+  "vendor_id": "VND-DELTA-003"
+}

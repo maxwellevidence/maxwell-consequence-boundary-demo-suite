@@ -1,0 +1,20 @@
+{
+  "action_id": "ACT-REVIEW-005",
+  "case_id": "05_review_fails_blocked",
+  "decision": "suppress",
+  "decision_receipt_id": "sha256:63d670cbd78fa501b3abc67066f5c511a97bb6bb8b0af6296b0b51912c6a58a6",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T12:00:00Z",
+  "explanation": "The original proposal is non-reviewable under this public-preview policy.",
+  "initial_decision_receipt_id": "sha256:e444ab954ec5471ac0211df3322b12dfad94b285d16eacceb17c6462c9805615",
+  "lifecycle_status": "effect_suppressed",
+  "policy_hash": "sha256:4030a6a6c9ca78f336d76be3014f3102a85eda7886611b984b36640375d2faee",
+  "policy_id": "maxwell.review_escalation.public_preview",
+  "policy_version": "0.1.0",
+  "reason_code": "PROMPT_INJECTION_NOT_AUTHORITY",
+  "record_type": "decision_receipt",
+  "review_authority_context_hash": "sha256:5c295f1cfb81a6d8b4c1c4fdc23687b18a571c9dc35eb4d7517cb91ad91c6dae",
+  "review_event_id": "sha256:cb8669523ea8ec12ea38b81bf0ec25685931bd227971194783367d434dad9fc2",
+  "review_required": false,
+  "reviewable": false
+}

@@ -1,0 +1,11 @@
+--- a/demos/02-effect-gate-public-preview/src/maxwell_effect_gate/artifact_writer.py
++++ b/demos/02-effect-gate-public-preview/src/maxwell_effect_gate/artifact_writer.py
+@@ -29,7 +29,7 @@
+     write_json(run_dir / "authority_context.json", authority_context)
+     write_json(run_dir / "decision_receipt.json", decision_receipt)
+ 
+-    if decision_receipt["decision"] == "allow":
++    if decision_receipt["decision"] in {"allow", "pause", "block"}:  # DECOY_FAIL_OPEN: forbidden effect emission
+         write_json(
+             run_dir / "effect_record.json",
+             {

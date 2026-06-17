@@ -1,0 +1,18 @@
+{
+  "bundle_id": "sha256:8bd1d344c0a4736a6076e14f8c6a4e8d65b363a14548972cc6a6a509cd193b99",
+  "case_id": "04_wrong_system_authority_reuse",
+  "claimed_delegation_packet_id": "evidence-packet-004",
+  "created_at": "2026-06-12T21:06:29Z",
+  "evidence_continuity_ok": true,
+  "evidence_count": 2,
+  "evidence_packet_present": true,
+  "evidence_refs": [
+    "cve-summary:CVE-2099-0004",
+    "customer-impact:synthetic"
+  ],
+  "handoff_id": "handoff-004",
+  "input_sha256": "88033b6cacee156d0c3de21a9340c3088ff448950ddebccef6352b942d206dad",
+  "packet_id": "evidence-packet-004",
+  "public_preview_note": "Synthetic handoff evidence only; not a production evidence record.",
+  "schema": "maxwell.multi_agent_authority.evidence_bundle.v0.1"
+}

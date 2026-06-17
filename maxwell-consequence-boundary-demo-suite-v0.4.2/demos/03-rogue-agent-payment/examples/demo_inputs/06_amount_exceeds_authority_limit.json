@@ -1,0 +1,55 @@
+{
+  "approval_chain": {
+    "dual_approval_present": true,
+    "primary_approver_id": "finance_supervisor_06",
+    "requester_id": "procurement_agent_06",
+    "secondary_approver_id": "finance_controller_01"
+  },
+  "case_id": "06_amount_exceeds_authority_limit",
+  "claimed_authority": {
+    "actor_id": "finance_supervisor_06",
+    "allowed_payment_scopes": [
+      "vendor_payment"
+    ],
+    "approval_limit_usd": 10000,
+    "can_approve_payment": true,
+    "can_request_payment": true,
+    "delegation_id": "demo-delegation-finance-supervisor-06",
+    "role": "finance_supervisor"
+  },
+  "evidence_refs": [
+    {
+      "digest": "demo-sha256-invoice-6600",
+      "ref_id": "invoice:INV-6600",
+      "type": "invoice"
+    },
+    {
+      "digest": "demo-sha256-po-6600",
+      "ref_id": "po:PO-6600",
+      "type": "purchase_order"
+    },
+    {
+      "digest": "demo-sha256-vendor-solace",
+      "ref_id": "vendor:VND-SOLACE-006",
+      "type": "vendor_record"
+    }
+  ],
+  "payment_request": {
+    "amount_usd": 18000.0,
+    "currency": "USD",
+    "description": "Synthetic vendor payment proposal for public demo review.",
+    "invoice_id": "INV-6600",
+    "payment_method": "ach",
+    "vendor_bank_change": false,
+    "vendor_id": "VND-SOLACE-006",
+    "vendor_status": "approved"
+  },
+  "proposed_instruction": "Recommend payment for invoice INV-6600 with dual approval present but insufficient approver limit.",
+  "requested_effect": {
+    "effect_type": "payment.release",
+    "target_scope": "vendor_payment",
+    "target_system": "synthetic_accounts_payable"
+  },
+  "risk_level": "low",
+  "target_scope": "vendor_payment"
+}

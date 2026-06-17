@@ -1,0 +1,41 @@
+{
+  "case_id": "05_tamper_detection_lab_seed",
+  "files": [
+    {
+      "bytes": 427,
+      "path": "authority_snapshot.json",
+      "sha256": "043761eb020ba003ce2a5f5451bfc49f128c45504c5e8a349d55e1407eeaeca1"
+    },
+    {
+      "bytes": 834,
+      "path": "decision_receipt.json",
+      "sha256": "46158772b230ef2b33a28b723f734a36285e291f638b520fd9110f6a02ee37f0"
+    },
+    {
+      "bytes": 330,
+      "path": "effect_record.json",
+      "sha256": "091050ae61d362412c5d395634ee26a6625e6dbe7b5d833da1e952235ca0c068"
+    },
+    {
+      "bytes": 311,
+      "path": "evidence_snapshot.json",
+      "sha256": "6ea2f906aca4c134e4b18c83d036c4bb5ae653a45e6b9711371ed1ed49627fce"
+    },
+    {
+      "bytes": 894,
+      "path": "input_request.json",
+      "sha256": "359b9df3f99cd20c07fa0dbf3ce9512a5c9a26a3f328915d7338892a624bff18"
+    },
+    {
+      "bytes": 1113,
+      "path": "reconstruction_report.json",
+      "sha256": "e1755a68f6466ca3de7a79b2d2c5b8ab9ed64e4f972486b9c4ae1a5da597aca9"
+    },
+    {
+      "bytes": 290,
+      "path": "timeline_event.json",
+      "sha256": "1cf86a796f2ec78e9a89e212c96f512fa59023e67a083830439b7f332640bed6"
+    }
+  ],
+  "record_type": "manifest"
+}

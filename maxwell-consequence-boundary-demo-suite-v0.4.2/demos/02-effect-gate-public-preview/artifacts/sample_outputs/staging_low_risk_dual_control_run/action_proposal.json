@@ -1,0 +1,16 @@
+{
+  "action_type": "create_change_control_record",
+  "approver_id": "approver@example.test",
+  "dual_control_present": true,
+  "effect_surface": "change_control_record",
+  "proposal_id": "PROP-2026-1043-PAYMENTS-API",
+  "proposed_action": "create_change_control_record",
+  "proposed_change_summary": "Prepare a bounded remediation change-control record for payments-api based on simulated CVE research output.",
+  "requested_environment": "staging",
+  "requester_id": "requester@example.test",
+  "risk_level": "low",
+  "source_prompt": "examples/requests/shared_prompt.txt",
+  "target_environment": "staging",
+  "target_system": "payments-api",
+  "workflow_type": "ai_assisted_cve_incident_research"
+}

@@ -1,0 +1,13 @@
+{
+  "case_id": "03_threshold_changed",
+  "effect_created": true,
+  "event_sequence": [
+    "PROPOSED",
+    "ORIGINAL_EVIDENCE_CAPTURED",
+    "ORIGINAL_AUTHORITY_EVALUATED",
+    "POLICY_AT_TIME_APPLIED",
+    "EFFECT_COMMITTED",
+    "ORIGINAL_RECORD_SEALED_FOR_REPLAY"
+  ],
+  "record_type": "timeline_event"
+}

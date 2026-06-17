@@ -1,0 +1,53 @@
+{
+  "actor_id": "agent_policy_workflow_demo",
+  "allowed_effect_types_for_role": [
+    "config_change",
+    "vendor_exception",
+    "data_export"
+  ],
+  "approver_id": "synthetic-director-001",
+  "approver_role": "director",
+  "authority_present": true,
+  "authorized_systems_for_role": [
+    "staging_api",
+    "production_api",
+    "vendor_master",
+    "data_warehouse",
+    "ticketing"
+  ],
+  "can_commit_effect": true,
+  "case_id": "04_authority_rule_changed",
+  "dual_control_present": false,
+  "dual_control_required": false,
+  "effect_in_role_scope": true,
+  "exact_role_requirement_satisfied": true,
+  "max_risk_for_role": "critical",
+  "minimum_role_for_effect": "director",
+  "permitted_exact_roles_for_effect": [],
+  "policy_version": "2025-10-v1",
+  "record_type": "original_authority_context",
+  "requested_effect": "data_export",
+  "risk_level": "medium",
+  "risk_within_role_limit": true,
+  "role_known": true,
+  "role_meets_minimum": true,
+  "role_profile": {
+    "allowed_effect_types": [
+      "config_change",
+      "vendor_exception",
+      "data_export"
+    ],
+    "authorized_systems": [
+      "staging_api",
+      "production_api",
+      "vendor_master",
+      "data_warehouse",
+      "ticketing"
+    ],
+    "can_commit_effect": true,
+    "max_risk": "critical"
+  },
+  "second_approver_role": null,
+  "target_in_scope": true,
+  "target_system": "data_warehouse"
+}

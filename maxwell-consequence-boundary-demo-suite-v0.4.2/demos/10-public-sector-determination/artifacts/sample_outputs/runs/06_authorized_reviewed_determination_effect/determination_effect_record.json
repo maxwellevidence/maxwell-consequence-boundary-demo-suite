@@ -1,0 +1,15 @@
+{
+  "adverse": true,
+  "binding_effect_committed": true,
+  "case_id": "06_authorized_reviewed_determination_effect",
+  "case_record_id": "CASE-DEMO-006",
+  "determination_effect": "benefit_reduction_notice_and_effect",
+  "determination_effect_record_id": "sha256:c0e8da8d96d0aa7b135c3fafbc15af09c8c484007cdb08768d7a5d2265c7d810",
+  "determination_id": "DET-DEMO-006",
+  "determination_type": "benefit_reduction",
+  "effect_basis": "sha256:5a89a570f85de250d55fc3f75f68573314a36271892472e8343842731b44241c",
+  "jurisdiction": "demo_state",
+  "note": "This synthetic demo records a determination effect; it does not connect to public systems.",
+  "program": "food_assistance",
+  "record_type": "determination_effect_record"
+}

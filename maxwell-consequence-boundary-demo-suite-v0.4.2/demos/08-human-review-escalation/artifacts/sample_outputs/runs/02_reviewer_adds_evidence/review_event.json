@@ -1,0 +1,20 @@
+{
+  "action_id": "ACT-REVIEW-002",
+  "added_evidence_refs": [
+    "risk_assessment"
+  ],
+  "approval": "approve",
+  "case_id": "02_reviewer_adds_evidence",
+  "initial_decision_receipt_id": "sha256:645477c5efe721061d9f6657bce130275a23abaa84fe4f110e179b54548943ad",
+  "record_type": "review_event",
+  "review_effect_type": "update_case_status",
+  "review_event_id": "sha256:e32e1df59940bd2913cc3515b17b6af97bc5c197dcab63eb42e093369ffc4923",
+  "review_notes": "Risk assessment supplied and action remains within original support-case scope.",
+  "review_scope": "support_case",
+  "review_target_system": "support_workflow",
+  "reviewer": {
+    "reviewer_id": "ops_reviewer_201",
+    "role": "operations_reviewer"
+  },
+  "submitted": true
+}

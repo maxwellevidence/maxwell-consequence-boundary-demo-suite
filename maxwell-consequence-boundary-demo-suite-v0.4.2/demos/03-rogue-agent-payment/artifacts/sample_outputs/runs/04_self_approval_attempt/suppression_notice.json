@@ -1,0 +1,12 @@
+{
+  "authority_basis": "self_approval_detected",
+  "case_id": "04_self_approval_attempt",
+  "created_at": "2026-06-12T20:02:12+00:00",
+  "decision_receipt_id": "sha256:1b7f93466bd6535fb9627aa9252f37fcd4df0fe2f7010bd24a7d3e461e5aa189",
+  "decision_receipt_sha256": "5c059612f9329db083689dcb9c1720a2f297e82ff48619366abca778e2356db1",
+  "public_preview_note": "Synthetic suppression notice only; no real downstream payment effect occurred.",
+  "reason_code": "PAYMENT_SELF_APPROVAL_SUPPRESSED",
+  "risk_signal": "segregation_of_duties",
+  "schema": "maxwell.payment_demo.suppression_notice.v0.1",
+  "suppression_notice_id": "sha256:f02c80e367e038e2b3fc0df42f01bb0acb3a356597fa01e7c99dfb00acd4ab01"
+}

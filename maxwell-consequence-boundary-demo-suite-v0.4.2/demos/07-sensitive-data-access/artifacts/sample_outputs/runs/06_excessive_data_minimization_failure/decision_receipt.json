@@ -1,0 +1,18 @@
+{
+  "access_id": "DA-1006",
+  "authority_context_hash": "sha256:794c0adf350d856f394e46c1fff6bfb550d380051a038d09c3dca6ba351d034f",
+  "case_id": "06_excessive_data_minimization_failure",
+  "decision": "review",
+  "decision_receipt_id": "sha256:54db834d4fbd6442fed472027d953966ba84b157a9675c82c73c37bda2ac7a32",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-01T00:00:00Z",
+  "evidence_bundle_hash": "sha256:da9177b03b7852ae9aa3246312bdac90de955569afe2fde65d5ab6127b07bc0e",
+  "explanation": "The request is broad or lacks data-minimization evidence.",
+  "lifecycle_status": "review_routed",
+  "policy_hash": "sha256:72c0a9c3d191cefc4290e7eea6651cf856d2990e52e9129d28c2a471400d7097",
+  "policy_id": "maxwell.demo.sensitive_data_access",
+  "policy_version": "0.1.0",
+  "reason_code": "DATA_MINIMIZATION_REVIEW_REQUIRED",
+  "record_type": "decision_receipt",
+  "review_required": true
+}

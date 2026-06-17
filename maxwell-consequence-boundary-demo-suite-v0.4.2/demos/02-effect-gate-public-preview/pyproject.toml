@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maxwell-effect-gate"
+version = "0.3.0"
+description = "Evidence-before-effect proof for agentic AI workflows that propose consequential enterprise actions."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Maxwell Evidence Systems Inc." }
+]
+license = { text = "Proprietary public preview" }
+dependencies = [
+  "PyYAML>=6.0",
+  "PyJWT>=2.8",
+  "cryptography>=41",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.8",
+  "hypothesis>=6.100",
+]

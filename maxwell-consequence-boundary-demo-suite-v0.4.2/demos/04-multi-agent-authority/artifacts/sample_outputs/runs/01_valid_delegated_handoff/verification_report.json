@@ -1,0 +1,76 @@
+{
+  "case_id": "01_valid_delegated_handoff",
+  "checks": [
+    {
+      "detail": "",
+      "name": "manifest_exists",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "hash_matches:authority_context.json",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "hash_matches:decision_receipt.json",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "hash_matches:delegated_effect_record.json",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "hash_matches:delegation_chain.json",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "hash_matches:handoff_evidence_bundle.json",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "hash_matches:input.json",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "decision_receipt_exists",
+      "ok": true
+    },
+    {
+      "detail": "effect_permitted=true",
+      "name": "delegated_effect_record_required",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "no_effect_marker_absent",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "review_ticket_absent",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "suppression_notice_absent",
+      "ok": true
+    },
+    {
+      "detail": "",
+      "name": "delegated_effect_bound_to_decision_receipt",
+      "ok": true
+    }
+  ],
+  "effect_permitted": true,
+  "lifecycle_state": "DELEGATED_EFFECT_COMMITTED",
+  "run_dir": "01_valid_delegated_handoff",
+  "schema": "maxwell.multi_agent_authority.verification_report.v0.1",
+  "verified": true,
+  "verified_at": "2026-06-12T21:06:31Z"
+}

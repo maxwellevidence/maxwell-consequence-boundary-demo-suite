@@ -1,0 +1,14 @@
+{
+  "claims_boundary": "Public proof only. This receipt does not disclose Maxwell private authority logic, evaluator chains, scoring rules, or thresholds.",
+  "decision": "block",
+  "demo_case": "oidc_bad_token_missing_scope",
+  "downstream_effect_allowed": false,
+  "effect_boundary": "change_control_record_creation",
+  "matched_policy_rule_id": "block_invalid_or_absent_oauth",
+  "policy_id": "maxwell.public.change_control.v0_3",
+  "policy_version": "0.3.0",
+  "reason_codes": [
+    "INVALID_OR_ABSENT_OAUTH_CONTEXT",
+    "NO_EFFECT_INVALID_AUTHORITY"
+  ]
+}

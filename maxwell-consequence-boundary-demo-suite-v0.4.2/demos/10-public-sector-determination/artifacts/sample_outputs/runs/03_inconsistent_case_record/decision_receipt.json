@@ -1,0 +1,22 @@
+{
+  "authority_context_hash": "sha256:23bdfb1e603e9261e20245107cf76d53a48f7473d7ac2f7200a3a818ccbb3322",
+  "case_id": "03_inconsistent_case_record",
+  "case_record_id": "CASE-DEMO-003",
+  "case_review_required": true,
+  "decision": "review",
+  "decision_receipt_id": "sha256:63c39c6dc9d49502d33d8829fdf1e13c1be28ba05cabb8ea37299628003c666f",
+  "determination_evidence_bundle_hash": "sha256:f099ea5ba9ef87f4cb37cc0711d05df2359066139f116a575a567790a14211cc",
+  "determination_id": "DET-DEMO-003",
+  "due_process_analysis_hash": "sha256:085ae7f0904778a11a5b292f41b89511b8ffc0ce7dec2a22044506f7e322f4c5",
+  "due_process_review_required": false,
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T00:00:00Z",
+  "explanation": "The case record is inconsistent; no binding effect is created until review.",
+  "lifecycle_status": "case_review_routed",
+  "policy_hash": "sha256:547234f9c55d9fc9c747bffa816bd039481a6bd6acba255b66a9a911d9440b63",
+  "policy_id": "maxwell-public-sector-determination-demo-policy",
+  "policy_version": "0.1.0",
+  "reason_code": "CASE_RECORD_INCONSISTENT_REQUIRES_REVIEW",
+  "record_type": "decision_receipt",
+  "review_authority_context_hash": "sha256:1661e19d8829c088408e1b4d8d80edbf1592388988ca68624c1b6919a857123b"
+}

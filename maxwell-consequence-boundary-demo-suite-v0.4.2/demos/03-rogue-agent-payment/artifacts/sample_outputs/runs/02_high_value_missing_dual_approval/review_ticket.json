@@ -1,0 +1,14 @@
+{
+  "amount_usd": 25000.0,
+  "case_id": "02_high_value_missing_dual_approval",
+  "created_at": "2026-06-12T20:02:12+00:00",
+  "decision_receipt_id": "sha256:ab44b78ac9d0cb55bc3511feff6e7ac745b88deda98889303b07e2d113f9425f",
+  "decision_receipt_sha256": "250fefec83e342cef50c4371eb138487556212e2b8ae2315073e1b5c1813ba9a",
+  "invoice_id": "INV-2042",
+  "public_preview_note": "Synthetic review ticket only; no real workflow queue was contacted.",
+  "reason_code": "PAYMENT_DUAL_CONTROL_REQUIRED",
+  "review_route": "finance_dual_control_queue",
+  "review_ticket_id": "sha256:419016152371448169714f83eb825b8753125aee7f4595a435123796c5f97680",
+  "schema": "maxwell.payment_demo.review_ticket.v0.1",
+  "vendor_id": "VND-NORTHSTAR-002"
+}

@@ -1,0 +1,9 @@
+{
+  "access_id": "DA-1004",
+  "case_id": "04_outside_scope_employee_record",
+  "decision_receipt_id": "sha256:499147b767617805f93774788f05cf74f91c6a379da3ae8b946e88f3527c6512",
+  "effect_created": false,
+  "reason_code": "DATASET_SCOPE_VIOLATION",
+  "record_type": "suppression_notice",
+  "suppression_notice_id": "sha256:df013590ead50eec02a029c5b7cdc215ca996b36626acc8ff1e119753f254f4c"
+}

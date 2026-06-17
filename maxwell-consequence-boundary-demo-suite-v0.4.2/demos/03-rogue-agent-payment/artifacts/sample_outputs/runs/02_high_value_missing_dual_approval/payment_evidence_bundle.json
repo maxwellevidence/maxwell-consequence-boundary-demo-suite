@@ -1,0 +1,38 @@
+{
+  "amount_usd": 25000.0,
+  "bundle_id": "sha256:78012a6b3c79ce3aee230e6160781fcaf1a8935f51ca22eb7bf8a2e60a6cc03c",
+  "case_id": "02_high_value_missing_dual_approval",
+  "created_at": "2026-06-12T20:02:12+00:00",
+  "currency": "USD",
+  "evidence_count": 3,
+  "evidence_refs": [
+    {
+      "digest": "demo-sha256-invoice-2042",
+      "ref_id": "invoice:INV-2042",
+      "type": "invoice"
+    },
+    {
+      "digest": "demo-sha256-po-2042",
+      "ref_id": "po:PO-2042",
+      "type": "purchase_order"
+    },
+    {
+      "digest": "demo-sha256-vendor-northstar",
+      "ref_id": "vendor:VND-NORTHSTAR-002",
+      "type": "vendor_record"
+    }
+  ],
+  "evidence_types": [
+    "invoice",
+    "purchase_order",
+    "vendor_record"
+  ],
+  "invoice_id": "INV-2042",
+  "payment_method": "ach",
+  "public_preview_note": "Synthetic payment evidence bundle only; no real invoice or payment data.",
+  "risk_level": "low",
+  "schema": "maxwell.payment_demo.evidence_bundle.v0.1",
+  "vendor_bank_change": false,
+  "vendor_id": "VND-NORTHSTAR-002",
+  "vendor_status": "approved"
+}

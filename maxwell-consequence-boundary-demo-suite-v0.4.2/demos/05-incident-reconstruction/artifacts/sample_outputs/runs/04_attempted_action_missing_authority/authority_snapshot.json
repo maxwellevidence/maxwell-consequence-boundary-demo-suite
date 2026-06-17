@@ -1,0 +1,14 @@
+{
+  "actor_id": "agent_incident_triage_01",
+  "approval_chain": [],
+  "approver_id": null,
+  "authority_present": false,
+  "authorized_systems": [
+    "patch_service"
+  ],
+  "can_commit_effect": false,
+  "case_id": "04_attempted_action_missing_authority",
+  "record_type": "authority_snapshot",
+  "target_in_scope": true,
+  "target_system": "patch_service"
+}

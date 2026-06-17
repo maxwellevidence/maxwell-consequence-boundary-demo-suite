@@ -1,0 +1,14 @@
+{
+  "bundle_id": "sha256:deb16d25d35d2554d04feaef08ae07c1066860eae42289a44f0cc4501e3b4d3c",
+  "case_id": "06_prompt_injection_suppressed",
+  "created_at": "2026-06-12T17:48:14+00:00",
+  "evidence_count": 3,
+  "evidence_refs": [
+    "notice_template:T-17",
+    "case_status:CS-2046",
+    "communications_policy:COMM-2026-01"
+  ],
+  "input_sha256": "2e98a4f4bf179a09a751d0df81e68e1b79386da2bb53a10d967ee4f3f9de32e5",
+  "public_preview_note": "Synthetic effect-gate evidence only; not a production evidence record.",
+  "schema": "maxwell.demo.evidence_bundle.v0.1"
+}

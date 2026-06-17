@@ -1,0 +1,42 @@
+{
+  "authority_present": true,
+  "case_id": "03_agent_expands_task_beyond_scope",
+  "delegated_scopes": [
+    "security.patch.remediation",
+    "security.patch.ticket_update"
+  ],
+  "delegated_target_systems": [
+    "change_ticket_system"
+  ],
+  "delegation_expired": false,
+  "delegation_expires_at": "2026-01-15T12:30:00Z",
+  "delegation_id": "delegation-003",
+  "delegation_participants_match": true,
+  "delegation_present": true,
+  "executing_agent_id": "agent-remediate-b",
+  "executing_agent_local_authority_scopes": [
+    "security.patch.remediation",
+    "security.patch.ticket_update"
+  ],
+  "executing_agent_role": "remediation_execution_agent",
+  "executor_has_local_authority_for_scope": false,
+  "handoff_id": "handoff-003",
+  "handoff_participants_match": true,
+  "handoff_scope": "security.patch.remediation",
+  "initiating_agent_authority_scopes": [
+    "security.patch.remediation",
+    "security.patch.ticket_update"
+  ],
+  "initiating_agent_id": "agent-triage-a",
+  "initiating_agent_may_delegate": true,
+  "initiating_agent_role": "incident_triage_agent",
+  "may_execute_downstream_effect": true,
+  "public_preview_note": "Synthetic delegated authority context only; not a production authorization record.",
+  "requested_scope": "security.production.firewall_change",
+  "requested_scope_in_delegation": false,
+  "requested_target_system": "production_firewall_api",
+  "requested_target_system_in_delegation": false,
+  "risk_level": "high",
+  "schema": "maxwell.multi_agent_authority.authority_context.v0.1",
+  "task_expansion_detected": true
+}

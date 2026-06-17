@@ -1,0 +1,11 @@
+{
+  "case_id": "02_handoff_missing_authority_scope",
+  "created_at": "2026-06-12T21:06:29Z",
+  "decision_receipt_id": "sha256:b7a859183286b6ffe2022c05000757b8dda6e0ce0ef78a8a8f5c4019b22ea8e3",
+  "decision_receipt_sha256": "040c03c45f1034471b0f77b6494bd2de42afaacc80bb3fe1fe8102ca08a76e1c",
+  "public_preview_note": "Synthetic review route only; no external ticket was opened.",
+  "reason_code": "DELEGATION_SCOPE_MISSING_REVIEW",
+  "review_route": "authority_scope_review_queue",
+  "review_ticket_id": "sha256:c8b261840a1ad40cee7d9b4ff97a0bda9b8fd5e60eba66b42b65e6649cbaad0b",
+  "schema": "maxwell.multi_agent_authority.review_ticket.v0.1"
+}

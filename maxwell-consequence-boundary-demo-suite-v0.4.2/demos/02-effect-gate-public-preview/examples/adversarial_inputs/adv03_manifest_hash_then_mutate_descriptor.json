@@ -1,0 +1,6 @@
+{
+  "attack_class": "Artifact mutation after manifest signing must fail verification.",
+  "case_id": "adv03_manifest_hash_then_mutate_descriptor",
+  "expected_effect_artifact": "absent",
+  "runtime_test": "tests/adversarial/test_adversarial_corpus.py"
+}

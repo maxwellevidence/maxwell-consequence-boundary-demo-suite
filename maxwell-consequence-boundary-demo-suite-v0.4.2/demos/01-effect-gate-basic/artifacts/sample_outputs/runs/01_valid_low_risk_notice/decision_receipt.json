@@ -1,0 +1,18 @@
+{
+  "authority_actor_id": "agent-comms-01",
+  "case_id": "01_valid_low_risk_notice",
+  "created_at": "2026-06-12T17:48:14+00:00",
+  "decision_receipt_id": "sha256:618dec9dedd9c88301d4112c1a509a577652694eba8d3f4de6dc8b8f7b015ac2",
+  "effect_permitted": true,
+  "evidence_bundle_id": "sha256:f95bf788e11371dab554f770fb3ae02e6bbf823039f7bb978f76f95e25de0bf6",
+  "explanation": "Evidence and authority were sufficient for this public demo policy.",
+  "lifecycle_state": "EFFECT_COMMITTED",
+  "outcome": "allow",
+  "policy_id": "maxwell-effect-gate-basic-policy",
+  "policy_version": "2026.06.v0.1",
+  "public_preview_note": "Decision receipt from simplified Maxwell Effect Gate Basic policy.",
+  "reason_code": "EFFECT_GATE_EFFECT_PERMITTED",
+  "review_route": null,
+  "schema": "maxwell.demo.decision_receipt.v0.1",
+  "target_scope": "customer_communications"
+}

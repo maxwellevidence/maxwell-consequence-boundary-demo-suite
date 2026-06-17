@@ -1,0 +1,39 @@
+{
+  "actor_id": "agent_policy_workflow_demo",
+  "allowed_effect_types_for_role": [],
+  "approver_id": "synthetic-business_owner-001",
+  "approver_role": "business_owner",
+  "authority_present": true,
+  "authorized_systems_for_role": [
+    "vendor_master",
+    "ticketing"
+  ],
+  "can_commit_effect": true,
+  "case_id": "06_current_policy_would_allow_but_no_retroactive_effect",
+  "dual_control_present": true,
+  "dual_control_required": false,
+  "effect_in_role_scope": false,
+  "exact_role_requirement_satisfied": true,
+  "max_risk_for_role": "low",
+  "minimum_role_for_effect": "engineering_manager",
+  "permitted_exact_roles_for_effect": [],
+  "policy_version": "2025-10-v1",
+  "record_type": "original_authority_context",
+  "requested_effect": "vendor_exception",
+  "risk_level": "low",
+  "risk_within_role_limit": true,
+  "role_known": true,
+  "role_meets_minimum": false,
+  "role_profile": {
+    "allowed_effect_types": [],
+    "authorized_systems": [
+      "vendor_master",
+      "ticketing"
+    ],
+    "can_commit_effect": true,
+    "max_risk": "low"
+  },
+  "second_approver_role": "finance_controller",
+  "target_in_scope": true,
+  "target_system": "vendor_master"
+}

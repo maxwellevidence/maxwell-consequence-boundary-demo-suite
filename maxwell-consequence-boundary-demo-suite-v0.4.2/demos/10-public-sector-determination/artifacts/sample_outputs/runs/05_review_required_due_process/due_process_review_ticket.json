@@ -1,0 +1,12 @@
+{
+  "case_id": "05_review_required_due_process",
+  "case_record_id": "CASE-DEMO-005",
+  "decision_receipt_id": "sha256:9357a2397b0e61055e49018a1ebce6d662fac1e45fbafe0a63c740e23711489e",
+  "determination_id": "DET-DEMO-005",
+  "due_process_review_ticket_id": "sha256:3fee75a110dcd7888168720d4469ef8929a6830f2dd52375a223c2258a063ac9",
+  "effect_created": false,
+  "notice_and_appeal_review_required": true,
+  "reason_code": "DUE_PROCESS_REVIEW_REQUIRED",
+  "record_type": "due_process_review_ticket",
+  "review_queue": "public_sector_due_process_review"
+}

@@ -1,0 +1,7 @@
+{
+  "case_id": "02_reviewed_action_needs_human",
+  "effect_created": false,
+  "reason_code": "IR_REVIEW_HIGH_RISK",
+  "record_type": "review_ticket",
+  "review_queue": "incident_governance_review_queue"
+}

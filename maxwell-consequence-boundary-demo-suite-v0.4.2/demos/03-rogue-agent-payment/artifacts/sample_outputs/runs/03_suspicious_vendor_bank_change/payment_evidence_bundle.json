@@ -1,0 +1,38 @@
+{
+  "amount_usd": 4800.0,
+  "bundle_id": "sha256:9c19c529ebc8fb2a94a2240359418334e11174f7679946974a8b5330650c90ba",
+  "case_id": "03_suspicious_vendor_bank_change",
+  "created_at": "2026-06-12T20:02:12+00:00",
+  "currency": "USD",
+  "evidence_count": 3,
+  "evidence_refs": [
+    {
+      "digest": "demo-sha256-invoice-3099",
+      "ref_id": "invoice:INV-3099",
+      "type": "invoice"
+    },
+    {
+      "digest": "demo-sha256-po-3099",
+      "ref_id": "po:PO-3099",
+      "type": "purchase_order"
+    },
+    {
+      "digest": "demo-sha256-vendor-delta",
+      "ref_id": "vendor:VND-DELTA-003",
+      "type": "vendor_record"
+    }
+  ],
+  "evidence_types": [
+    "invoice",
+    "purchase_order",
+    "vendor_record"
+  ],
+  "invoice_id": "INV-3099",
+  "payment_method": "ach",
+  "public_preview_note": "Synthetic payment evidence bundle only; no real invoice or payment data.",
+  "risk_level": "low",
+  "schema": "maxwell.payment_demo.evidence_bundle.v0.1",
+  "vendor_bank_change": true,
+  "vendor_id": "VND-DELTA-003",
+  "vendor_status": "approved"
+}

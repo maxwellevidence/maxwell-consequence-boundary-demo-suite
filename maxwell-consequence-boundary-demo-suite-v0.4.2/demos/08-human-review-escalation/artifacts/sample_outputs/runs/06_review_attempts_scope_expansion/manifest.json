@@ -1,0 +1,56 @@
+{
+  "case_id": "06_review_attempts_scope_expansion",
+  "files": [
+    {
+      "bytes": 105,
+      "path": "NO_AUTHORIZED_EFFECT_CREATED.txt",
+      "sha256": "df5fbbfe3b4cfdb0963a40d94dd67f10a319efbeef4bf30629a5371c72efa2cc"
+    },
+    {
+      "bytes": 1090,
+      "path": "decision_receipt.json",
+      "sha256": "e20607d6935827842438804ef60dd0ea21d1a08b361612d9730c0937a699a613"
+    },
+    {
+      "bytes": 560,
+      "path": "initial_authority_context.json",
+      "sha256": "f304000ac8e1c0e4bc45f5b5f4f0a51a2cb6762b65e0628d7987e87d241a21a0"
+    },
+    {
+      "bytes": 940,
+      "path": "initial_decision_receipt.json",
+      "sha256": "5c9f6d0d891d9f2b38f8f9795c96b982c9decb4235fb325408f6f3139eb1b31b"
+    },
+    {
+      "bytes": 589,
+      "path": "initial_evidence_bundle.json",
+      "sha256": "5eb24a2c3dfa8f9a973b7df7dd9e74fa54e014833908f1ca5f4fa7d7340158a4"
+    },
+    {
+      "bytes": 1430,
+      "path": "input_request.json",
+      "sha256": "d30d0b24b183f58780a826bb2620027ea4afa548343afe54158966d6d8e673e8"
+    },
+    {
+      "bytes": 3487,
+      "path": "policy_snapshot.json",
+      "sha256": "c5e67dcada80ff1b47c60f7cd9f5dde8987f7dea9de448fdbdcada14fe31569d"
+    },
+    {
+      "bytes": 562,
+      "path": "review_authority_context.json",
+      "sha256": "8c5aa20168dc819ddb1d26ff79346512c379b4d2ea1cb2848edb7f4aeae7be1c"
+    },
+    {
+      "bytes": 729,
+      "path": "review_event.json",
+      "sha256": "bb41ce53ca0450d10fb8bd623681e5e99abf0c72a4b7b597bbc20775e7ce9aa0"
+    },
+    {
+      "bytes": 416,
+      "path": "review_rejection_notice.json",
+      "sha256": "f3372815ced8fba2876284ee81ac2226463418991c5910aaef607ffe762b5214"
+    }
+  ],
+  "record_type": "manifest"
+}

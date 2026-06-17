@@ -1,0 +1,13 @@
+{
+  "adverse_determination": false,
+  "ai_claims_final_authority": false,
+  "ai_output_treated_as_authority": false,
+  "appeal_rights_notice_attached": true,
+  "automated_final_action_requested": false,
+  "case_id": "02_missing_required_document",
+  "human_review_complete": false,
+  "record_type": "due_process_analysis",
+  "unsafe_instruction_detected": false,
+  "unsafe_instruction_indicators": [],
+  "written_notice_attached": true
+}

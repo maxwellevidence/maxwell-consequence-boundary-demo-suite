@@ -1,0 +1,18 @@
+{
+  "authority_actor_id": "agent-comms-01",
+  "case_id": "02_missing_evidence_refs",
+  "created_at": "2026-06-12T17:48:14+00:00",
+  "decision_receipt_id": "sha256:5471ebd93d8082f613821bb52e8e68ec307c5945cfae459d6ad3e163402bfb71",
+  "effect_permitted": false,
+  "evidence_bundle_id": "sha256:6c1f4d419f949367c2dcb945719b4e03c19b7152d97300421e7927b60bde6ee3",
+  "explanation": "Required evidence references are missing.",
+  "lifecycle_state": "REVIEW_ROUTED",
+  "outcome": "hold",
+  "policy_id": "maxwell-effect-gate-basic-policy",
+  "policy_version": "2026.06.v0.1",
+  "public_preview_note": "Decision receipt from simplified Maxwell Effect Gate Basic policy.",
+  "reason_code": "EFFECT_GATE_REQUIRED_EVIDENCE_MISSING",
+  "review_route": "basic_effect_gate_review_queue",
+  "schema": "maxwell.demo.decision_receipt.v0.1",
+  "target_scope": "customer_communications"
+}

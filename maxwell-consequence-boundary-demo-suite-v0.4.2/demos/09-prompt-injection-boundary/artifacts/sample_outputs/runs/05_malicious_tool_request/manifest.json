@@ -1,0 +1,51 @@
+{
+  "case_id": "05_malicious_tool_request",
+  "files": [
+    {
+      "bytes": 125,
+      "path": "NO_BOUNDARY_EFFECT_CREATED.txt",
+      "sha256": "d53be1532031fb58783f9affa04b630be869378b8605678e8d7e9df422380fbd"
+    },
+    {
+      "bytes": 726,
+      "path": "authority_context.json",
+      "sha256": "ee05ab55cfa86cadcca4c9813bef2c308b06b9e3574b77930e268fc1d3f0fd8e"
+    },
+    {
+      "bytes": 1136,
+      "path": "decision_receipt.json",
+      "sha256": "82c658cdaa05cc69320503b8171e715bcc16deeb490dce32c86900ddf3e494b0"
+    },
+    {
+      "bytes": 1544,
+      "path": "input_request.json",
+      "sha256": "35c50158f530587830883bb38c381c695cac4b2511ea351555beb54dfdf0f490"
+    },
+    {
+      "bytes": 746,
+      "path": "instruction_evidence_bundle.json",
+      "sha256": "2aa69add68f4fdb9a8e8240e9cf7452195026fd5f823f0456bdb7db39c2807d1"
+    },
+    {
+      "bytes": 3599,
+      "path": "policy_snapshot.json",
+      "sha256": "4dd3fd06dc7f92be683c22b266e126d702a6d522802a9443614c9dcceba595af"
+    },
+    {
+      "bytes": 662,
+      "path": "prompt_boundary_analysis.json",
+      "sha256": "75a148192113906e2ac79e3ab2be439119c78f78d9656eabf5ce92b7f22d9c16"
+    },
+    {
+      "bytes": 569,
+      "path": "quarantine_ticket.json",
+      "sha256": "7362f23045c1edd5fe928058f534b68af0022b122a34dab70950ff9783c78bc7"
+    },
+    {
+      "bytes": 417,
+      "path": "suppression_notice.json",
+      "sha256": "21243c15d15632a7b3774eab8138e9b11d4fde4e9072a884ef9ad5fa33e4889a"
+    }
+  ],
+  "record_type": "manifest"
+}

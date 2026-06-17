@@ -1,0 +1,70 @@
+policy_id: maxwell-policy-replay-demo
+policy_version: 2026-02-v2
+evaluation_time: "2026-05-01T09:00:00Z"
+required_evidence_refs:
+  - request_ticket
+  - system_owner_note
+  - policy_attestation
+allowed_effect_types:
+  - config_change
+  - vendor_exception
+  - data_export
+review_required_risk_at_or_above: high
+risk_order:
+  low: 1
+  medium: 2
+  high: 3
+  critical: 4
+role_rank:
+  analyst: 1
+  business_owner: 2
+  team_lead: 2
+  engineering_manager: 3
+  director: 4
+  privacy_officer: 4
+minimum_role_by_effect:
+  config_change: team_lead
+  vendor_exception: business_owner
+  data_export: director
+permitted_approver_roles_by_effect:
+  data_export: [privacy_officer]
+dual_control_required_effects:
+  - vendor_exception
+authority_roles:
+  team_lead:
+    can_commit_effect: true
+    authorized_systems: [staging_api, ticketing]
+    allowed_effect_types: [config_change]
+    max_risk: medium
+  engineering_manager:
+    can_commit_effect: true
+    authorized_systems: [staging_api, production_api, ticketing]
+    allowed_effect_types: [config_change]
+    max_risk: high
+  director:
+    can_commit_effect: true
+    authorized_systems: [staging_api, production_api, vendor_master, data_warehouse, ticketing]
+    allowed_effect_types: [config_change, vendor_exception, data_export]
+    max_risk: critical
+  privacy_officer:
+    can_commit_effect: true
+    authorized_systems: [data_warehouse, ticketing]
+    allowed_effect_types: [data_export]
+    max_risk: high
+  business_owner:
+    can_commit_effect: true
+    authorized_systems: [vendor_master, ticketing]
+    allowed_effect_types: [vendor_exception]
+    max_risk: low
+reason_codes:
+  allow: PR_POLICY_ALLOW
+  review_missing_evidence: PR_REVIEW_REQUIRED_EVIDENCE_MISSING
+  block_missing_authority: PR_BLOCK_MISSING_AUTHORITY
+  block_scope_violation: PR_BLOCK_SCOPE_VIOLATION
+  block_effect_not_in_role_scope: PR_BLOCK_EFFECT_NOT_IN_ROLE_SCOPE
+  review_role_insufficient: PR_REVIEW_ROLE_INSUFFICIENT
+  review_approver_role_required: PR_REVIEW_APPROVER_ROLE_REQUIRED
+  review_dual_control_required: PR_REVIEW_DUAL_CONTROL_REQUIRED
+  review_role_risk_limit: PR_REVIEW_ROLE_RISK_LIMIT
+  review_risk_threshold: PR_REVIEW_RISK_THRESHOLD
+  block_forbidden_effect: PR_BLOCK_FORBIDDEN_EFFECT

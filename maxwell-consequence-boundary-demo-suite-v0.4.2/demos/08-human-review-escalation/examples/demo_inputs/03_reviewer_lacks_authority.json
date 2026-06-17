@@ -1,0 +1,46 @@
+{
+  "actor": {
+    "actor_id": "agent_support_001",
+    "role": "workflow_agent",
+    "team": "support_ops"
+  },
+  "case_id": "03_reviewer_lacks_authority",
+  "evidence": {
+    "business_justification": "Customer case can be closed only after valid reviewer approval.",
+    "captured_at": "2026-01-15T12:00:00Z",
+    "refs": [
+      "request_record"
+    ]
+  },
+  "llm_output": {
+    "instruction_trace": "normal workflow instruction",
+    "prompt_injection_detected": false,
+    "recommendation": "Route the proposed action through the configured Maxwell review path."
+  },
+  "proposed_action": {
+    "action_id": "ACT-REVIEW-003",
+    "description": "AI workflow proposes a support case status update that may require human review.",
+    "effect_type": "update_case_status",
+    "requested_change": {
+      "case_status": "resolved_pending_confirmation"
+    },
+    "risk_level": "medium",
+    "scope": "support_case",
+    "target_system": "support_workflow"
+  },
+  "review": {
+    "added_evidence_refs": [
+      "risk_assessment"
+    ],
+    "approval": "approve",
+    "review_effect_type": "update_case_status",
+    "review_notes": "Junior reviewer attempts to approve a medium-risk action.",
+    "review_scope": "support_case",
+    "review_target_system": "support_workflow",
+    "reviewer": {
+      "reviewer_id": "junior_reviewer_007",
+      "role": "junior_reviewer"
+    },
+    "submitted": true
+  }
+}

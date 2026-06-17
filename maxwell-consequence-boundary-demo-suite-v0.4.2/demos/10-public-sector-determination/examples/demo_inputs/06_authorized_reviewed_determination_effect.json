@@ -1,0 +1,58 @@
+{
+  "case_id": "06_authorized_reviewed_determination_effect",
+  "case_record": {
+    "case_record_id": "CASE-DEMO-006",
+    "applicant_id": "synthetic-applicant-006",
+    "program": "food_assistance",
+    "jurisdiction": "demo_state"
+  },
+  "actor": {
+    "actor_id": "caseworker_morgan",
+    "role": "benefits_caseworker"
+  },
+  "external_instruction": {
+    "source": "normal_case_queue",
+    "text": "Prepare a synthetic benefit reduction after senior review is complete."
+  },
+  "ai_recommendation": {
+    "recommendation": "reduce benefit after review",
+    "confidence": 0.71,
+    "rationale": "The synthetic adverse determination includes notice, appeal-rights evidence, and authorized senior review.",
+    "claims_final_authority": false
+  },
+  "proposed_determination": {
+    "determination_id": "DET-DEMO-006",
+    "determination_type": "benefit_reduction",
+    "program": "food_assistance",
+    "jurisdiction": "demo_state",
+    "risk_level": "high",
+    "adverse": true,
+    "determination_effect": "benefit_reduction_notice_and_effect"
+  },
+  "evidence": {
+    "refs": [
+      "application_signed",
+      "identity_verified",
+      "program_criteria_matched",
+      "notice_template_attached",
+      "residency_verified",
+      "household_size_verified",
+      "income_verified",
+      "supervisor_review_packet",
+      "adverse_action_notice",
+      "appeal_rights_notice",
+      "human_review_summary"
+    ],
+    "case_record_consistent": true,
+    "appeal_rights_notice_attached": true,
+    "captured_at": "2026-01-15T00:06:00Z"
+  },
+  "review": {
+    "review_id": "REVIEW-DEMO-006",
+    "reviewer_id": "review_officer_lee",
+    "reviewer_role": "senior_review_officer",
+    "review_complete": true,
+    "review_disposition": "approve_effect",
+    "reviewed_at": "2026-01-15T00:07:00Z"
+  }
+}

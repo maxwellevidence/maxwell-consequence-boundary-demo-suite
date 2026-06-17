@@ -1,0 +1,18 @@
+{
+  "actor_id": "agent_support_001",
+  "actor_role": "workflow_agent",
+  "authority_present": true,
+  "can_propose_action": true,
+  "case_id": "04_authorized_reviewer_approves",
+  "effect_type": "issue_customer_credit",
+  "effect_type_in_scope": true,
+  "max_risk_without_review": "medium",
+  "record_type": "initial_authority_context",
+  "risk_exceeds_no_review_threshold": true,
+  "risk_level": "high",
+  "role_known": true,
+  "scope": "billing_adjustment",
+  "scope_in_role_scope": true,
+  "target_in_role_scope": true,
+  "target_system": "billing_ops"
+}

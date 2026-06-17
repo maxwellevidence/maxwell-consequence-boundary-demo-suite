@@ -1,0 +1,5 @@
+{
+  "description": "Staging low-risk request with otherwise valid properties but stale authority.",
+  "outcome_label_in_input": false,
+  "source_file": "examples/demo_inputs/expired_authority.json"
+}

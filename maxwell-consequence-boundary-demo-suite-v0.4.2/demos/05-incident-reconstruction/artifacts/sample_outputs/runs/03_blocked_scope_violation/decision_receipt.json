@@ -1,0 +1,18 @@
+{
+  "action_id": "ACT-003",
+  "authority_snapshot_hash": "sha256:681e793e3741ac689d6f59b26e7883c0262a1b6cea0c64d5a5e6ea9ef9e460cc",
+  "case_id": "03_blocked_scope_violation",
+  "decision": "block",
+  "decision_receipt_id": "sha256:f85f5782bb13dc004d8f7c208fa2042c74f2b87244edfbc25cc243c8444cf9c4",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T00:00:00Z",
+  "evidence_snapshot_hash": "sha256:4e78001f8ec4064f1819a8c18101f3a4825ffc3f1f9c59f56c937a0b5c635f8d",
+  "explanation": "Target system is outside the authority scope.",
+  "lifecycle_status": "effect_suppressed",
+  "policy_id": "maxwell.incident_reconstruction.public_demo",
+  "policy_version": "0.1.0",
+  "reason_code": "IR_BLOCK_SCOPE_VIOLATION",
+  "record_type": "decision_receipt",
+  "request_policy_context": "policy-v1",
+  "review_required": false
+}

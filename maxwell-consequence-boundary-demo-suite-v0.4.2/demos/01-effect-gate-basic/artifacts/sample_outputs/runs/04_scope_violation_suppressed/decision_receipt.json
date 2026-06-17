@@ -1,0 +1,18 @@
+{
+  "authority_actor_id": "agent-comms-01",
+  "case_id": "04_scope_violation_suppressed",
+  "created_at": "2026-06-12T17:48:14+00:00",
+  "decision_receipt_id": "sha256:05d80b3403e19b3a617e0d350154ee60b5ee405f50bef47ea8b20e6d67adf60a",
+  "effect_permitted": false,
+  "evidence_bundle_id": "sha256:af77f942613ec1c69635f53cdfc3e001c68882679b6f9f36eb3583c45bf2e30f",
+  "explanation": "The requested target scope is outside the actor's claimed authority.",
+  "lifecycle_state": "EFFECT_SUPPRESSED",
+  "outcome": "block",
+  "policy_id": "maxwell-effect-gate-basic-policy",
+  "policy_version": "2026.06.v0.1",
+  "public_preview_note": "Decision receipt from simplified Maxwell Effect Gate Basic policy.",
+  "reason_code": "EFFECT_GATE_SCOPE_NOT_AUTHORIZED",
+  "review_route": null,
+  "schema": "maxwell.demo.decision_receipt.v0.1",
+  "target_scope": "accounts_payable"
+}

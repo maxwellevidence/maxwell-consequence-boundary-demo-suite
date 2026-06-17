@@ -1,0 +1,20 @@
+{
+  "action_id": "ACT-REVIEW-003",
+  "case_id": "03_reviewer_lacks_authority",
+  "decision": "suppress",
+  "decision_receipt_id": "sha256:b525019ed5441ab92e92120fdf339e18da2ad2ac3a95881feca5cbd446b8ded5",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T12:00:00Z",
+  "explanation": "The submitted reviewer does not have review authority.",
+  "initial_decision_receipt_id": "sha256:62fa56aad0ec5dcbc0a1acc61aa983cba2bc24156774bb300b408c90d11909be",
+  "lifecycle_status": "review_rejected_effect_suppressed",
+  "policy_hash": "sha256:4030a6a6c9ca78f336d76be3014f3102a85eda7886611b984b36640375d2faee",
+  "policy_id": "maxwell.review_escalation.public_preview",
+  "policy_version": "0.1.0",
+  "reason_code": "REVIEWER_LACKS_AUTHORITY",
+  "record_type": "decision_receipt",
+  "review_authority_context_hash": "sha256:eed4a9723b7c5ef274ece8313d0c3cc0c54b69ef4f95450b6bacd33310b9ef2c",
+  "review_event_id": "sha256:3be2903dbdc6d6577ac141ea43ed6a0ed0f876edfe958e6d2250554a76bd02ac",
+  "review_required": false,
+  "reviewable": true
+}

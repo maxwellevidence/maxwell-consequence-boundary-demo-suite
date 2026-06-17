@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-06-12T21:06:30Z",
+  "files": [
+    {
+      "bytes": 140,
+      "path": "NO_DELEGATED_EFFECT_CREATED.txt",
+      "sha256": "9ef72d254991bcc9b28588877507095c034f64f644130b7771980840099ce72a"
+    },
+    {
+      "bytes": 1561,
+      "path": "authority_context.json",
+      "sha256": "7a16659259863b6c4ed866f5d0f50ccb41f50675a30236919130218a244bd2fc"
+    },
+    {
+      "bytes": 1399,
+      "path": "decision_receipt.json",
+      "sha256": "f86eb481c4b505ee6e5fcb8d1f69ef3849a53f64a8dea02bda7a3aaa4787503f"
+    },
+    {
+      "bytes": 862,
+      "path": "delegation_chain.json",
+      "sha256": "2f3e02cd22815ed8426baf76f93781f7112131cb9a7aeaccc179f34c11028e06"
+    },
+    {
+      "bytes": 740,
+      "path": "handoff_evidence_bundle.json",
+      "sha256": "bdea38d4cd66db938214399fa471a30ae8e41a68d11d8b4b86bd236c9a4c5def"
+    },
+    {
+      "bytes": 2389,
+      "path": "input.json",
+      "sha256": "5b807e53a3ee69284fae04eb1988284d352ff0720236b391fd67c52d61ca8a99"
+    },
+    {
+      "bytes": 683,
+      "path": "suppression_notice.json",
+      "sha256": "027b80ff35085238d0e564b28ef56b1b7dc0226f174811586d6d7d86ee110c58"
+    }
+  ],
+  "manifest_version": "multi-agent-authority-demo-v0.1.0",
+  "schema": "maxwell.multi_agent_authority.manifest.v0.1"
+}

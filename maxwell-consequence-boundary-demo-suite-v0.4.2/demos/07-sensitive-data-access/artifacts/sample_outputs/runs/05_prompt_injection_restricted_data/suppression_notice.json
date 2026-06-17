@@ -1,0 +1,9 @@
+{
+  "access_id": "DA-1005",
+  "case_id": "05_prompt_injection_restricted_data",
+  "decision_receipt_id": "sha256:1ce80ee8cbc3bd41212acc4a4a34d06d91d506ec4ea5cd08df1d5f056dc31d20",
+  "effect_created": false,
+  "reason_code": "PROMPT_INJECTION_NOT_AUTHORITY",
+  "record_type": "suppression_notice",
+  "suppression_notice_id": "sha256:f8c147d81db061f4490976e5f6cf6534f77dbfd5cc8521ae419ae5caed0d02ee"
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Bounded staging change with low risk, dual control, valid scope, and valid role.",
+  "action_proposal": {
+    "action_type": "create_change_control_record",
+    "target_environment": "staging",
+    "risk_level": "low",
+    "requester_id": "requester@example.test",
+    "approver_id": "approver@example.test",
+    "dual_control_present": true
+  },
+  "authority_context": {
+    "subject": "requester@example.test",
+    "issuer": "https://issuer.example.test",
+    "audience": "maxwell-effect-gate-public-proof",
+    "expires_at": "2035-01-01T00:00:00Z",
+    "scopes": ["change_record:create:staging"],
+    "roles": ["change_manager"],
+    "oauth_status": "complete"
+  }
+}

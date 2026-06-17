@@ -1,0 +1,18 @@
+{
+  "access_id": "DA-1002",
+  "authority_context_hash": "sha256:901b8f6a9558b9a7ea2b4caa890209b1fd54fbcbe4923bd4e03ad9d74fe074b8",
+  "case_id": "02_missing_business_purpose",
+  "decision": "review",
+  "decision_receipt_id": "sha256:7cbdaa9bbf3aa3aa2d410b525420b032df1c2fbdb909a12a291ed4abefe07783",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-01T00:00:00Z",
+  "evidence_bundle_hash": "sha256:f9288befdccf76bcc49c229a13379814ab95bc4750faacf707f83ef72f3da03d",
+  "explanation": "The request does not include a business purpose.",
+  "lifecycle_status": "review_routed",
+  "policy_hash": "sha256:72c0a9c3d191cefc4290e7eea6651cf856d2990e52e9129d28c2a471400d7097",
+  "policy_id": "maxwell.demo.sensitive_data_access",
+  "policy_version": "0.1.0",
+  "reason_code": "DATA_PURPOSE_MISSING",
+  "record_type": "decision_receipt",
+  "review_required": true
+}

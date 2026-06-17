@@ -1,0 +1,20 @@
+{
+  "action_id": "ACT-REVIEW-006",
+  "case_id": "06_review_attempts_scope_expansion",
+  "decision": "suppress",
+  "decision_receipt_id": "sha256:de0811b76e32bab3b7a74695da2eb3b10e2772c5448bcb0a48d587e40d9c8c9c",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T12:00:00Z",
+  "explanation": "Review attempted to change the scope, effect type, or target system of the original proposal.",
+  "initial_decision_receipt_id": "sha256:b0e61c7985e4493567f42e46e1bc59d73065807f9da16a04e5baf2da6cfd4971",
+  "lifecycle_status": "review_rejected_effect_suppressed",
+  "policy_hash": "sha256:4030a6a6c9ca78f336d76be3014f3102a85eda7886611b984b36640375d2faee",
+  "policy_id": "maxwell.review_escalation.public_preview",
+  "policy_version": "0.1.0",
+  "reason_code": "REVIEW_SCOPE_EXPANSION_BLOCKED",
+  "record_type": "decision_receipt",
+  "review_authority_context_hash": "sha256:b5c2aafb0972fa9468879354b2355e486d41a2e5af77a23e98322076bbd10059",
+  "review_event_id": "sha256:3f852dbb7153c70a615f6bc9b9189508e6ae6c2d60f383e0770e5e36bfddabcb",
+  "review_required": false,
+  "reviewable": false
+}

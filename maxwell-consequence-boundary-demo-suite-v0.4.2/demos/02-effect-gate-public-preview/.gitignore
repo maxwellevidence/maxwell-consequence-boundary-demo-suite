@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+.DS_Store
+
+.env
+.envrc
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+htmlcov/
+.coverage
+coverage.xml
+
+build/
+dist/
+*.egg-info/
+src/*.egg-info/
+
+# Generated demo runs; reviewed sample outputs may be committed/exported.
+artifacts/*_run/
+!artifacts/sample_outputs/
+!artifacts/sample_outputs/**
+
+# Legacy sample-output folder from older public previews.
+sample_artifacts/

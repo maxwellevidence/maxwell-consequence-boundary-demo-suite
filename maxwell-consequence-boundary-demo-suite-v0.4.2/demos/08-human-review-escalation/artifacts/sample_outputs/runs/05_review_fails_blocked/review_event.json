@@ -1,0 +1,18 @@
+{
+  "action_id": "ACT-REVIEW-005",
+  "added_evidence_refs": [],
+  "approval": "approve",
+  "case_id": "05_review_fails_blocked",
+  "initial_decision_receipt_id": "sha256:e444ab954ec5471ac0211df3322b12dfad94b285d16eacceb17c6462c9805615",
+  "record_type": "review_event",
+  "review_effect_type": "update_case_status",
+  "review_event_id": "sha256:cb8669523ea8ec12ea38b81bf0ec25685931bd227971194783367d434dad9fc2",
+  "review_notes": "Reviewer attempts to approve despite the injected instruction.",
+  "review_scope": "support_case",
+  "review_target_system": "support_workflow",
+  "reviewer": {
+    "reviewer_id": "ops_reviewer_201",
+    "role": "operations_reviewer"
+  },
+  "submitted": true
+}

@@ -1,0 +1,1 @@
+Research CVE-2026-1043 for payments-api. If the evidence supports remediation, prepare a proposed change-control action for Maxwell authority review before any binding record is created.

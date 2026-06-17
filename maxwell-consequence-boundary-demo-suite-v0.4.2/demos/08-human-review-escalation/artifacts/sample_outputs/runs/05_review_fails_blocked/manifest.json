@@ -1,0 +1,56 @@
+{
+  "case_id": "05_review_fails_blocked",
+  "files": [
+    {
+      "bytes": 105,
+      "path": "NO_AUTHORIZED_EFFECT_CREATED.txt",
+      "sha256": "df5fbbfe3b4cfdb0963a40d94dd67f10a319efbeef4bf30629a5371c72efa2cc"
+    },
+    {
+      "bytes": 1043,
+      "path": "decision_receipt.json",
+      "sha256": "90076db612826a48fa72cace06b8b412346be443121af61d292b98edfcb14b33"
+    },
+    {
+      "bytes": 549,
+      "path": "initial_authority_context.json",
+      "sha256": "88bed944f354d3cde259687220b5f0459389e6270dc011d08d392a449a518d96"
+    },
+    {
+      "bytes": 963,
+      "path": "initial_decision_receipt.json",
+      "sha256": "d9599b6ed2aa4b39724614fdb103b7c5580b48fc3372954f88629c34b4e0ac51"
+    },
+    {
+      "bytes": 587,
+      "path": "initial_evidence_bundle.json",
+      "sha256": "64e6403474fbda7d8f90b092f58e85644a7f250c54614521a6e31e9b0a24d8f2"
+    },
+    {
+      "bytes": 1399,
+      "path": "input_request.json",
+      "sha256": "dfcc4b2a0b9af6743fd8d35418ead335bb13c0ae08dee6553c46faaaabc92c68"
+    },
+    {
+      "bytes": 3487,
+      "path": "policy_snapshot.json",
+      "sha256": "c5e67dcada80ff1b47c60f7cd9f5dde8987f7dea9de448fdbdcada14fe31569d"
+    },
+    {
+      "bytes": 551,
+      "path": "review_authority_context.json",
+      "sha256": "f9f89d57d8b42ed048e01c821cfcdd315446381da44a81e696d024ab12503fdd"
+    },
+    {
+      "bytes": 692,
+      "path": "review_event.json",
+      "sha256": "83353b612c97cfc94588cac17a378a9f672a377ff586d72fba4ad2b4c1c66726"
+    },
+    {
+      "bytes": 395,
+      "path": "suppression_notice.json",
+      "sha256": "21dee782b9ddc23faaecea10f90166648a41a077f2b90519c90053d878ba157d"
+    }
+  ],
+  "record_type": "manifest"
+}

@@ -1,0 +1,18 @@
+{
+  "action_id": "ACT-005",
+  "authority_snapshot_hash": "sha256:f89001251c6ea53638fd30ec79a8399b9c2e02316ee80c8a9b2ae4887c9ccad3",
+  "case_id": "05_tamper_detection_lab_seed",
+  "decision": "allow",
+  "decision_receipt_id": "sha256:24e092c3412f0431a1a73eeb9ca47621b527b7964ad3d63dfe550e78b6974afa",
+  "effect_permitted": true,
+  "evaluated_at": "2026-01-15T00:00:00Z",
+  "evidence_snapshot_hash": "sha256:05fc864feb850358689d803ff33c5644493255ca8026c198d1c6271f472fcfb6",
+  "explanation": "Evidence, authority, scope, and risk requirements are satisfied.",
+  "lifecycle_status": "effect_committed",
+  "policy_id": "maxwell.incident_reconstruction.public_demo",
+  "policy_version": "0.1.0",
+  "reason_code": "IR_POLICY_ALLOW",
+  "record_type": "decision_receipt",
+  "request_policy_context": "policy-v1",
+  "review_required": false
+}

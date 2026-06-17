@@ -1,0 +1,19 @@
+{
+  "action_id": "ACT-REVIEW-004",
+  "authority_context_hash": "sha256:30b409b5f4d9fe50fda38030c657c2e2583ea15418b8627390c2af4d02884cca",
+  "case_id": "04_authorized_reviewer_approves",
+  "decision": "review",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T12:00:00Z",
+  "evidence_bundle_hash": "sha256:52fc6e554998435f1f4e8a6888f02fcf55a9273440eba0e47e2fb419634cecd9",
+  "explanation": "The action is reviewable, but required evidence is missing.",
+  "initial_decision_receipt_id": "sha256:42c75fb09d6e4db4ccd1e9c0763d01bff98aa8b580b064b63133ee1f50b1b4de",
+  "lifecycle_status": "review_routed",
+  "policy_hash": "sha256:4030a6a6c9ca78f336d76be3014f3102a85eda7886611b984b36640375d2faee",
+  "policy_id": "maxwell.review_escalation.public_preview",
+  "policy_version": "0.1.0",
+  "reason_code": "REVIEW_REQUIRED_MISSING_EVIDENCE",
+  "record_type": "initial_decision_receipt",
+  "review_required": true,
+  "reviewable": true
+}

@@ -1,0 +1,40 @@
+{
+  "runs": [
+    {
+      "case_id": "01_permitted_action_effect_committed",
+      "effect_created": true,
+      "lifecycle_status": "effect_committed",
+      "verified": true
+    },
+    {
+      "case_id": "02_reviewed_action_needs_human",
+      "effect_created": false,
+      "lifecycle_status": "review_routed",
+      "verified": true
+    },
+    {
+      "case_id": "03_blocked_scope_violation",
+      "effect_created": false,
+      "lifecycle_status": "effect_suppressed",
+      "verified": true
+    },
+    {
+      "case_id": "04_attempted_action_missing_authority",
+      "effect_created": false,
+      "lifecycle_status": "effect_suppressed",
+      "verified": true
+    },
+    {
+      "case_id": "05_tamper_detection_lab_seed",
+      "effect_created": true,
+      "lifecycle_status": "effect_committed",
+      "verified": true
+    },
+    {
+      "case_id": "06_stale_policy_context_requires_review",
+      "effect_created": false,
+      "lifecycle_status": "review_routed",
+      "verified": true
+    }
+  ]
+}

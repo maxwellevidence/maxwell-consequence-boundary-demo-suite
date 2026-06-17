@@ -1,0 +1,20 @@
+{
+  "action_id": "ACT-REVIEW-006",
+  "added_evidence_refs": [
+    "risk_assessment"
+  ],
+  "approval": "approve",
+  "case_id": "06_review_attempts_scope_expansion",
+  "initial_decision_receipt_id": "sha256:b0e61c7985e4493567f42e46e1bc59d73065807f9da16a04e5baf2da6cfd4971",
+  "record_type": "review_event",
+  "review_effect_type": "issue_customer_credit",
+  "review_event_id": "sha256:3f852dbb7153c70a615f6bc9b9189508e6ae6c2d60f383e0770e5e36bfddabcb",
+  "review_notes": "Review attempts to turn a case update into a credit effect.",
+  "review_scope": "billing_adjustment",
+  "review_target_system": "billing_ops",
+  "reviewer": {
+    "reviewer_id": "ops_reviewer_201",
+    "role": "operations_reviewer"
+  },
+  "submitted": true
+}

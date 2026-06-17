@@ -1,0 +1,41 @@
+{
+  "authority_summary": {
+    "approver_id": "human_commander_01",
+    "authority_present": true,
+    "target_in_scope": true
+  },
+  "case_id": "05_tamper_detection_lab_seed",
+  "decision_summary": {
+    "decision": "allow",
+    "explanation": "Evidence, authority, scope, and risk requirements are satisfied.",
+    "lifecycle_status": "effect_committed",
+    "policy_version": "0.1.0",
+    "reason_code": "IR_POLICY_ALLOW",
+    "request_policy_context": "policy-v1"
+  },
+  "effect_status": {
+    "effect_record_exists": true,
+    "no_effect_marker_exists": false,
+    "review_ticket_exists": false,
+    "suppression_notice_exists": false
+  },
+  "evidence_summary": {
+    "complete": true,
+    "missing_refs": []
+  },
+  "integrity_status": {
+    "errors": [
+      "manifest missing"
+    ],
+    "tamper_detected": null,
+    "verified": null
+  },
+  "proposed_action": {
+    "action_id": "ACT-005",
+    "requested_effect": "synthetic_audit_note",
+    "risk_level": "low",
+    "summary": "Synthetic proposed incident action.",
+    "target_system": "audit_log_service"
+  },
+  "record_type": "reconstruction_report"
+}

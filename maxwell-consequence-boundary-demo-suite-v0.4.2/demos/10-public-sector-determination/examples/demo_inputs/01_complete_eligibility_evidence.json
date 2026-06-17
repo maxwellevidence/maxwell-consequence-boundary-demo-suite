@@ -1,0 +1,45 @@
+{
+  "case_id": "01_complete_eligibility_evidence",
+  "case_record": {
+    "case_record_id": "CASE-DEMO-001",
+    "applicant_id": "synthetic-applicant-001",
+    "program": "housing_assistance",
+    "jurisdiction": "demo_state"
+  },
+  "actor": {
+    "actor_id": "caseworker_avery",
+    "role": "benefits_caseworker"
+  },
+  "external_instruction": {
+    "source": "normal_case_queue",
+    "text": "Review the completed synthetic eligibility packet."
+  },
+  "ai_recommendation": {
+    "recommendation": "approve eligibility",
+    "confidence": 0.82,
+    "rationale": "The synthetic applicant has complete identity, residency, income, and program criteria evidence.",
+    "claims_final_authority": false
+  },
+  "proposed_determination": {
+    "determination_id": "DET-DEMO-001",
+    "determination_type": "eligibility_approval",
+    "program": "housing_assistance",
+    "jurisdiction": "demo_state",
+    "risk_level": "medium",
+    "adverse": false,
+    "determination_effect": "provisional_eligibility_approval"
+  },
+  "evidence": {
+    "refs": [
+      "application_signed",
+      "identity_verified",
+      "program_criteria_matched",
+      "notice_template_attached",
+      "residency_verified",
+      "income_verified"
+    ],
+    "case_record_consistent": true,
+    "appeal_rights_notice_attached": true,
+    "captured_at": "2026-01-15T00:01:00Z"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "claims_boundary": "Public proof only. This receipt does not disclose Maxwell private authority logic, evaluator chains, scoring rules, or thresholds.",
+  "decision": "pause",
+  "demo_case": "staging_missing_dual_control",
+  "downstream_effect_allowed": false,
+  "effect_boundary": "change_control_record_creation",
+  "matched_policy_rule_id": "pause_staging_low_or_medium_missing_dual_control",
+  "policy_id": "maxwell.public.change_control.v0_3",
+  "policy_version": "0.3.0",
+  "reason_codes": [
+    "HUMAN_APPROVAL_REQUIRED",
+    "HOLD_EFFECT_PENDING_ADDITIONAL_AUTHORITY"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "authority_basis": "requested_target_system_not_delegated",
+  "case_id": "04_wrong_system_authority_reuse",
+  "created_at": "2026-06-12T21:06:29Z",
+  "decision_receipt_id": "sha256:c1beb4a1d261bf5b4685501d9d65bf2750e2a346334208485e94c667edcfcedf",
+  "decision_receipt_sha256": "7e5497e2f7e251b4b63dbd6bc2f1919935f68f5c0bfa017b9020a58bf8d55082",
+  "public_preview_note": "Synthetic suppression notice only; no downstream action occurred.",
+  "reason_code": "DELEGATION_WRONG_SYSTEM_SUPPRESSED",
+  "schema": "maxwell.multi_agent_authority.suppression_notice.v0.1",
+  "suppression_notice_id": "sha256:2f4908709e7824c66231b1dab052c1d165bb929e9527e13689dbfef1a82ba563"
+}

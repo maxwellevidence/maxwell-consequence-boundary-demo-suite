@@ -1,0 +1,23 @@
+{
+  "actor_id": "agent-ai-ops-01",
+  "actor_role": "ai_ops_assistant",
+  "authority_present": true,
+  "can_propose_action": true,
+  "case_id": "01_normal_instruction_valid",
+  "effect_type": "create_ticket",
+  "effect_type_in_scope": true,
+  "max_risk_without_review": "medium",
+  "record_type": "authority_context",
+  "requested_tool": "ticket.create",
+  "risk_exceeds_no_review_threshold": false,
+  "risk_level": "low",
+  "role_known": true,
+  "scope": "incident_response",
+  "scope_in_role_scope": true,
+  "self_approval_detected": false,
+  "target_in_role_scope": true,
+  "target_system": "ticketing_system",
+  "tool_in_role_scope": true,
+  "trusted_approval_count": 0,
+  "trusted_approval_ids": []
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Staging low-risk request with valid authority but a required evidence field removed.",
+  "outcome_label_in_input": false,
+  "source_file": "examples/demo_inputs/malformed_evidence_missing_field.json"
+}

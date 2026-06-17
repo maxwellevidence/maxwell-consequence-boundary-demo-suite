@@ -1,0 +1,10 @@
+{
+  "case_id": "04_unauthorized_auto_denial",
+  "case_record_id": "CASE-DEMO-004",
+  "decision_receipt_id": "sha256:02f296093a865e54d96647b33b2224afbadf27e096af50efdb5703049e876e6f",
+  "determination_id": "DET-DEMO-004",
+  "effect_created": false,
+  "reason_code": "UNAUTHORIZED_AUTOMATED_ADVERSE_DETERMINATION",
+  "record_type": "suppression_notice",
+  "suppression_notice_id": "sha256:34a71c453ae3cb7045c94f3b164be0f3f624dc73a100b17417a09a3e38a98068"
+}

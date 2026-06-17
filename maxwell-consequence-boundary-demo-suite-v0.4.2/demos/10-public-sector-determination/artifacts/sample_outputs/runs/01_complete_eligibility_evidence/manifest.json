@@ -1,0 +1,46 @@
+{
+  "case_id": "01_complete_eligibility_evidence",
+  "files": [
+    {
+      "bytes": 666,
+      "path": "authority_context.json",
+      "sha256": "08bd67d312a3fe65f1b73087d0e349682fe329c5a9e096a3e43200ec1f4a9efb"
+    },
+    {
+      "bytes": 1274,
+      "path": "decision_receipt.json",
+      "sha256": "faa15096079f659d514ede3736f280d8a06c021ddcf2672f07fa54d082ce31a2"
+    },
+    {
+      "bytes": 716,
+      "path": "determination_effect_record.json",
+      "sha256": "70221030772b8255082bd915c6cc619991d0e06fb6ca4112c9f4bab45612c01a"
+    },
+    {
+      "bytes": 785,
+      "path": "determination_evidence_bundle.json",
+      "sha256": "1aa556c3085f682a46554b93c404e3d999324a6e4420126c6d85e01623fbe9c0"
+    },
+    {
+      "bytes": 442,
+      "path": "due_process_analysis.json",
+      "sha256": "bc0896282c1467e98033705a9b3222e2267f2a5b53e1e02db8a8697f24697cd7"
+    },
+    {
+      "bytes": 1352,
+      "path": "input_request.json",
+      "sha256": "b8754204205b919204ae335896a3b7e154c3e1be5df29e0be56e0d3cf43ea634"
+    },
+    {
+      "bytes": 4817,
+      "path": "policy_snapshot.json",
+      "sha256": "75bdcb8303a1406662da10a83fe30cd3be8ce7cbca8d087c4c231b01262d9554"
+    },
+    {
+      "bytes": 459,
+      "path": "review_authority_context.json",
+      "sha256": "3e7303d2ba2419e716aa57efba457e477945d48acde8ffc78eec9261038e0e38"
+    }
+  ],
+  "record_type": "manifest"
+}

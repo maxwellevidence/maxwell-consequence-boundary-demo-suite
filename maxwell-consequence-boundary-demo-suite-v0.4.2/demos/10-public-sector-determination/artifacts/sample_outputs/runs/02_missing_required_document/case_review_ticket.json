@@ -1,0 +1,11 @@
+{
+  "case_id": "02_missing_required_document",
+  "case_record_id": "CASE-DEMO-002",
+  "case_review_ticket_id": "sha256:be861aeec98e59fdc275be4c0b8d33d67d56ca232417781b42dba6e30cc6963b",
+  "decision_receipt_id": "sha256:e05271daa5536502d9ca3257f189051355286acf4064891695080b99f2aec80c",
+  "determination_id": "DET-DEMO-002",
+  "effect_created": false,
+  "reason_code": "REQUIRED_ELIGIBILITY_EVIDENCE_MISSING",
+  "record_type": "case_review_ticket",
+  "review_queue": "public_sector_case_review"
+}

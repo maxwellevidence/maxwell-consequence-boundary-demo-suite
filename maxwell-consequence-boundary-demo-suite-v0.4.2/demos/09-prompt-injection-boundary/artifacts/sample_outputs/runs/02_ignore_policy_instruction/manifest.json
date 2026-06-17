@@ -1,0 +1,51 @@
+{
+  "case_id": "02_ignore_policy_instruction",
+  "files": [
+    {
+      "bytes": 125,
+      "path": "NO_BOUNDARY_EFFECT_CREATED.txt",
+      "sha256": "d53be1532031fb58783f9affa04b630be869378b8605678e8d7e9df422380fbd"
+    },
+    {
+      "bytes": 706,
+      "path": "authority_context.json",
+      "sha256": "d0f8197ebfb3bee6d4a44cc089cd5ffb21f4f1a1ed50e397a90c0fad282dfe44"
+    },
+    {
+      "bytes": 1142,
+      "path": "decision_receipt.json",
+      "sha256": "68252d6fc6d2e8b9e19a3d1bf21692794e65a48528c53e4f477e64997f49aeb7"
+    },
+    {
+      "bytes": 1418,
+      "path": "input_request.json",
+      "sha256": "61fa44b8de089ed59c08f9851845b0769881d090723485f1263e57253de80970"
+    },
+    {
+      "bytes": 647,
+      "path": "instruction_evidence_bundle.json",
+      "sha256": "4b36d9e2dd7e0a0deb8a067f5240e45e39828a74278fd6ae19eb19b6ff13a993"
+    },
+    {
+      "bytes": 3599,
+      "path": "policy_snapshot.json",
+      "sha256": "4dd3fd06dc7f92be683c22b266e126d702a6d522802a9443614c9dcceba595af"
+    },
+    {
+      "bytes": 670,
+      "path": "prompt_boundary_analysis.json",
+      "sha256": "975419c8f5d6d514227aaf805ee8bc7a0ecef4965ec75671e69450909d4f3f21"
+    },
+    {
+      "bytes": 604,
+      "path": "quarantine_ticket.json",
+      "sha256": "122fd3dbe78bd8599d59a50a72bb9931430d06565979d8435cb846d57ad83208"
+    },
+    {
+      "bytes": 423,
+      "path": "suppression_notice.json",
+      "sha256": "13e8dce904c7657539641b3be2e9c888d2f2a87ade0dc3916e1bcbf82fd13e98"
+    }
+  ],
+  "record_type": "manifest"
+}

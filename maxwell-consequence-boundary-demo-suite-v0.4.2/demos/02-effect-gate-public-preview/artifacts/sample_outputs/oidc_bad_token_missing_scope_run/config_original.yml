@@ -1,0 +1,15 @@
+# Public-safe original workflow configuration snapshot
+workflow:
+  name: maxwell_effect_gate_public_proof
+  version: "0.3.0"
+  workflow_type: ai_assisted_cve_incident_research
+
+proof_scope:
+  bounded_downstream_effect: change_control_record_creation
+  replay_scope: evidence_and_decision_chain_only
+
+claims_boundary:
+  private_decision_core_disclosed: false
+  third_party_validation_claimed: false
+  production_readiness_claimed: false
+

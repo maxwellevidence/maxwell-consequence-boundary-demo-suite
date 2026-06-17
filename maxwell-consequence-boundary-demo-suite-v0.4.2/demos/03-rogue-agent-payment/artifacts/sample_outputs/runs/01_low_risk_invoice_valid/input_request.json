@@ -1,0 +1,55 @@
+{
+  "approval_chain": {
+    "dual_approval_present": false,
+    "primary_approver_id": "finance_manager_01",
+    "requester_id": "procurement_agent_01",
+    "secondary_approver_id": null
+  },
+  "case_id": "01_low_risk_invoice_valid",
+  "claimed_authority": {
+    "actor_id": "finance_manager_01",
+    "allowed_payment_scopes": [
+      "vendor_payment"
+    ],
+    "approval_limit_usd": 50000,
+    "can_approve_payment": true,
+    "can_request_payment": true,
+    "delegation_id": "demo-delegation-finance-manager-01",
+    "role": "finance_manager"
+  },
+  "evidence_refs": [
+    {
+      "digest": "demo-sha256-invoice-1001",
+      "ref_id": "invoice:INV-1001",
+      "type": "invoice"
+    },
+    {
+      "digest": "demo-sha256-po-7788",
+      "ref_id": "po:PO-7788",
+      "type": "purchase_order"
+    },
+    {
+      "digest": "demo-sha256-vendor-acme",
+      "ref_id": "vendor:VND-ACME-001",
+      "type": "vendor_record"
+    }
+  ],
+  "payment_request": {
+    "amount_usd": 3200.0,
+    "currency": "USD",
+    "description": "Synthetic vendor payment proposal for public demo review.",
+    "invoice_id": "INV-1001",
+    "payment_method": "ach",
+    "vendor_bank_change": false,
+    "vendor_id": "VND-ACME-001",
+    "vendor_status": "approved"
+  },
+  "proposed_instruction": "Approve routine invoice INV-1001 for approved vendor after evidence and authority checks.",
+  "requested_effect": {
+    "effect_type": "payment.release",
+    "target_scope": "vendor_payment",
+    "target_system": "synthetic_accounts_payable"
+  },
+  "risk_level": "low",
+  "target_scope": "vendor_payment"
+}

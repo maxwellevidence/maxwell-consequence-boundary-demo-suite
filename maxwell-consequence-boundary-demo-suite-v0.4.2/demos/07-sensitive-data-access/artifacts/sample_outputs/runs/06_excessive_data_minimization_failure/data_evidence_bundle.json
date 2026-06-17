@@ -1,0 +1,27 @@
+{
+  "access_id": "DA-1006",
+  "business_purpose": "account_review",
+  "business_purpose_present": true,
+  "captured_at": "2026-01-01T00:06:00Z",
+  "case_id": "06_excessive_data_minimization_failure",
+  "data_minimization": false,
+  "evidence_complete": true,
+  "evidence_refs": [
+    "requester_role_assertion",
+    "data_inventory_entry",
+    "ticket_reference",
+    "business_purpose_record"
+  ],
+  "instruction_trace_preserved": true,
+  "legal_basis": "customer_service_contract",
+  "legal_basis_present": true,
+  "missing_refs": [],
+  "prompt_injection_detected": false,
+  "record_type": "data_evidence_bundle",
+  "required_refs": [
+    "requester_role_assertion",
+    "data_inventory_entry",
+    "ticket_reference",
+    "business_purpose_record"
+  ]
+}

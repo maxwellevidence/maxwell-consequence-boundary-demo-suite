@@ -1,0 +1,34 @@
+{
+  "agent_output": "Proposed incident action for synthetic review.",
+  "authority": {
+    "actor_id": "agent_incident_triage_01",
+    "approver_id": "human_commander_01",
+    "authorized_systems": [
+      "patch_service",
+      "notification_draft_service",
+      "audit_log_service"
+    ],
+    "can_commit_effect": true
+  },
+  "case_id": "05_tamper_detection_lab_seed",
+  "evidence": {
+    "captured_at": "2026-01-15T10:03:00Z",
+    "refs": [
+      "incident_ticket",
+      "system_snapshot"
+    ]
+  },
+  "incident_context": {
+    "incident_id": "INC-2026-0007",
+    "reported_at": "2026-01-15T10:00:00Z",
+    "severity": "sev3"
+  },
+  "policy_context": "policy-v1",
+  "proposed_action": {
+    "action_id": "ACT-005",
+    "requested_effect": "synthetic_audit_note",
+    "risk_level": "low",
+    "summary": "Synthetic proposed incident action.",
+    "target_system": "audit_log_service"
+  }
+}

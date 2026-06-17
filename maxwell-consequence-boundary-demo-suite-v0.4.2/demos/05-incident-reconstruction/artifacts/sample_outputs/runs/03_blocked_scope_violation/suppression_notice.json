@@ -1,0 +1,6 @@
+{
+  "case_id": "03_blocked_scope_violation",
+  "effect_created": false,
+  "reason_code": "IR_BLOCK_SCOPE_VIOLATION",
+  "record_type": "suppression_notice"
+}

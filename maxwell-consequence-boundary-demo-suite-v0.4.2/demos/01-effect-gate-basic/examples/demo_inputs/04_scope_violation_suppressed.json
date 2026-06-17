@@ -1,0 +1,24 @@
+{
+  "case_id": "04_scope_violation_suppressed",
+  "action_type": "release_demo_payment",
+  "target_scope": "accounts_payable",
+  "risk_level": "medium",
+  "proposed_instruction": "Release a small synthetic vendor payment from the accounts payable queue.",
+  "evidence_refs": [
+    "invoice:INV-DEMO-4104",
+    "vendor_status:approved",
+    "payment_policy:PAY-2026-01"
+  ],
+  "requested_effect": {
+    "effect_type": "release_demo_payment",
+    "target_system": "synthetic_payment_system",
+    "destination": "payment_release_queue"
+  },
+  "claimed_authority": {
+    "actor_id": "agent-comms-01",
+    "role": "communications_agent",
+    "can_execute": true,
+    "allowed_scopes": ["customer_communications"],
+    "delegation_id": "DEMO-COMMS-LOW-RISK-2026"
+  }
+}

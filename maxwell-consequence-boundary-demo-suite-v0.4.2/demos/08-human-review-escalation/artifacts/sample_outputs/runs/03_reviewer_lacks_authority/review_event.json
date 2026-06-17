@@ -1,0 +1,20 @@
+{
+  "action_id": "ACT-REVIEW-003",
+  "added_evidence_refs": [
+    "risk_assessment"
+  ],
+  "approval": "approve",
+  "case_id": "03_reviewer_lacks_authority",
+  "initial_decision_receipt_id": "sha256:62fa56aad0ec5dcbc0a1acc61aa983cba2bc24156774bb300b408c90d11909be",
+  "record_type": "review_event",
+  "review_effect_type": "update_case_status",
+  "review_event_id": "sha256:3be2903dbdc6d6577ac141ea43ed6a0ed0f876edfe958e6d2250554a76bd02ac",
+  "review_notes": "Junior reviewer attempts to approve a medium-risk action.",
+  "review_scope": "support_case",
+  "review_target_system": "support_workflow",
+  "reviewer": {
+    "reviewer_id": "junior_reviewer_007",
+    "role": "junior_reviewer"
+  },
+  "submitted": true
+}

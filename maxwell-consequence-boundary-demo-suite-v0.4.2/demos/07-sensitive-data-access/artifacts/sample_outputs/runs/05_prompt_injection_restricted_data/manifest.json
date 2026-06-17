@@ -1,0 +1,41 @@
+{
+  "case_id": "05_prompt_injection_restricted_data",
+  "files": [
+    {
+      "bytes": 114,
+      "path": "NO_DATA_ACCESS_EFFECT_CREATED.txt",
+      "sha256": "d42a202179de43f3ab7ddeb3a2e6b8c7f554e7d21645c4c8933cbb896673a722"
+    },
+    {
+      "bytes": 1162,
+      "path": "authority_context.json",
+      "sha256": "56b237ae4acf56396fa22646e9ee98aeae3675e91ffa00e3aecd26b205ae49aa"
+    },
+    {
+      "bytes": 757,
+      "path": "data_evidence_bundle.json",
+      "sha256": "d37851d610eaaa5f46b2a1889ba5845abfe165ae70329c8ff025b0370f8910ff"
+    },
+    {
+      "bytes": 913,
+      "path": "decision_receipt.json",
+      "sha256": "15a166e027e575fe14356f2173a7be17b8d0e55347b79d882a55154266c54988"
+    },
+    {
+      "bytes": 1275,
+      "path": "input_request.json",
+      "sha256": "9bda09fabbd8db83b6c7e5916b519ab58f5350180a84955168c61659d92cd4a1"
+    },
+    {
+      "bytes": 5275,
+      "path": "policy_snapshot.json",
+      "sha256": "32c847b2adeb091b3fe3768e01b55dea7e6f4f0caaf0ce8713985bb93e3734ae"
+    },
+    {
+      "bytes": 400,
+      "path": "suppression_notice.json",
+      "sha256": "2f1fd613a3a04a5824aabc94d1b79901bf9f093bc280e7f968a427a6a5d51afc"
+    }
+  ],
+  "record_type": "manifest"
+}

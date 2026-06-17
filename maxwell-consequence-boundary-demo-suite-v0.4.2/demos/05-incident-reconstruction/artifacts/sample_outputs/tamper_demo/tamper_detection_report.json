@@ -1,0 +1,10 @@
+{
+  "errors": [
+    "hash mismatch: decision_receipt.json"
+  ],
+  "record_type": "tamper_detection_report",
+  "seed_case": "05_tamper_detection_lab_seed",
+  "tamper_detected": true,
+  "tampered_run": "05_tamper_detection_lab_seed_tampered",
+  "verified": false
+}

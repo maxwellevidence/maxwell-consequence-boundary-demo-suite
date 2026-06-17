@@ -1,0 +1,26 @@
+{
+  "authority": {
+    "actor_id": "agent_policy_workflow_demo",
+    "approver_id": "synthetic-team_lead-001",
+    "approver_role": "team_lead",
+    "dual_control": false,
+    "second_approver_role": null
+  },
+  "case_id": "adv01_missing_policy_attestation",
+  "case_summary": "Low-risk staging configuration change with evidence that satisfies both policy versions.",
+  "evidence": {
+    "captured_at": "2026-01-15T08:55:00Z",
+    "refs": [
+      "request_ticket"
+    ]
+  },
+  "original_policy_version": "2025-10-v1",
+  "proposed_action": {
+    "action_id": "act-01",
+    "description": "Low-risk staging configuration change with evidence that satisfies both policy versions.",
+    "requested_effect": "config_change",
+    "risk_level": "low",
+    "target_system": "staging_api"
+  },
+  "synthetic": true
+}

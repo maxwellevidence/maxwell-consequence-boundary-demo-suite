@@ -1,0 +1,26 @@
+{
+  "action_type": "send_customer_notice",
+  "case_id": "01_valid_low_risk_notice",
+  "claimed_authority": {
+    "actor_id": "agent-comms-01",
+    "allowed_scopes": [
+      "customer_communications"
+    ],
+    "can_execute": true,
+    "delegation_id": "DEMO-COMMS-LOW-RISK-2026",
+    "role": "communications_agent"
+  },
+  "evidence_refs": [
+    "notice_template:T-17",
+    "case_status:CS-2041",
+    "communications_policy:COMM-2026-01"
+  ],
+  "proposed_instruction": "Send approved status notice to customer C-2041 using template T-17.",
+  "requested_effect": {
+    "destination": "customer_notice_queue",
+    "effect_type": "send_customer_notice",
+    "target_system": "synthetic_crm"
+  },
+  "risk_level": "low",
+  "target_scope": "customer_communications"
+}

@@ -1,0 +1,20 @@
+{
+  "actor_id": "caseworker_avery",
+  "actor_role": "benefits_caseworker",
+  "authority_present": true,
+  "can_bind_adverse_effect": false,
+  "can_bind_non_adverse_effect": true,
+  "can_propose_determination": true,
+  "case_id": "05_review_required_due_process",
+  "determination_type": "eligibility_denial",
+  "determination_type_in_role_scope": true,
+  "jurisdiction": "demo_state",
+  "jurisdiction_in_role_scope": true,
+  "max_risk_without_review": "medium",
+  "program": "housing_assistance",
+  "program_in_role_scope": true,
+  "record_type": "authority_context",
+  "risk_exceeds_no_review_threshold": true,
+  "risk_level": "high",
+  "role_known": true
+}

@@ -1,0 +1,18 @@
+{
+  "actor_id": "agent_support_001",
+  "actor_role": "workflow_agent",
+  "authority_present": true,
+  "can_propose_action": true,
+  "case_id": "03_reviewer_lacks_authority",
+  "effect_type": "update_case_status",
+  "effect_type_in_scope": true,
+  "max_risk_without_review": "medium",
+  "record_type": "initial_authority_context",
+  "risk_exceeds_no_review_threshold": false,
+  "risk_level": "medium",
+  "role_known": true,
+  "scope": "support_case",
+  "scope_in_role_scope": true,
+  "target_in_role_scope": true,
+  "target_system": "support_workflow"
+}

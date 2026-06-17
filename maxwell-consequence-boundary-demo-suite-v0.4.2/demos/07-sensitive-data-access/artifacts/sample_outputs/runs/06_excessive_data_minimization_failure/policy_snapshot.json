@@ -1,0 +1,186 @@
+{
+  "policy": {
+    "allowed_effect_types": [
+      "retrieve_summary",
+      "view_record",
+      "export_subset"
+    ],
+    "data_class_order": {
+      "confidential": 2,
+      "highly_restricted": 4,
+      "internal": 1,
+      "public": 0,
+      "restricted": 3
+    },
+    "datasets": {
+      "customer_support_cases": {
+        "allowed_roles": [
+          "support_analyst",
+          "privacy_officer"
+        ],
+        "approved_purposes": [
+          "customer_support",
+          "account_review",
+          "privacy_investigation",
+          "data_subject_request"
+        ],
+        "data_class": "confidential",
+        "legal_basis_required": false
+      },
+      "health_claims_phi": {
+        "allowed_roles": [
+          "privacy_officer"
+        ],
+        "approved_purposes": [
+          "privacy_investigation",
+          "legal_hold",
+          "data_subject_request"
+        ],
+        "data_class": "highly_restricted",
+        "legal_basis_required": true
+      },
+      "invoice_accounts": {
+        "allowed_roles": [
+          "finance_analyst",
+          "privacy_officer"
+        ],
+        "approved_purposes": [
+          "account_reconciliation",
+          "payment_exception_review",
+          "privacy_investigation",
+          "legal_hold"
+        ],
+        "data_class": "restricted",
+        "legal_basis_required": false
+      },
+      "payroll_employee_records": {
+        "allowed_roles": [
+          "hr_manager",
+          "privacy_officer"
+        ],
+        "approved_purposes": [
+          "hr_case_review",
+          "legal_hold",
+          "privacy_investigation"
+        ],
+        "data_class": "restricted",
+        "legal_basis_required": true
+      }
+    },
+    "evaluation_time": "2026-01-01T00:00:00Z",
+    "policy_id": "maxwell.demo.sensitive_data_access",
+    "policy_version": "0.1.0",
+    "prompt_injection_indicators": [
+      "ignore policy",
+      "bypass approval",
+      "reveal ssn",
+      "dump the raw file",
+      "override access controls",
+      "no audit trail"
+    ],
+    "reason_codes": {
+      "block_classification": "DATA_CLASSIFICATION_EXCEEDS_CLEARANCE",
+      "block_dataset_scope": "DATASET_SCOPE_VIOLATION",
+      "block_forbidden_effect": "DATA_EFFECT_FORBIDDEN",
+      "block_missing_authority": "DATA_AUTHORITY_MISSING",
+      "block_prompt_injection": "PROMPT_INJECTION_NOT_AUTHORITY",
+      "block_purpose_scope": "DATA_PURPOSE_OUTSIDE_SCOPE",
+      "block_restricted_fields": "DATA_RESTRICTED_FIELD_REQUESTED",
+      "block_role_not_authorized": "DATA_ROLE_NOT_AUTHORIZED",
+      "block_target_system": "DATA_TARGET_SYSTEM_SCOPE_VIOLATION",
+      "grant_access": "DATA_ACCESS_EFFECT_COMMITTED",
+      "review_legal_basis": "DATA_LEGAL_BASIS_MISSING",
+      "review_minimization": "DATA_MINIMIZATION_REVIEW_REQUIRED",
+      "review_missing_evidence": "DATA_EVIDENCE_INCOMPLETE",
+      "review_missing_purpose": "DATA_PURPOSE_MISSING"
+    },
+    "required_evidence_refs": [
+      "requester_role_assertion",
+      "data_inventory_entry",
+      "ticket_reference",
+      "business_purpose_record"
+    ],
+    "restricted_field_roles": [
+      "privacy_officer"
+    ],
+    "restricted_fields": [
+      "ssn",
+      "diagnosis_code",
+      "medical_notes",
+      "payroll_bank_account",
+      "government_id"
+    ],
+    "review_required_query_scopes": [
+      "bulk_export",
+      "all_records"
+    ],
+    "roles": {
+      "finance_analyst": {
+        "allowed_datasets": [
+          "invoice_accounts"
+        ],
+        "allowed_target_systems": [
+          "finance_console"
+        ],
+        "approved_purposes": [
+          "account_reconciliation",
+          "payment_exception_review"
+        ],
+        "can_request_access": true,
+        "max_data_class": "restricted"
+      },
+      "hr_manager": {
+        "allowed_datasets": [
+          "payroll_employee_records"
+        ],
+        "allowed_target_systems": [
+          "hr_case_tool"
+        ],
+        "approved_purposes": [
+          "hr_case_review",
+          "legal_hold"
+        ],
+        "can_request_access": true,
+        "max_data_class": "restricted"
+      },
+      "privacy_officer": {
+        "allowed_datasets": [
+          "customer_support_cases",
+          "invoice_accounts",
+          "payroll_employee_records",
+          "health_claims_phi"
+        ],
+        "allowed_target_systems": [
+          "privacy_review_console",
+          "legal_hold_system"
+        ],
+        "approved_purposes": [
+          "privacy_investigation",
+          "legal_hold",
+          "data_subject_request"
+        ],
+        "can_request_access": true,
+        "max_data_class": "highly_restricted"
+      },
+      "support_analyst": {
+        "allowed_datasets": [
+          "customer_support_cases"
+        ],
+        "allowed_target_systems": [
+          "support_console",
+          "customer_case_tool"
+        ],
+        "approved_purposes": [
+          "customer_support",
+          "account_review"
+        ],
+        "can_request_access": true,
+        "max_data_class": "confidential"
+      }
+    }
+  },
+  "policy_hash": "sha256:72c0a9c3d191cefc4290e7eea6651cf856d2990e52e9129d28c2a471400d7097",
+  "policy_id": "maxwell.demo.sensitive_data_access",
+  "policy_version": "0.1.0",
+  "record_type": "policy_snapshot"
+}

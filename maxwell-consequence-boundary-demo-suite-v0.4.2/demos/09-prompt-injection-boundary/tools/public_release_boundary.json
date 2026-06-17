@@ -1,0 +1,43 @@
+{
+  "allowed_globs": [],
+  "allowed_paths": [
+    "CONTRIBUTING.md",
+    "DEMO_BUILD_BRIEF.md",
+    "LICENSE",
+    "LICENSE-NOTICE.md",
+    "NOTICE.md",
+    "RELEASE_NOTES.md",
+    "SECURITY.md",
+    "docs/ADVERSARIAL_REVIEW_GUIDE.md",
+    "docs/ADVERSARIAL_TEST_REPORT.md",
+    "docs/CLAIMS_AND_LIMITATIONS.md",
+    "docs/PUBLIC_PREVIEW_BOUNDARIES.md",
+    "docs/RED_TEAM_RULES_OF_ENGAGEMENT.md",
+    "tools/public_package_check.py",
+    "tools/public_release_boundary.json"
+  ],
+  "demo_spec_schema_version": "maxwell-demo-spec-v0.3.2",
+  "denylist_terms": [
+    "MEVIDA",
+    "Golden Tree",
+    "Golden Tree internal",
+    "MEVIDA kernel",
+    "Golden Tree kernel",
+    "production MEVIDA",
+    "private evaluator chain",
+    "private evaluator chains",
+    "authority doctrine",
+    "production trust root",
+    "production trust roots",
+    "non-public control grammar",
+    "internal consequence doctrine",
+    "MAXWELL_INTERNAL_ONLY",
+    "DO_NOT_PUBLISH",
+    "FOR INTERNAL USE ONLY"
+  ],
+  "intentional_public_private_keys": [
+    "fixtures/manifest_demo_private_key.pem",
+    "fixtures/oidc_demo_issuer_private_key.pem"
+  ],
+  "package_checker_version": "canonical-public-package-checker-v0.4.0"
+}

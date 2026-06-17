@@ -1,0 +1,28 @@
+{
+  "authority": {
+    "actor_id": "agent_policy_workflow_demo",
+    "approver_id": "synthetic-business_owner-001",
+    "approver_role": "business_owner",
+    "dual_control": true,
+    "second_approver_role": "finance_controller"
+  },
+  "case_id": "06_current_policy_would_allow_but_no_retroactive_effect",
+  "case_summary": "Vendor exception suppressed under v1 but the newer policy would allow it with dual control; replay does not create an old effect.",
+  "evidence": {
+    "captured_at": "2026-01-15T08:55:00Z",
+    "refs": [
+      "request_ticket",
+      "system_owner_note",
+      "policy_attestation"
+    ]
+  },
+  "original_policy_version": "2025-10-v1",
+  "proposed_action": {
+    "action_id": "act-06",
+    "description": "Vendor exception suppressed under v1 but the newer policy would allow it with dual control; replay does not create an old effect.",
+    "requested_effect": "vendor_exception",
+    "risk_level": "low",
+    "target_system": "vendor_master"
+  },
+  "synthetic": true
+}

@@ -1,0 +1,30 @@
+{
+  "appeal_rights_notice_attached": true,
+  "captured_at": "2026-01-15T00:02:00Z",
+  "case_id": "02_missing_required_document",
+  "case_record_consistent": true,
+  "case_record_id": "CASE-DEMO-002",
+  "determination_id": "DET-DEMO-002",
+  "evidence_complete": false,
+  "evidence_refs": [
+    "application_signed",
+    "identity_verified",
+    "program_criteria_matched",
+    "notice_template_attached",
+    "residency_verified"
+  ],
+  "missing_refs": [
+    "income_verified"
+  ],
+  "program": "housing_assistance",
+  "record_type": "determination_evidence_bundle",
+  "required_refs": [
+    "application_signed",
+    "identity_verified",
+    "income_verified",
+    "notice_template_attached",
+    "program_criteria_matched",
+    "residency_verified"
+  ],
+  "synthetic_record": true
+}

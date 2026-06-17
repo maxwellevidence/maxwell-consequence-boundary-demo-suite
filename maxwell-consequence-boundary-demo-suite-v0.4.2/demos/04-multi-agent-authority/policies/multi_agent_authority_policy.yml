@@ -1,0 +1,23 @@
+policy_id: "maxwell.multi_agent_authority.public_demo"
+policy_version: "0.1.0"
+summary: "Public-safe policy for multi-agent authority continuity."
+required_fields:
+  - case_id
+  - initiating_agent
+  - executing_agent
+  - task_handoff
+  - claimed_delegation
+  - evidence_packet
+  - requested_effect
+prompt_injection_markers:
+  - "ignore policy"
+  - "bypass delegation"
+  - "use the other agent's authority"
+  - "pretend authority exists"
+  - "override handoff rules"
+review_required_risk_levels:
+  - critical
+review_routes:
+  evidence_continuity: "evidence_continuity_review_queue"
+  authority_scope: "authority_scope_review_queue"
+  high_risk: "multi_agent_governance_review_queue"

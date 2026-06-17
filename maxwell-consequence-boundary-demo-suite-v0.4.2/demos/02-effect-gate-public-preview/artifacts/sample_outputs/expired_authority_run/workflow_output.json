@@ -1,0 +1,15 @@
+{
+  "claims_boundary": [
+    "This workflow output is simulated.",
+    "This proof does not validate remediation correctness.",
+    "This proof does not replay model calls or external CVE source state."
+  ],
+  "cve_id": "CVE-2026-1043",
+  "downstream_effect_not_self_authorized": true,
+  "proposed_downstream_action": "create_change_control_record",
+  "requires_effect_gate_review": true,
+  "summary": "Simulated AI-assisted workflow output prepared a bounded remediation proposal for Maxwell authority review.",
+  "target_system": "payments-api",
+  "workflow_output_id": "WF-OUT-2026-1043-PAYMENTS-API",
+  "workflow_type": "ai_assisted_cve_incident_research"
+}

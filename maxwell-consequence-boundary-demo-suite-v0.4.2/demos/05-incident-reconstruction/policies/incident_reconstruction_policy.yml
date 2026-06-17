@@ -1,0 +1,26 @@
+policy_id: "maxwell.incident_reconstruction.public_demo"
+policy_version: "0.1.0"
+evaluation_time: "2026-01-15T00:00:00Z"
+required_evidence_refs:
+  - "incident_ticket"
+  - "system_snapshot"
+allowed_effect_types:
+  - "synthetic_patch_apply"
+  - "synthetic_customer_notice_prepare"
+  - "synthetic_service_restart"
+  - "synthetic_audit_note"
+review_required_risk_at_or_above: "high"
+risk_order:
+  low: 1
+  medium: 2
+  high: 3
+  critical: 4
+stale_policy_versions:
+  - "policy-v0"
+reason_codes:
+  allow: "IR_POLICY_ALLOW"
+  review_high_risk: "IR_REVIEW_HIGH_RISK"
+  review_stale_policy_context: "IR_REVIEW_STALE_POLICY_CONTEXT"
+  block_scope_violation: "IR_BLOCK_SCOPE_VIOLATION"
+  block_missing_authority: "IR_BLOCK_MISSING_AUTHORITY"
+  block_forbidden_effect: "IR_BLOCK_FORBIDDEN_EFFECT"

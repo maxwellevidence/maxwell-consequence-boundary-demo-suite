@@ -1,0 +1,18 @@
+{
+  "action_id": "ACT-001",
+  "authority_snapshot_hash": "sha256:1ea65fc04921e54758ec5fbd162c320809028c44f0721d5855e2afcc0a676c73",
+  "case_id": "01_permitted_action_effect_committed",
+  "decision": "allow",
+  "decision_receipt_id": "sha256:81a3952707087d670631e916ee4b78f6d36e2108aac1be8b5f81a9465cb0a086",
+  "effect_permitted": true,
+  "evaluated_at": "2026-01-15T00:00:00Z",
+  "evidence_snapshot_hash": "sha256:1afd3623a5edcce635ac039def6366a9afb6d00182945baab958c0224dce09d9",
+  "explanation": "Evidence, authority, scope, and risk requirements are satisfied.",
+  "lifecycle_status": "effect_committed",
+  "policy_id": "maxwell.incident_reconstruction.public_demo",
+  "policy_version": "0.1.0",
+  "reason_code": "IR_POLICY_ALLOW",
+  "record_type": "decision_receipt",
+  "request_policy_context": "policy-v1",
+  "review_required": false
+}

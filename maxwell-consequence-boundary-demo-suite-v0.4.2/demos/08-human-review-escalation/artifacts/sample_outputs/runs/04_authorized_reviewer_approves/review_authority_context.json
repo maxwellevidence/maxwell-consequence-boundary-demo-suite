@@ -1,0 +1,18 @@
+{
+  "authority_present": true,
+  "can_review": true,
+  "case_id": "04_authorized_reviewer_approves",
+  "effect_type": "issue_customer_credit",
+  "effect_type_in_review_scope": true,
+  "max_review_risk": "critical",
+  "record_type": "review_authority_context",
+  "reviewer_id": "compliance_reviewer_301",
+  "reviewer_role": "compliance_reviewer",
+  "risk_within_review_authority": true,
+  "role_known": true,
+  "same_as_proposer": false,
+  "scope": "billing_adjustment",
+  "scope_in_review_scope": true,
+  "target_in_review_scope": true,
+  "target_system": "billing_ops"
+}

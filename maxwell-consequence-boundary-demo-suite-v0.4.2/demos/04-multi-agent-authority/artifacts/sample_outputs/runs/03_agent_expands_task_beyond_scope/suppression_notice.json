@@ -1,0 +1,11 @@
+{
+  "authority_basis": "requested_scope_outside_delegation",
+  "case_id": "03_agent_expands_task_beyond_scope",
+  "created_at": "2026-06-12T21:06:29Z",
+  "decision_receipt_id": "sha256:a37a77a14826887917ad60dfe46b3c4a1efc046b28392938934fbaac3653766f",
+  "decision_receipt_sha256": "f50967c90f2bbba3cc52c47121bd8c033dd6911755fbab4fa1a20118cf92b5c2",
+  "public_preview_note": "Synthetic suppression notice only; no downstream action occurred.",
+  "reason_code": "AGENT_SCOPE_EXPANSION_SUPPRESSED",
+  "schema": "maxwell.multi_agent_authority.suppression_notice.v0.1",
+  "suppression_notice_id": "sha256:63fe4dfe380ce6b42cf255be1c07b7633bdc1588ecaf16d72681ca12d173ba41"
+}

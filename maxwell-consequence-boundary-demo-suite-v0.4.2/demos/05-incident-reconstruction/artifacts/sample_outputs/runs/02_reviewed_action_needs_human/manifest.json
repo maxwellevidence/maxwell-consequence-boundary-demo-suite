@@ -1,0 +1,46 @@
+{
+  "case_id": "02_reviewed_action_needs_human",
+  "files": [
+    {
+      "bytes": 34,
+      "path": "NO_EFFECT_CREATED.txt",
+      "sha256": "1898513e7864425ed7bbe584be919e638e7b498e14ad0a34722b12c468c6f484"
+    },
+    {
+      "bytes": 438,
+      "path": "authority_snapshot.json",
+      "sha256": "75050b069ba1ce09c1c1b542fd4aeb09f29808c18316962504a237b641dc571c"
+    },
+    {
+      "bytes": 826,
+      "path": "decision_receipt.json",
+      "sha256": "844da25fd8a5474868efa51b6b1220de1802c69bb34f86d0a5be07dd7ec90585"
+    },
+    {
+      "bytes": 313,
+      "path": "evidence_snapshot.json",
+      "sha256": "7859a3c73db424fc9eebe7de2751a41bcc05c0e0bdb17c2ef837a59d5f0a87b0"
+    },
+    {
+      "bytes": 919,
+      "path": "input_request.json",
+      "sha256": "08200cb8ea33f36ae23e539cb80157651ae18e82a11456328396421f6a590fbf"
+    },
+    {
+      "bytes": 1127,
+      "path": "reconstruction_report.json",
+      "sha256": "0f02af19604eb29c0fe2a2c5f9628dfe9bb995a64630f0c88f00af672a750866"
+    },
+    {
+      "bytes": 205,
+      "path": "review_ticket.json",
+      "sha256": "1b74e32f04d743a734b9ecb0aa7afd67e9c326d196e0111e78460557169c9419"
+    },
+    {
+      "bytes": 290,
+      "path": "timeline_event.json",
+      "sha256": "eb02d4b29812db68987192762b26f681bdb32061446745db4f9fc1761ab4efd6"
+    }
+  ],
+  "record_type": "manifest"
+}

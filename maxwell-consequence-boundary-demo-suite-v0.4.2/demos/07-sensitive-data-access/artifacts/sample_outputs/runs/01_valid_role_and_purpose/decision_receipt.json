@@ -1,0 +1,18 @@
+{
+  "access_id": "DA-1001",
+  "authority_context_hash": "sha256:b4472010b0569432a1e91e8cae047c59372e7a3c363ae255b41c02076dc984e9",
+  "case_id": "01_valid_role_and_purpose",
+  "decision": "grant",
+  "decision_receipt_id": "sha256:dfb99dca68dc63800638a5c5ac551a9cf49c097188152dce82e7859a6a36bffa",
+  "effect_permitted": true,
+  "evaluated_at": "2026-01-01T00:00:00Z",
+  "evidence_bundle_hash": "sha256:88b7b436aba466b4b8a09013d1fc0bc49c28776f9032451ec5387d890af8598c",
+  "explanation": "Role, purpose, dataset scope, data class, evidence, and minimization are satisfied.",
+  "lifecycle_status": "access_effect_committed",
+  "policy_hash": "sha256:72c0a9c3d191cefc4290e7eea6651cf856d2990e52e9129d28c2a471400d7097",
+  "policy_id": "maxwell.demo.sensitive_data_access",
+  "policy_version": "0.1.0",
+  "reason_code": "DATA_ACCESS_EFFECT_COMMITTED",
+  "record_type": "decision_receipt",
+  "review_required": false
+}

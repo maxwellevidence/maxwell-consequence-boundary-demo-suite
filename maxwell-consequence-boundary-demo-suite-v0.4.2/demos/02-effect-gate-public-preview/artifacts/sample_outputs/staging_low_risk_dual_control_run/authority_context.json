@@ -1,0 +1,13 @@
+{
+  "audience": "maxwell-effect-gate-public-proof",
+  "expires_at": "2035-01-01T00:00:00Z",
+  "issuer": "https://issuer.example.test",
+  "oauth_status": "complete",
+  "roles": [
+    "change_manager"
+  ],
+  "scopes": [
+    "change_record:create:staging"
+  ],
+  "subject": "requester@example.test"
+}

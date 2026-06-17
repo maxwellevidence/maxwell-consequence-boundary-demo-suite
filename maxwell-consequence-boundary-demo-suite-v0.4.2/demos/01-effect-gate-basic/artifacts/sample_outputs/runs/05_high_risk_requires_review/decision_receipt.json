@@ -1,0 +1,18 @@
+{
+  "authority_actor_id": "agent-case-02",
+  "case_id": "05_high_risk_requires_review",
+  "created_at": "2026-06-12T17:48:14+00:00",
+  "decision_receipt_id": "sha256:32913d75173e1788d655fd3c51ddfd92e2036c47a1fb05eb7ed9749fac7f0f30",
+  "effect_permitted": false,
+  "evidence_bundle_id": "sha256:b7e5cf92a85fa2818ce84bde7183221186cb33c4867e240213a423f3554e554c",
+  "explanation": "The action is high enough risk to require review before downstream effect.",
+  "lifecycle_state": "REVIEW_ROUTED",
+  "outcome": "hold",
+  "policy_id": "maxwell-effect-gate-basic-policy",
+  "policy_version": "2026.06.v0.1",
+  "public_preview_note": "Decision receipt from simplified Maxwell Effect Gate Basic policy.",
+  "reason_code": "EFFECT_GATE_REVIEW_REQUIRED_HIGH_RISK",
+  "review_route": "basic_effect_gate_review_queue",
+  "schema": "maxwell.demo.decision_receipt.v0.1",
+  "target_scope": "case_management"
+}

@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-01-15T08:55:00Z",
+  "case_id": "02_same_evidence_policy_v2_requires_review",
+  "complete_under_policy": true,
+  "evidence_refs": [
+    "request_ticket",
+    "system_owner_note"
+  ],
+  "missing_refs_under_policy": [],
+  "policy_version": "2025-10-v1",
+  "record_type": "original_evidence_bundle",
+  "required_refs_under_policy": [
+    "request_ticket",
+    "system_owner_note"
+  ]
+}

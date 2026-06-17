@@ -1,0 +1,14 @@
+{
+  "claims_boundary": "Public proof only. This receipt does not disclose Maxwell private authority logic, evaluator chains, scoring rules, or thresholds.",
+  "decision": "block",
+  "demo_case": "self_approval",
+  "downstream_effect_allowed": false,
+  "effect_boundary": "change_control_record_creation",
+  "matched_policy_rule_id": "block_requester_approver_self_approval",
+  "policy_id": "maxwell.public.change_control.v0_3",
+  "policy_version": "0.3.0",
+  "reason_codes": [
+    "SELF_APPROVAL_NOT_PERMITTED",
+    "NO_EFFECT_DUAL_CONTROL_FAILURE"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "action_id": "ACT-REVIEW-005",
+  "authority_context_hash": "sha256:f3d3ac6af8db564e11bd7f598b21673bfb0a9fcba45903f46244aea0a743ebd9",
+  "case_id": "05_review_fails_blocked",
+  "decision": "suppress",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T12:00:00Z",
+  "evidence_bundle_hash": "sha256:69b51b72a1572193c8698f5a423e33e652ba0f752a24260634c751d184f81759",
+  "explanation": "Prompt-injected override language is preserved as evidence but cannot authorize effect.",
+  "initial_decision_receipt_id": "sha256:e444ab954ec5471ac0211df3322b12dfad94b285d16eacceb17c6462c9805615",
+  "lifecycle_status": "effect_suppressed",
+  "policy_hash": "sha256:4030a6a6c9ca78f336d76be3014f3102a85eda7886611b984b36640375d2faee",
+  "policy_id": "maxwell.review_escalation.public_preview",
+  "policy_version": "0.1.0",
+  "reason_code": "PROMPT_INJECTION_NOT_AUTHORITY",
+  "record_type": "initial_decision_receipt",
+  "review_required": false,
+  "reviewable": false
+}

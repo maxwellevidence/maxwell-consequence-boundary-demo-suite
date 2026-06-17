@@ -1,0 +1,10 @@
+{
+  "access_id": "DA-1002",
+  "case_id": "02_missing_business_purpose",
+  "decision_receipt_id": "sha256:7cbdaa9bbf3aa3aa2d410b525420b032df1c2fbdb909a12a291ed4abefe07783",
+  "effect_created": false,
+  "reason_code": "DATA_PURPOSE_MISSING",
+  "record_type": "review_ticket",
+  "review_queue": "privacy_data_access_review",
+  "review_ticket_id": "sha256:185ce0cbfe84d162e56a2db41469e5c94d2e27336807757fe0ecf18e2928f41b"
+}

@@ -1,0 +1,24 @@
+# Public-safe effective run configuration snapshot
+run:
+  case: staging_low_risk_dual_control
+  run_name: staging_low_risk_dual_control_run
+
+effect_gate:
+  decision_paths:
+    - allow
+    - pause
+    - block
+  downstream_effect: change_control_record_creation
+  policy_entrypoint: maxwell_effect_gate.policy_engine.evaluate_policy
+
+artifact_chain:
+  replay_scope: evidence_and_decision_chain_only
+  hash_manifest: artifact_hashes.sha256.txt
+  manifest_signature: artifact_hashes.sha256.txt.sig
+  manifest_public_key: ../../MANIFEST_PUBLIC_KEY.pem
+
+claims_boundary:
+  private_decision_core_disclosed: false
+  deterministic_model_replay_claimed: false
+  external_trust_root_claimed: false
+

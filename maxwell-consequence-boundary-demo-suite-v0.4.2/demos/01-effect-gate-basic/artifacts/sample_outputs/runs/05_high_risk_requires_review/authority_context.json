@@ -1,0 +1,14 @@
+{
+  "actor_id": "agent-case-02",
+  "allowed_scopes": [
+    "case_management"
+  ],
+  "authority_present": true,
+  "can_execute": true,
+  "case_id": "05_high_risk_requires_review",
+  "delegation_id": "DEMO-CASE-REVIEW-2026",
+  "public_preview_note": "Synthetic effect-gate authority context only; not a production authorization record.",
+  "role": "case_operations_agent",
+  "schema": "maxwell.demo.authority_context.v0.1",
+  "target_scope": "case_management"
+}

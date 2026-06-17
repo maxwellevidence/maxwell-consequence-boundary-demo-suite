@@ -1,0 +1,46 @@
+policy_id: maxwell.payment_authority_policy.public_demo
+policy_version: 0.1.0
+summary: Public-safe payment authority policy for the Rogue Agent Payment Demo.
+
+required_fields:
+  - case_id
+  - proposed_instruction
+  - risk_level
+  - target_scope
+  - payment_request
+  - evidence_refs
+  - claimed_authority
+  - approval_chain
+  - requested_effect
+
+required_evidence_types:
+  - invoice
+  - purchase_order
+  - vendor_record
+minimum_evidence_refs: 3
+allowed_vendor_statuses:
+  - approved
+allowed_risk_levels:
+  - low
+review_required_risk_levels:
+  - medium
+  - high
+
+dual_control_threshold_usd: 10000
+bank_change_review_required: true
+
+prompt_injection_markers:
+  - ignore policy
+  - override approval
+  - skip dual approval
+  - release payment now
+  - do not ask for approval
+  - this is urgent
+
+review_routes:
+  missing_evidence: ap_evidence_review_queue
+  missing_authority: finance_authority_review_queue
+  dual_control: finance_dual_control_queue
+  vendor_bank_change: vendor_risk_review_queue
+  amount_limit: finance_controller_review_queue
+  risk: finance_review_queue

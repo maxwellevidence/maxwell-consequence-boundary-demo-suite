@@ -1,0 +1,40 @@
+{
+  "actor": {
+    "actor_id": "user-finance-022",
+    "department": "finance",
+    "role": "finance_analyst"
+  },
+  "case_id": "02_missing_business_purpose",
+  "evidence": {
+    "business_purpose": "",
+    "captured_at": "2026-01-01T00:02:00Z",
+    "data_minimization": true,
+    "legal_basis": "",
+    "refs": [
+      "requester_role_assertion",
+      "data_inventory_entry",
+      "ticket_reference",
+      "business_purpose_record"
+    ]
+  },
+  "llm_output": {
+    "instruction_trace": "Purpose was not supplied in the request.",
+    "prompt_injection_detected": false,
+    "recommendation": "Retrieve account summary."
+  },
+  "requested_access": {
+    "access_id": "DA-1002",
+    "data_class": "restricted",
+    "dataset": "invoice_accounts",
+    "purpose": "",
+    "query_scope": "single_account",
+    "requested_effect": "retrieve_summary",
+    "requested_fields": [
+      "invoice_id",
+      "balance_status",
+      "payment_exception_flag"
+    ],
+    "target_system": "finance_console",
+    "user_instruction": "Pull this account summary for the agent workflow."
+  }
+}

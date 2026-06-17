@@ -1,0 +1,9 @@
+{
+  "action_id": "act-05_malicious_tool_request",
+  "case_id": "05_malicious_tool_request",
+  "decision_receipt_id": "sha256:60933bc7748ff55d8b64402220a8cc6d73c50915ec259e732615ed54a5c90874",
+  "effect_created": false,
+  "reason_code": "PROMPT_INJECTION_BOUNDARY_TRIGGERED",
+  "record_type": "suppression_notice",
+  "suppression_notice_id": "sha256:9aa1b5a3f66a3b1dbeb3fb9a5c1e2d5a3a1bb629f4c9dfbc6ff917bd135122b3"
+}

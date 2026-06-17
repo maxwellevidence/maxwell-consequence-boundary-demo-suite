@@ -1,0 +1,10 @@
+{
+  "bundle_id": "sha256:6c1f4d419f949367c2dcb945719b4e03c19b7152d97300421e7927b60bde6ee3",
+  "case_id": "02_missing_evidence_refs",
+  "created_at": "2026-06-12T17:48:14+00:00",
+  "evidence_count": 0,
+  "evidence_refs": [],
+  "input_sha256": "931f48780c445139422dcb5a2a27ba75ffb26bc8b57431fb8dc4a687efbec653",
+  "public_preview_note": "Synthetic effect-gate evidence only; not a production evidence record.",
+  "schema": "maxwell.demo.evidence_bundle.v0.1"
+}

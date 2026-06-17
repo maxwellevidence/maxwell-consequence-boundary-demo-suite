@@ -1,0 +1,96 @@
+policy_id: maxwell.review_escalation.public_preview
+policy_version: 0.1.0
+evaluation_time: "2026-01-15T12:00:00Z"
+
+risk_order:
+  low: 1
+  medium: 2
+  high: 3
+  critical: 4
+
+base_required_evidence_refs:
+  - request_record
+  - risk_assessment
+
+high_risk_required_evidence_refs:
+  - business_owner_approval
+  - secondary_approval
+  - review_rationale
+
+review_required_risk_levels:
+  - high
+  - critical
+
+prompt_injection_indicators:
+  - ignore review
+  - bypass approval
+  - override policy
+  - no need for review
+
+proposer_roles:
+  workflow_agent:
+    can_propose_action: true
+    allowed_scopes:
+      - support_case
+      - billing_adjustment
+    allowed_effect_types:
+      - update_case_status
+      - issue_customer_credit
+    allowed_target_systems:
+      - support_workflow
+      - billing_ops
+    max_risk_without_review: medium
+  untrusted_agent:
+    can_propose_action: false
+    allowed_scopes: []
+    allowed_effect_types: []
+    allowed_target_systems: []
+    max_risk_without_review: low
+
+reviewer_roles:
+  operations_reviewer:
+    can_review: true
+    allowed_scopes:
+      - support_case
+      - billing_adjustment
+    allowed_effect_types:
+      - update_case_status
+      - issue_customer_credit
+    allowed_target_systems:
+      - support_workflow
+      - billing_ops
+    max_review_risk: medium
+  compliance_reviewer:
+    can_review: true
+    allowed_scopes:
+      - support_case
+      - billing_adjustment
+    allowed_effect_types:
+      - update_case_status
+      - issue_customer_credit
+    allowed_target_systems:
+      - support_workflow
+      - billing_ops
+    max_review_risk: critical
+  junior_reviewer:
+    can_review: false
+    allowed_scopes:
+      - support_case
+    allowed_effect_types:
+      - update_case_status
+    allowed_target_systems:
+      - support_workflow
+    max_review_risk: low
+
+reason_codes:
+  effect_committed: EFFECT_COMMITTED
+  review_approved_effect_committed: REVIEW_APPROVED_EFFECT_COMMITTED
+  review_missing_evidence: REVIEW_REQUIRED_MISSING_EVIDENCE
+  review_high_risk: REVIEW_REQUIRED_HIGH_RISK
+  review_missing_evidence_after_review: REVIEW_FAILED_MISSING_EVIDENCE
+  reviewer_lacks_authority: REVIEWER_LACKS_AUTHORITY
+  review_failed: REVIEW_FAILED_REJECTED
+  block_scope_violation: NON_REVIEWABLE_SCOPE_VIOLATION
+  block_prompt_injection: PROMPT_INJECTION_NOT_AUTHORITY
+  block_scope_expansion: REVIEW_SCOPE_EXPANSION_BLOCKED
+  block_missing_authority: MISSING_AUTHORITY_CONTEXT

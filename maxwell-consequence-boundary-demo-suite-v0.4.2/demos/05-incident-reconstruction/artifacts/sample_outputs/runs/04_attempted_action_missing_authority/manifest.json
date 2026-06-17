@@ -1,0 +1,46 @@
+{
+  "case_id": "04_attempted_action_missing_authority",
+  "files": [
+    {
+      "bytes": 34,
+      "path": "NO_EFFECT_CREATED.txt",
+      "sha256": "1898513e7864425ed7bbe584be919e638e7b498e14ad0a34722b12c468c6f484"
+    },
+    {
+      "bytes": 359,
+      "path": "authority_snapshot.json",
+      "sha256": "7f062ddfaeb6d34925194797847d466efc83e64f158cc86daccf750c41b6b33e"
+    },
+    {
+      "bytes": 846,
+      "path": "decision_receipt.json",
+      "sha256": "f45b9939c0a44cf2b440d55c3e8f11dabd7dfdcb9171ac50d912f194100e57f5"
+    },
+    {
+      "bytes": 320,
+      "path": "evidence_snapshot.json",
+      "sha256": "8b8d00c27a9cc8077b22cfe8ad6a8e668617d0809db2e41493242706fbfe618d"
+    },
+    {
+      "bytes": 804,
+      "path": "input_request.json",
+      "sha256": "52ee34636a3e7096423d63b30f2dabc323e42dbacb4c39e9cffda99d2639977b"
+    },
+    {
+      "bytes": 1112,
+      "path": "reconstruction_report.json",
+      "sha256": "6faa8690155584460cba5403d8a5d093f795c93719c89417f56e6cf13603b46e"
+    },
+    {
+      "bytes": 170,
+      "path": "suppression_notice.json",
+      "sha256": "ed6ac8c2d3c39bdb05930b663e13466ef4d436c5cc85befbde3aaa7f6ce4e938"
+    },
+    {
+      "bytes": 301,
+      "path": "timeline_event.json",
+      "sha256": "a60cddd90b6c4c743d1288216a0194ab65be47c050fd2110bc5896b1b0826f03"
+    }
+  ],
+  "record_type": "manifest"
+}

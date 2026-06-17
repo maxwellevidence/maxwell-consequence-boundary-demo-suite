@@ -1,0 +1,18 @@
+{
+  "authority_actor_id": null,
+  "case_id": "03_missing_authority_context",
+  "created_at": "2026-06-12T17:48:14+00:00",
+  "decision_receipt_id": "sha256:60e0f9a05b9c7da168a98a578b3f96ab6f567adf566ee0fefafa4d3f4ca97e5f",
+  "effect_permitted": false,
+  "evidence_bundle_id": "sha256:ab93cc78e18f8ac37c77199053b48ea12f7b163f644dd5abdb6f0235ee3e3d94",
+  "explanation": "Authority context is missing or cannot execute the requested effect.",
+  "lifecycle_state": "REVIEW_ROUTED",
+  "outcome": "hold",
+  "policy_id": "maxwell-effect-gate-basic-policy",
+  "policy_version": "2026.06.v0.1",
+  "public_preview_note": "Decision receipt from simplified Maxwell Effect Gate Basic policy.",
+  "reason_code": "EFFECT_GATE_AUTHORITY_CONTEXT_MISSING",
+  "review_route": "basic_effect_gate_review_queue",
+  "schema": "maxwell.demo.decision_receipt.v0.1",
+  "target_scope": "customer_communications"
+}

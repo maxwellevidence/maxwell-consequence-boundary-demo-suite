@@ -1,0 +1,190 @@
+# `policy_id` names the public policy family; `version` names this file revision.
+policy_id: maxwell.public.change_control.v0_3
+version: 0.3.0
+mode: public_preview
+condition_language: public_condition_list_v1
+default_decision: block
+claims_boundary: >-
+  Public proof policy only. This file demonstrates fail-closed branching behavior
+  and does not disclose Maxwell private authority models, evaluator chains,
+  scoring rules, or thresholds.
+
+effect_boundary: change_control_record_creation
+
+trust_roots:
+  trusted_issuers:
+    - https://issuer.example.test
+  expected_audiences:
+    - maxwell-effect-gate-public-proof
+
+oidc_demo_claim_requirements:
+  required_scope: change_record:create:staging
+  required_roles:
+    - change_manager
+
+required_public_inputs:
+  action_proposal:
+    - action_type
+    - target_environment
+    - risk_level
+    - requester_id
+    - approver_id
+    - dual_control_present
+  evidence_bundle:
+    - evidence_bundle_id
+    - evidence_type
+    - source_workflow
+    - target_system
+    - cve_id
+    - research_summary
+    - supporting_artifacts
+    - limitations
+  authority_context:
+    - subject
+    - issuer
+    - audience
+    - expires_at
+    - scopes
+    - roles
+    - oauth_status
+
+allowed_values:
+  action_type:
+    - create_change_control_record
+  target_environment:
+    - staging
+    - production
+  risk_level:
+    - low
+    - medium
+    - high
+    - critical
+
+condition_language_notes:
+  - Each rule's `when` value is a list of conditions.
+  - Conditions are ANDed together; every condition must match for the rule to fire.
+  - Field conditions use explicit `field`, `op`, and `value` keys.
+  - Predicate conditions use explicit `predicate` names implemented by the public engine.
+  - Unknown fields, operators, or predicates fail closed by not matching an allow rule.
+
+rules:
+  - id: block_malformed_public_inputs
+    decision: block
+    reason_codes:
+      - MALFORMED_PUBLIC_INPUT
+      - NO_EFFECT_INVALID_SHAPE
+    when:
+      - predicate: any_malformed_public_input
+
+  - id: block_unknown_action_type
+    decision: block
+    reason_codes:
+      - UNKNOWN_ACTION_TYPE
+      - NO_EFFECT_OUT_OF_SCOPE_ACTION
+    when:
+      - predicate: action_type_not_in_allowed_values
+
+  - id: block_invalid_or_absent_oauth
+    decision: block
+    reason_codes:
+      - INVALID_OR_ABSENT_OAUTH_CONTEXT
+      - NO_EFFECT_INVALID_AUTHORITY
+    when:
+      - field: authority.oauth_status
+        op: not_equals
+        value: complete
+
+  - id: block_invalid_issuer_or_audience
+    decision: block
+    reason_codes:
+      - INVALID_ISSUER_OR_AUDIENCE
+      - NO_EFFECT_INVALID_AUTHORITY
+    when:
+      - predicate: issuer_or_audience_untrusted
+
+  - id: block_expired_authority
+    decision: block
+    reason_codes:
+      - AUTHORITY_CONTEXT_EXPIRED
+      - NO_EFFECT_STALE_AUTHORITY
+    when:
+      - predicate: authority_expired
+
+  - id: block_requester_approver_self_approval
+    decision: block
+    reason_codes:
+      - SELF_APPROVAL_NOT_PERMITTED
+      - NO_EFFECT_DUAL_CONTROL_FAILURE
+    when:
+      - predicate: requester_equals_approver
+
+  - id: block_production_high_risk_without_dual_control
+    decision: block
+    reason_codes:
+      - PRODUCTION_HIGH_RISK_REQUIRES_DUAL_CONTROL
+      - NO_EFFECT_DUAL_CONTROL_FAILURE
+    when:
+      - field: action.target_environment
+        op: equals
+        value: production
+      - field: action.risk_level
+        op: in
+        value:
+          - high
+          - critical
+      - field: action.dual_control_present
+        op: equals
+        value: false
+
+  - id: pause_staging_low_or_medium_missing_dual_control
+    decision: pause
+    reason_codes:
+      - HUMAN_APPROVAL_REQUIRED
+      - HOLD_EFFECT_PENDING_ADDITIONAL_AUTHORITY
+    when:
+      - field: action.target_environment
+        op: equals
+        value: staging
+      - field: action.risk_level
+        op: in
+        value:
+          - low
+          - medium
+      - field: action.dual_control_present
+        op: equals
+        value: false
+
+  - id: allow_staging_low_or_medium_with_complete_authority
+    decision: allow
+    reason_codes:
+      - AUTHORITY_CONTEXT_SUFFICIENT
+      - EVIDENCE_BUNDLE_PRESENT
+      - POLICY_BRANCH_ALLOW_STAGING_BOUNDED_CHANGE
+    when:
+      - field: action.action_type
+        op: equals
+        value: create_change_control_record
+      - field: action.target_environment
+        op: equals
+        value: staging
+      - field: action.risk_level
+        op: in
+        value:
+          - low
+          - medium
+      - field: authority.oauth_status
+        op: equals
+        value: complete
+      - field: authority.scopes
+        op: contains
+        value: change_record:create:staging
+      - field: authority.roles
+        op: intersects
+        value:
+          - change_manager
+          - security_lead
+      - field: action.dual_control_present
+        op: equals
+        value: true
+      - predicate: issuer_and_audience_trusted
+      - predicate: subject_matches_requester

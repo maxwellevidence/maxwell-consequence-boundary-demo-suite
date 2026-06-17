@@ -1,0 +1,18 @@
+{
+  "bundle_id": "sha256:7ca54729f2286d7e4050de655be94d8fcecd628a50258fad4b75b1913a44c8a3",
+  "case_id": "03_agent_expands_task_beyond_scope",
+  "claimed_delegation_packet_id": "evidence-packet-003",
+  "created_at": "2026-06-12T21:06:29Z",
+  "evidence_continuity_ok": true,
+  "evidence_count": 2,
+  "evidence_packet_present": true,
+  "evidence_refs": [
+    "cve-summary:CVE-2099-0003",
+    "asset-inventory:svc-219"
+  ],
+  "handoff_id": "handoff-003",
+  "input_sha256": "7e89d58b4741f183c765a1e8a4e71bb38f11b8bcc6ed4b539747077b2bce891b",
+  "packet_id": "evidence-packet-003",
+  "public_preview_note": "Synthetic handoff evidence only; not a production evidence record.",
+  "schema": "maxwell.multi_agent_authority.evidence_bundle.v0.1"
+}

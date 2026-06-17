@@ -1,0 +1,18 @@
+{
+  "authority_present": false,
+  "can_review": false,
+  "case_id": "03_reviewer_lacks_authority",
+  "effect_type": "update_case_status",
+  "effect_type_in_review_scope": true,
+  "max_review_risk": "low",
+  "record_type": "review_authority_context",
+  "reviewer_id": "junior_reviewer_007",
+  "reviewer_role": "junior_reviewer",
+  "risk_within_review_authority": false,
+  "role_known": true,
+  "same_as_proposer": false,
+  "scope": "support_case",
+  "scope_in_review_scope": true,
+  "target_in_review_scope": true,
+  "target_system": "support_workflow"
+}

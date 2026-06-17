@@ -1,0 +1,18 @@
+{
+  "authority_present": true,
+  "can_review": true,
+  "case_id": "05_review_fails_blocked",
+  "effect_type": "update_case_status",
+  "effect_type_in_review_scope": true,
+  "max_review_risk": "medium",
+  "record_type": "review_authority_context",
+  "reviewer_id": "ops_reviewer_201",
+  "reviewer_role": "operations_reviewer",
+  "risk_within_review_authority": true,
+  "role_known": true,
+  "same_as_proposer": false,
+  "scope": "support_case",
+  "scope_in_review_scope": true,
+  "target_in_review_scope": true,
+  "target_system": "support_workflow"
+}

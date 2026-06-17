@@ -1,0 +1,9 @@
+{
+  "action_id": "ACT-REVIEW-006",
+  "case_id": "06_review_attempts_scope_expansion",
+  "decision_receipt_id": "sha256:de0811b76e32bab3b7a74695da2eb3b10e2772c5448bcb0a48d587e40d9c8c9c",
+  "effect_created": false,
+  "reason_code": "REVIEW_SCOPE_EXPANSION_BLOCKED",
+  "record_type": "review_rejection_notice",
+  "review_rejection_notice_id": "sha256:ab3341e7c610a6e1a68c30364b3638093013a93cb0020e0230fb7edfc23481b4"
+}

@@ -1,0 +1,11 @@
+{
+  "authority_basis": "instruction_text_cannot_create_delegation",
+  "case_id": "06_prompt_injection_handoff_override",
+  "created_at": "2026-06-12T21:06:30Z",
+  "decision_receipt_id": "sha256:e0a697f06e5460b21e3187ebfc7eac8cdf673a51a9de2073c930dd78aaff4a61",
+  "decision_receipt_sha256": "be6689344ae6d74d4467aa74c96629c76474c1ca0ad0df98b9465312e18084a8",
+  "public_preview_note": "Synthetic suppression notice only; no downstream action occurred.",
+  "reason_code": "DELEGATION_PROMPT_INJECTION_SUPPRESSED",
+  "schema": "maxwell.multi_agent_authority.suppression_notice.v0.1",
+  "suppression_notice_id": "sha256:27de869a7e5a3792d4e39ce3b0e27f83ff7947464c9d84ffb3266512abd5c62b"
+}

@@ -1,0 +1,18 @@
+{
+  "action_id": "ACT-004",
+  "authority_snapshot_hash": "sha256:a09951bbb09f394a6f0e2e2639bae36120c7bea11213f8b475973ebce408d122",
+  "case_id": "04_attempted_action_missing_authority",
+  "decision": "block",
+  "decision_receipt_id": "sha256:ac74a247b938377ad70aa4a8131a720a4ad54131eddb56108869898181678ba7",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T00:00:00Z",
+  "evidence_snapshot_hash": "sha256:6226f7e7443ec035813c724cccfeebe5bd3cd29b46926787a5ce5cd6d4517e32",
+  "explanation": "No valid authority context supports downstream effect.",
+  "lifecycle_status": "effect_suppressed",
+  "policy_id": "maxwell.incident_reconstruction.public_demo",
+  "policy_version": "0.1.0",
+  "reason_code": "IR_BLOCK_MISSING_AUTHORITY",
+  "record_type": "decision_receipt",
+  "request_policy_context": "policy-v1",
+  "review_required": false
+}

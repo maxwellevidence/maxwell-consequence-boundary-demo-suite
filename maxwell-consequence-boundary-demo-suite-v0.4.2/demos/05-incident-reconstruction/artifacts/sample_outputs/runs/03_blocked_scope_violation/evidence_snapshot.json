@@ -1,0 +1,15 @@
+{
+  "captured_at": "2026-01-15T10:03:00Z",
+  "case_id": "03_blocked_scope_violation",
+  "complete": true,
+  "evidence_refs": [
+    "incident_ticket",
+    "system_snapshot"
+  ],
+  "missing_refs": [],
+  "record_type": "evidence_snapshot",
+  "required_refs": [
+    "incident_ticket",
+    "system_snapshot"
+  ]
+}

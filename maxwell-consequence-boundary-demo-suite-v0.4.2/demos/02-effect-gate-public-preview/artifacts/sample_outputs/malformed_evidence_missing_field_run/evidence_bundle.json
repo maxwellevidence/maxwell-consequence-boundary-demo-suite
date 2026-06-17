@@ -1,0 +1,15 @@
+{
+  "cve_id": "CVE-2026-1043",
+  "evidence_bundle_id": "EVID-2026-1043-PAYMENTS-API",
+  "evidence_type": "simulated_cve_remediation_research",
+  "limitations": [
+    "This proof does not validate technical correctness of the remediation.",
+    "This proof does not replay model calls or external CVE source state."
+  ],
+  "source_workflow": "ai_assisted_cve_incident_research",
+  "supporting_artifacts": [
+    "action_proposal.json",
+    "authority_context.json"
+  ],
+  "target_system": "payments-api"
+}

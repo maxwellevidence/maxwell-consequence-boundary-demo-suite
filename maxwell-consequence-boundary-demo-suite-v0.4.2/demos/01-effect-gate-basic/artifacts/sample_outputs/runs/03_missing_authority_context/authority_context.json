@@ -1,0 +1,12 @@
+{
+  "actor_id": null,
+  "allowed_scopes": [],
+  "authority_present": false,
+  "can_execute": false,
+  "case_id": "03_missing_authority_context",
+  "delegation_id": null,
+  "public_preview_note": "Synthetic effect-gate authority context only; not a production authorization record.",
+  "role": null,
+  "schema": "maxwell.demo.authority_context.v0.1",
+  "target_scope": "customer_communications"
+}

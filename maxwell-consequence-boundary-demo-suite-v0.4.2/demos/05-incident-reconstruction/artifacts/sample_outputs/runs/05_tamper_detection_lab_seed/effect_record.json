@@ -1,0 +1,9 @@
+{
+  "action_id": "ACT-005",
+  "case_id": "05_tamper_detection_lab_seed",
+  "decision_receipt_hash": "sha256:9505dddd2f0e547d87e65e144b17cf841fd4452c32b88fc303b54a68e4ae1e61",
+  "effect_type": "synthetic_audit_note",
+  "record_type": "effect_record",
+  "synthetic_no_real_execution": true,
+  "target_system": "audit_log_service"
+}

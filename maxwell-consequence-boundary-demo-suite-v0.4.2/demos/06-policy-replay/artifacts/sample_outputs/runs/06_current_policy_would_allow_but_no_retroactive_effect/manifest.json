@@ -1,0 +1,46 @@
+{
+  "case_id": "06_current_policy_would_allow_but_no_retroactive_effect",
+  "files": [
+    {
+      "bytes": 60,
+      "path": "NO_EFFECT_CREATED.txt",
+      "sha256": "593493aaa627092c68a75e5a9ce13b7b4b36c6797cb7a436120ddb5288d6e91b"
+    },
+    {
+      "bytes": 910,
+      "path": "decision_receipt.json",
+      "sha256": "5f13ecb39398c9d3917c105ac07174f1b3cbe20bcbdbf75a6b9cf19ff8fe38c1"
+    },
+    {
+      "bytes": 998,
+      "path": "input_request.json",
+      "sha256": "95040cb0902e3959f145684e153e364f6f89d78280ef5172e30cd3743de7381e"
+    },
+    {
+      "bytes": 1176,
+      "path": "original_authority_context.json",
+      "sha256": "c020df0855b723498f10d96ecc36383e65a9c42f7115d1af18d4377f540fcbf3"
+    },
+    {
+      "bytes": 446,
+      "path": "original_evidence_bundle.json",
+      "sha256": "04a6a0d120a1ec0c1ed836f147f575f4939ab1d82726ade4834d7e695aca9d16"
+    },
+    {
+      "bytes": 3361,
+      "path": "original_policy_snapshot.json",
+      "sha256": "c18121c9af4fa16b7cc7ccbc323585eb2dd145711562924de86e5f7cb5ed591a"
+    },
+    {
+      "bytes": 195,
+      "path": "suppression_notice.json",
+      "sha256": "53005597f55686670a155d3af54a9b270e387b983877948de386760197f1fc57"
+    },
+    {
+      "bytes": 345,
+      "path": "timeline_event.json",
+      "sha256": "201145f926e983c660e6e50e45cbde48b34de1d990295065a6acbf55b9416672"
+    }
+  ],
+  "record_type": "manifest"
+}

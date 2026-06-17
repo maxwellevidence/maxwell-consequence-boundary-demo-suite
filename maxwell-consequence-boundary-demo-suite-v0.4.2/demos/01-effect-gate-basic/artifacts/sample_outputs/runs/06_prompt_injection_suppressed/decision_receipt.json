@@ -1,0 +1,18 @@
+{
+  "authority_actor_id": "agent-comms-01",
+  "case_id": "06_prompt_injection_suppressed",
+  "created_at": "2026-06-12T17:48:14+00:00",
+  "decision_receipt_id": "sha256:5299167f6a8ea0a5f13d22ecd14b4e7c206181d9515d6e362360d1354fc069cd",
+  "effect_permitted": false,
+  "evidence_bundle_id": "sha256:deb16d25d35d2554d04feaef08ae07c1066860eae42289a44f0cc4501e3b4d3c",
+  "explanation": "Instruction text attempted to create or bypass authority. Output is not authority.",
+  "lifecycle_state": "EFFECT_SUPPRESSED",
+  "outcome": "block",
+  "policy_id": "maxwell-effect-gate-basic-policy",
+  "policy_version": "2026.06.v0.1",
+  "public_preview_note": "Decision receipt from simplified Maxwell Effect Gate Basic policy.",
+  "reason_code": "EFFECT_GATE_PROMPT_INJECTION_SUPPRESSED",
+  "review_route": null,
+  "schema": "maxwell.demo.decision_receipt.v0.1",
+  "target_scope": "customer_communications"
+}

@@ -1,0 +1,39 @@
+{
+  "authority_summary": {
+    "approver_id": "human_commander_01",
+    "authority_present": true,
+    "target_in_scope": true
+  },
+  "case_id": "02_reviewed_action_needs_human",
+  "decision_summary": {
+    "decision": "review",
+    "explanation": "Risk level requires controlled review before effect.",
+    "lifecycle_status": "review_routed",
+    "policy_version": "0.1.0",
+    "reason_code": "IR_REVIEW_HIGH_RISK",
+    "request_policy_context": "policy-v1"
+  },
+  "effect_status": {
+    "effect_record_exists": false,
+    "no_effect_marker_exists": true,
+    "review_ticket_exists": true,
+    "suppression_notice_exists": false
+  },
+  "evidence_summary": {
+    "complete": true,
+    "missing_refs": []
+  },
+  "integrity_status": {
+    "errors": [],
+    "tamper_detected": false,
+    "verified": true
+  },
+  "proposed_action": {
+    "action_id": "ACT-002",
+    "requested_effect": "synthetic_customer_notice_prepare",
+    "risk_level": "high",
+    "summary": "Synthetic proposed incident action.",
+    "target_system": "notification_draft_service"
+  },
+  "record_type": "reconstruction_report"
+}

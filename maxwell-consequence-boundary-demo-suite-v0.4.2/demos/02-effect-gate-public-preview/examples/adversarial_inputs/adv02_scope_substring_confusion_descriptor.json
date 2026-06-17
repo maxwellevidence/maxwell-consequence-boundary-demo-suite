@@ -1,0 +1,6 @@
+{
+  "attack_class": "Scope substring must not satisfy exact required scope.",
+  "case_id": "adv02_scope_substring_confusion_descriptor",
+  "expected_effect_artifact": "absent",
+  "runtime_test": "tests/adversarial/test_adversarial_corpus.py"
+}

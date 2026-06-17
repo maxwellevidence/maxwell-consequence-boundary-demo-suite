@@ -1,0 +1,49 @@
+{
+  "case_id": "05_review_required_due_process",
+  "case_record": {
+    "case_record_id": "CASE-DEMO-005",
+    "applicant_id": "synthetic-applicant-005",
+    "program": "housing_assistance",
+    "jurisdiction": "demo_state"
+  },
+  "actor": {
+    "actor_id": "caseworker_avery",
+    "role": "benefits_caseworker"
+  },
+  "external_instruction": {
+    "source": "normal_case_queue",
+    "text": "Prepare a synthetic adverse eligibility determination for supervisor review."
+  },
+  "ai_recommendation": {
+    "recommendation": "deny eligibility pending review",
+    "confidence": 0.67,
+    "rationale": "The synthetic evidence appears complete but the adverse determination has not been reviewed by an authorized officer.",
+    "claims_final_authority": false
+  },
+  "proposed_determination": {
+    "determination_id": "DET-DEMO-005",
+    "determination_type": "eligibility_denial",
+    "program": "housing_assistance",
+    "jurisdiction": "demo_state",
+    "risk_level": "high",
+    "adverse": true,
+    "determination_effect": "eligibility_denial"
+  },
+  "evidence": {
+    "refs": [
+      "application_signed",
+      "identity_verified",
+      "program_criteria_matched",
+      "notice_template_attached",
+      "residency_verified",
+      "income_verified",
+      "supervisor_review_packet",
+      "adverse_action_notice",
+      "appeal_rights_notice",
+      "human_review_summary"
+    ],
+    "case_record_consistent": true,
+    "appeal_rights_notice_attached": true,
+    "captured_at": "2026-01-15T00:05:00Z"
+  }
+}

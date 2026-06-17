@@ -1,0 +1,6 @@
+{
+  "case_id": "04_attempted_action_missing_authority",
+  "effect_created": false,
+  "reason_code": "IR_BLOCK_MISSING_AUTHORITY",
+  "record_type": "suppression_notice"
+}

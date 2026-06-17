@@ -1,0 +1,5 @@
+{
+  "description": "Production critical-risk request without dual control.",
+  "outcome_label_in_input": false,
+  "source_file": "examples/demo_inputs/production_critical_no_dual_control.json"
+}

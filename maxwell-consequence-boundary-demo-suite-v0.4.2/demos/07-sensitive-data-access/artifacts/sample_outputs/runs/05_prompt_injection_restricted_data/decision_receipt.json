@@ -1,0 +1,18 @@
+{
+  "access_id": "DA-1005",
+  "authority_context_hash": "sha256:7a6b998c308e8e3639f15712115cbeb0b1232ea9e58f5aa6e7daa35e617cb6bd",
+  "case_id": "05_prompt_injection_restricted_data",
+  "decision": "suppress",
+  "decision_receipt_id": "sha256:1ce80ee8cbc3bd41212acc4a4a34d06d91d506ec4ea5cd08df1d5f056dc31d20",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-01T00:00:00Z",
+  "evidence_bundle_hash": "sha256:2dfa691950737735aefd792ea71b33f3e36abd073059fb160f8baca0818c46f1",
+  "explanation": "Prompt-injected instructions are preserved as evidence but are not authority.",
+  "lifecycle_status": "access_suppressed",
+  "policy_hash": "sha256:72c0a9c3d191cefc4290e7eea6651cf856d2990e52e9129d28c2a471400d7097",
+  "policy_id": "maxwell.demo.sensitive_data_access",
+  "policy_version": "0.1.0",
+  "reason_code": "PROMPT_INJECTION_NOT_AUTHORITY",
+  "record_type": "decision_receipt",
+  "review_required": false
+}

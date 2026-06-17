@@ -1,0 +1,27 @@
+{
+  "access_id": "DA-1004",
+  "business_purpose": "account_reconciliation",
+  "business_purpose_present": true,
+  "captured_at": "2026-01-01T00:04:00Z",
+  "case_id": "04_outside_scope_employee_record",
+  "data_minimization": true,
+  "evidence_complete": true,
+  "evidence_refs": [
+    "requester_role_assertion",
+    "data_inventory_entry",
+    "ticket_reference",
+    "business_purpose_record"
+  ],
+  "instruction_trace_preserved": true,
+  "legal_basis": "finance_exception_review",
+  "legal_basis_present": true,
+  "missing_refs": [],
+  "prompt_injection_detected": false,
+  "record_type": "data_evidence_bundle",
+  "required_refs": [
+    "requester_role_assertion",
+    "data_inventory_entry",
+    "ticket_reference",
+    "business_purpose_record"
+  ]
+}

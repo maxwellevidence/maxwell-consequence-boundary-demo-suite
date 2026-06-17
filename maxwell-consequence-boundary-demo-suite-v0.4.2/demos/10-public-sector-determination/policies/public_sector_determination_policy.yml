@@ -1,0 +1,128 @@
+policy_id: maxwell-public-sector-determination-demo-policy
+policy_version: "0.1.0"
+evaluation_time: "2026-01-15T00:00:00Z"
+
+risk_order:
+  low: 1
+  medium: 2
+  high: 3
+  critical: 4
+
+high_risk_levels:
+  - high
+  - critical
+
+adverse_determination_types:
+  - eligibility_denial
+  - benefit_reduction
+  - benefit_termination
+
+base_required_evidence_refs:
+  - application_signed
+  - identity_verified
+  - program_criteria_matched
+  - notice_template_attached
+
+program_required_evidence_refs:
+  housing_assistance:
+    - residency_verified
+    - income_verified
+  food_assistance:
+    - residency_verified
+    - household_size_verified
+    - income_verified
+
+high_risk_required_evidence_refs:
+  - supervisor_review_packet
+
+adverse_required_evidence_refs:
+  - adverse_action_notice
+  - appeal_rights_notice
+  - human_review_summary
+
+unsafe_instruction_indicators:
+  - skip appeal rights
+  - auto-deny
+  - deny automatically
+  - ignore due process
+  - bypass review
+
+roles:
+  benefits_caseworker:
+    can_propose_determination: true
+    can_bind_non_adverse_effect: true
+    can_bind_adverse_effect: false
+    max_risk_without_review: medium
+    allowed_programs:
+      - housing_assistance
+      - food_assistance
+    allowed_jurisdictions:
+      - demo_state
+    allowed_determination_types:
+      - eligibility_approval
+      - eligibility_denial
+      - benefit_reduction
+      - benefit_termination
+  automated_case_assistant:
+    can_propose_determination: true
+    can_bind_non_adverse_effect: false
+    can_bind_adverse_effect: false
+    max_risk_without_review: low
+    allowed_programs:
+      - housing_assistance
+      - food_assistance
+    allowed_jurisdictions:
+      - demo_state
+    allowed_determination_types:
+      - eligibility_approval
+      - eligibility_denial
+      - benefit_reduction
+      - benefit_termination
+  public_program_supervisor:
+    can_propose_determination: true
+    can_bind_non_adverse_effect: true
+    can_bind_adverse_effect: true
+    max_risk_without_review: high
+    allowed_programs:
+      - housing_assistance
+      - food_assistance
+    allowed_jurisdictions:
+      - demo_state
+    allowed_determination_types:
+      - eligibility_approval
+      - eligibility_denial
+      - benefit_reduction
+      - benefit_termination
+
+review_roles:
+  senior_review_officer:
+    can_authorize_adverse_effect: true
+    allowed_programs:
+      - housing_assistance
+      - food_assistance
+    allowed_determination_types:
+      - eligibility_denial
+      - benefit_reduction
+      - benefit_termination
+  program_supervisor:
+    can_authorize_adverse_effect: true
+    allowed_programs:
+      - housing_assistance
+      - food_assistance
+    allowed_determination_types:
+      - eligibility_approval
+      - eligibility_denial
+      - benefit_reduction
+      - benefit_termination
+
+reason_codes:
+  determination_effect_committed: PUBLIC_SECTOR_DETERMINATION_EFFECT_COMMITTED
+  required_eligibility_evidence_missing: REQUIRED_ELIGIBILITY_EVIDENCE_MISSING
+  case_record_inconsistent_requires_review: CASE_RECORD_INCONSISTENT_REQUIRES_REVIEW
+  unauthorized_automated_adverse_determination: UNAUTHORIZED_AUTOMATED_ADVERSE_DETERMINATION
+  due_process_review_required: DUE_PROCESS_REVIEW_REQUIRED
+  notice_and_appeal_rights_missing: NOTICE_AND_APPEAL_RIGHTS_MISSING
+  missing_case_authority: MISSING_CASE_AUTHORITY
+  program_or_jurisdiction_scope_violation: PROGRAM_OR_JURISDICTION_SCOPE_VIOLATION
+  determination_type_scope_violation: DETERMINATION_TYPE_SCOPE_VIOLATION
+  unsafe_instruction_preserved: UNSAFE_INSTRUCTION_PRESERVED_NOT_AUTHORITY

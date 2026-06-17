@@ -1,0 +1,15 @@
+{
+  "case_id": "06_authorized_reviewed_determination_effect",
+  "determination_type_in_reviewer_scope": true,
+  "program_in_reviewer_scope": true,
+  "record_type": "review_authority_context",
+  "review_authority_present": true,
+  "review_complete": true,
+  "review_disposition": "approve_effect",
+  "review_id": "REVIEW-DEMO-006",
+  "review_submitted": true,
+  "reviewer_can_authorize_adverse_effect": true,
+  "reviewer_id": "review_officer_lee",
+  "reviewer_role": "senior_review_officer",
+  "reviewer_role_known": true
+}

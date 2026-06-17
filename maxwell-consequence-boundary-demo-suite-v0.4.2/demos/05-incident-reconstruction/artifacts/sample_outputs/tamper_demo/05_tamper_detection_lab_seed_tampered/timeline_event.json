@@ -1,0 +1,13 @@
+{
+  "case_id": "05_tamper_detection_lab_seed",
+  "effect_created": true,
+  "event_sequence": [
+    "PROPOSED",
+    "EVIDENCE_CAPTURED",
+    "AUTHORITY_EVALUATED",
+    "DECISION_RECORDED",
+    "EFFECT_COMMITTED",
+    "RECONSTRUCTABLE_RECORD_CREATED"
+  ],
+  "record_type": "timeline_event"
+}

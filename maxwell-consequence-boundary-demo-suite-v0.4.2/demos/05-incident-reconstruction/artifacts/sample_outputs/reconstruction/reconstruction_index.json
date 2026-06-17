@@ -1,0 +1,41 @@
+{
+  "record_type": "reconstruction_index",
+  "reports": [
+    {
+      "case_id": "01_permitted_action_effect_committed",
+      "effect_record_exists": true,
+      "reason_code": "IR_POLICY_ALLOW",
+      "verified": true
+    },
+    {
+      "case_id": "02_reviewed_action_needs_human",
+      "effect_record_exists": false,
+      "reason_code": "IR_REVIEW_HIGH_RISK",
+      "verified": true
+    },
+    {
+      "case_id": "03_blocked_scope_violation",
+      "effect_record_exists": false,
+      "reason_code": "IR_BLOCK_SCOPE_VIOLATION",
+      "verified": true
+    },
+    {
+      "case_id": "04_attempted_action_missing_authority",
+      "effect_record_exists": false,
+      "reason_code": "IR_BLOCK_MISSING_AUTHORITY",
+      "verified": true
+    },
+    {
+      "case_id": "05_tamper_detection_lab_seed",
+      "effect_record_exists": true,
+      "reason_code": "IR_POLICY_ALLOW",
+      "verified": true
+    },
+    {
+      "case_id": "06_stale_policy_context_requires_review",
+      "effect_record_exists": false,
+      "reason_code": "IR_REVIEW_STALE_POLICY_CONTEXT",
+      "verified": true
+    }
+  ]
+}

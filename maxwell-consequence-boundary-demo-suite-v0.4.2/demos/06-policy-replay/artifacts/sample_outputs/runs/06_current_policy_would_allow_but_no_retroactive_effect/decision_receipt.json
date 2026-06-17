@@ -1,0 +1,18 @@
+{
+  "action_id": "act-06",
+  "authority_context_hash": "sha256:7265a727153063bddfd19b8b0fd0cf6e8b4f6216596eacb0d2e4006d273ee3d3",
+  "case_id": "06_current_policy_would_allow_but_no_retroactive_effect",
+  "decision": "block",
+  "decision_receipt_id": "sha256:622317cd7e1a5497c9696374394f03648f92eeb2fc5c40a8e2294c405d8dcf7c",
+  "effect_permitted": false,
+  "evaluated_at": "2026-01-15T09:00:00Z",
+  "evidence_bundle_hash": "sha256:9588daf4527ed45972edce32ec9ab8409f2d7678d3f4e3c5fe611d9eff678e28",
+  "explanation": "Approver role is not permitted to commit this effect type.",
+  "lifecycle_status": "effect_suppressed",
+  "policy_hash": "sha256:0fac20648dcd3cf5d77e64cba12e97d9ee3996a0ba98359c167674e44657970f",
+  "policy_id": "maxwell-policy-replay-demo",
+  "policy_version": "2025-10-v1",
+  "reason_code": "PR_BLOCK_EFFECT_NOT_IN_ROLE_SCOPE",
+  "record_type": "decision_receipt",
+  "review_required": false
+}

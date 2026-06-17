@@ -1,0 +1,5 @@
+{
+  "description": "Staging low-risk request where requester and approver are the same actor.",
+  "outcome_label_in_input": false,
+  "source_file": "examples/demo_inputs/self_approval.json"
+}

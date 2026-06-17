@@ -1,0 +1,17 @@
+{
+  "artifact_count_expected_minimum": 11,
+  "bounded_effect": "change_control_record_creation",
+  "external_api_calls_replayed": false,
+  "gate_evaluation_latency_ms": null,
+  "metrics_scope": "public_safe_demo_metrics",
+  "model_calls_replayed": false,
+  "model_latency_ms": null,
+  "notes": [
+    "Metrics are illustrative placeholders for the public proof.",
+    "This repository does not claim production performance.",
+    "This repository does not claim deterministic replay of model calls or external tool state."
+  ],
+  "run_case": "oidc_bad_token_bad_signature",
+  "tool_latency_ms": null,
+  "workflow_type": "ai_assisted_cve_incident_research"
+}

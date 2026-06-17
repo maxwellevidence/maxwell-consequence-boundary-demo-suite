@@ -1,0 +1,14 @@
+{
+  "amount_usd": 18000.0,
+  "case_id": "06_amount_exceeds_authority_limit",
+  "created_at": "2026-06-12T20:02:13+00:00",
+  "decision_receipt_id": "sha256:16d573271fc5a20b2a801fc5f20bfb625e7013f02867c0e69788375f662a30b3",
+  "decision_receipt_sha256": "91a58ecd185d5143d6bfbb4fc401fe1ead6cf751b6c9928b07d6ea8c1d810ea4",
+  "invoice_id": "INV-6600",
+  "public_preview_note": "Synthetic review ticket only; no real workflow queue was contacted.",
+  "reason_code": "PAYMENT_AMOUNT_EXCEEDS_AUTHORITY_LIMIT",
+  "review_route": "finance_controller_review_queue",
+  "review_ticket_id": "sha256:2849b16da0b7b677ee9ffd1ed5370c5bd5e74566b4a7813bbf1bac0931f6c84d",
+  "schema": "maxwell.payment_demo.review_ticket.v0.1",
+  "vendor_id": "VND-SOLACE-006"
+}

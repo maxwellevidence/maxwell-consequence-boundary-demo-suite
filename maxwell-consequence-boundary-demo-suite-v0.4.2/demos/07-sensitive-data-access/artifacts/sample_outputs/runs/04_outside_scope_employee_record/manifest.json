@@ -1,0 +1,41 @@
+{
+  "case_id": "04_outside_scope_employee_record",
+  "files": [
+    {
+      "bytes": 114,
+      "path": "NO_DATA_ACCESS_EFFECT_CREATED.txt",
+      "sha256": "d42a202179de43f3ab7ddeb3a2e6b8c7f554e7d21645c4c8933cbb896673a722"
+    },
+    {
+      "bytes": 1080,
+      "path": "authority_context.json",
+      "sha256": "eba917499ffb0dfd63eb677d23ccf595d2be9b4ed9a02721132d83390306068a"
+    },
+    {
+      "bytes": 757,
+      "path": "data_evidence_bundle.json",
+      "sha256": "f8a8efc53c3339e0265c0aa4587b4d96a0a9c766d9dfe8c395c1497931f1d79d"
+    },
+    {
+      "bytes": 889,
+      "path": "decision_receipt.json",
+      "sha256": "13b71f2f6800b793eb688c39635e592a57e945d8dbfd1870ffabd2a17d21c1fb"
+    },
+    {
+      "bytes": 1197,
+      "path": "input_request.json",
+      "sha256": "ea652199335a8717a028ef5c6310b571c164f9a138b6cd3d7769759a8ba8d818"
+    },
+    {
+      "bytes": 5275,
+      "path": "policy_snapshot.json",
+      "sha256": "32c847b2adeb091b3fe3768e01b55dea7e6f4f0caaf0ce8713985bb93e3734ae"
+    },
+    {
+      "bytes": 390,
+      "path": "suppression_notice.json",
+      "sha256": "03513276726a2c515617c02b8d9d16d90513784ba2422f75347d9065ef6a790c"
+    }
+  ],
+  "record_type": "manifest"
+}

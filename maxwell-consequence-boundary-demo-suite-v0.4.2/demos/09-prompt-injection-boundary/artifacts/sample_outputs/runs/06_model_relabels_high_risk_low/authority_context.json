@@ -1,0 +1,25 @@
+{
+  "actor_id": "agent-security-ops-01",
+  "actor_role": "security_operator",
+  "authority_present": true,
+  "can_propose_action": true,
+  "case_id": "06_model_relabels_high_risk_low",
+  "effect_type": "request_change_window",
+  "effect_type_in_scope": true,
+  "max_risk_without_review": "medium",
+  "record_type": "authority_context",
+  "requested_tool": "change.calendar.request",
+  "risk_exceeds_no_review_threshold": true,
+  "risk_level": "high",
+  "role_known": true,
+  "scope": "security_operations",
+  "scope_in_role_scope": true,
+  "self_approval_detected": false,
+  "target_in_role_scope": true,
+  "target_system": "change_calendar",
+  "tool_in_role_scope": true,
+  "trusted_approval_count": 1,
+  "trusted_approval_ids": [
+    "wf-approval-100"
+  ]
+}

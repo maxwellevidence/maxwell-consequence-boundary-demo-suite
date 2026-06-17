@@ -1,0 +1,89 @@
+policy_id: "maxwell.prompt_injection_boundary.public_preview"
+policy_version: "0.1.0"
+evaluation_time: "2026-01-01T00:00:00Z"
+
+risk_order:
+  low: 1
+  medium: 2
+  high: 3
+  critical: 4
+
+roles:
+  ai_ops_assistant:
+    can_propose_action: true
+    allowed_scopes: ["incident_response", "internal_operations"]
+    allowed_effect_types: ["create_ticket", "schedule_review"]
+    allowed_target_systems: ["ticketing_system", "review_queue"]
+    allowed_tools: ["ticket.create", "review.queue"]
+    max_risk_without_review: "medium"
+  security_operator:
+    can_propose_action: true
+    allowed_scopes: ["incident_response", "security_operations"]
+    allowed_effect_types: ["create_ticket", "schedule_review", "request_change_window"]
+    allowed_target_systems: ["ticketing_system", "review_queue", "change_calendar"]
+    allowed_tools: ["ticket.create", "review.queue", "change.calendar.request"]
+    max_risk_without_review: "medium"
+  untrusted_chat_user:
+    can_propose_action: false
+    allowed_scopes: []
+    allowed_effect_types: []
+    allowed_target_systems: []
+    allowed_tools: []
+    max_risk_without_review: "low"
+
+trusted_authority_sources:
+  - "iam_policy"
+  - "workflow_approval"
+  - "review_queue"
+  - "change_control_record"
+
+untrusted_authority_sources:
+  - "llm_output"
+  - "prompt_text"
+  - "chat_message"
+  - "user_claim"
+
+base_required_evidence_refs:
+  - "incident_summary"
+  - "source_log"
+  - "business_justification"
+
+high_risk_required_evidence_refs:
+  - "human_approval"
+  - "change_control_record"
+
+review_required_risk_levels:
+  - "high"
+  - "critical"
+
+prompt_injection_indicators:
+  - "ignore policy"
+  - "ignore all policies"
+  - "bypass approval"
+  - "override approval"
+  - "do not log"
+  - "do not tell"
+  - "developer mode"
+  - "system override"
+  - "urgent override"
+  - "use tool directly"
+  - "exfiltrate"
+  - "skip review"
+  - "approve this without review"
+
+prohibited_tools:
+  - "payment_api.transfer"
+  - "customer_pii_export.download"
+  - "prod_change_api.apply_now"
+  - "secrets_vault.read"
+
+reason_codes:
+  effect_committed: "PROMPT_BOUNDARY_EFFECT_COMMITTED"
+  prompt_injection_quarantined: "PROMPT_INJECTION_BOUNDARY_TRIGGERED"
+  untrusted_authority_claim: "UNTRUSTED_AUTHORITY_CLAIM"
+  malicious_tool_request: "TOOL_REQUEST_OUTSIDE_BOUNDARY"
+  risk_downgrade_review: "MODEL_RISK_DOWNGRADE_REQUIRES_SECURITY_REVIEW"
+  missing_evidence_review: "MISSING_EVIDENCE_REQUIRES_REVIEW"
+  high_risk_review: "HIGH_RISK_REQUIRES_REVIEW"
+  missing_authority: "MISSING_ACTOR_AUTHORITY"
+  scope_violation: "SCOPE_OR_TARGET_OUTSIDE_AUTHORITY"

@@ -1,0 +1,37 @@
+{
+  "appeal_rights_notice_attached": false,
+  "captured_at": "2026-01-15T00:04:00Z",
+  "case_id": "04_unauthorized_auto_denial",
+  "case_record_consistent": true,
+  "case_record_id": "CASE-DEMO-004",
+  "determination_id": "DET-DEMO-004",
+  "evidence_complete": true,
+  "evidence_refs": [
+    "application_signed",
+    "identity_verified",
+    "program_criteria_matched",
+    "notice_template_attached",
+    "residency_verified",
+    "income_verified",
+    "supervisor_review_packet",
+    "adverse_action_notice",
+    "appeal_rights_notice",
+    "human_review_summary"
+  ],
+  "missing_refs": [],
+  "program": "housing_assistance",
+  "record_type": "determination_evidence_bundle",
+  "required_refs": [
+    "adverse_action_notice",
+    "appeal_rights_notice",
+    "application_signed",
+    "human_review_summary",
+    "identity_verified",
+    "income_verified",
+    "notice_template_attached",
+    "program_criteria_matched",
+    "residency_verified",
+    "supervisor_review_packet"
+  ],
+  "synthetic_record": true
+}

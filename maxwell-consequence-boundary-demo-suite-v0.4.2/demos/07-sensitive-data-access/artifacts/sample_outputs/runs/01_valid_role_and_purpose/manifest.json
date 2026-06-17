@@ -1,0 +1,36 @@
+{
+  "case_id": "01_valid_role_and_purpose",
+  "files": [
+    {
+      "bytes": 1078,
+      "path": "authority_context.json",
+      "sha256": "30f8385b332d6ab023790ad06b60b1d24d6491da0c5ae8e5f02316dc70ac8583"
+    },
+    {
+      "bytes": 700,
+      "path": "data_access_effect_record.json",
+      "sha256": "613991e79152bf83db8c26498e4e4547334e88495efebd99acfbbcf5cf8af511"
+    },
+    {
+      "bytes": 745,
+      "path": "data_evidence_bundle.json",
+      "sha256": "181db8b216047ad87f40aad75e883e552c9c963fb588f70d47945a2138c1ce4b"
+    },
+    {
+      "bytes": 909,
+      "path": "decision_receipt.json",
+      "sha256": "8cfe8093b4ace2d9eb7c4069091b0708b9b37da76a7491312139ae6eef90356a"
+    },
+    {
+      "bytes": 1190,
+      "path": "input_request.json",
+      "sha256": "88e08b41f35f5805bf0163764e43304ed42d7f9521958e8b3dc7151784f4e9a9"
+    },
+    {
+      "bytes": 5275,
+      "path": "policy_snapshot.json",
+      "sha256": "32c847b2adeb091b3fe3768e01b55dea7e6f4f0caaf0ce8713985bb93e3734ae"
+    }
+  ],
+  "record_type": "manifest"
+}

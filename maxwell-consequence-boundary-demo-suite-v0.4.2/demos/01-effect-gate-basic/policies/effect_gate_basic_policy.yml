@@ -1,0 +1,28 @@
+policy_id: maxwell-effect-gate-basic-policy
+policy_version: 2026.06.v0.1
+
+required_fields:
+  - case_id
+  - action_type
+  - target_scope
+  - risk_level
+  - proposed_instruction
+  - requested_effect
+
+allowed_risk_levels:
+  - low
+  - medium
+
+review_required_risk_levels:
+  - high
+  - critical
+
+review_route: basic_effect_gate_review_queue
+
+prompt_injection_markers:
+  - ignore policy
+  - bypass authority
+  - approve without evidence
+  - override controls
+  - disregard governance
+  - create effect anyway

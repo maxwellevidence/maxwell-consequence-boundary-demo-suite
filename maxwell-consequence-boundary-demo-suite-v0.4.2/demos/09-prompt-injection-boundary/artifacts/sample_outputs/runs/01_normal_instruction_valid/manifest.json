@@ -1,0 +1,41 @@
+{
+  "case_id": "01_normal_instruction_valid",
+  "files": [
+    {
+      "bytes": 705,
+      "path": "authority_context.json",
+      "sha256": "f9c53cfc897b69aad207a7c7abceb66610864c9fa9feedcaaff47695c44c0fa4"
+    },
+    {
+      "bytes": 692,
+      "path": "bounded_effect_record.json",
+      "sha256": "a045c884031029da1dee8fa08160ef042722ea0e00db532a0e728740006c051f"
+    },
+    {
+      "bytes": 1118,
+      "path": "decision_receipt.json",
+      "sha256": "70041c758a3c3a5d9f194182a98938dcc7d79b2068742d8ac8fcbc97966d0dd2"
+    },
+    {
+      "bytes": 1313,
+      "path": "input_request.json",
+      "sha256": "bd501d19c6273b50120e54373a9012befd8cbcbc5eb0cb7a809976f3e163c5e4"
+    },
+    {
+      "bytes": 646,
+      "path": "instruction_evidence_bundle.json",
+      "sha256": "07eee5fb890b245439a48e9669f607335ea23957ca92f53dc7ca671d2bfd8da3"
+    },
+    {
+      "bytes": 3599,
+      "path": "policy_snapshot.json",
+      "sha256": "4dd3fd06dc7f92be683c22b266e126d702a6d522802a9443614c9dcceba595af"
+    },
+    {
+      "bytes": 578,
+      "path": "prompt_boundary_analysis.json",
+      "sha256": "c33f427d61eccd672f5f46d93ddefed2285763eaa6f3a6262b26d81d92de414f"
+    }
+  ],
+  "record_type": "manifest"
+}

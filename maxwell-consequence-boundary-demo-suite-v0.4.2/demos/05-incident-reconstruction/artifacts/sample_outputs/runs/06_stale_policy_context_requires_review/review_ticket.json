@@ -1,0 +1,7 @@
+{
+  "case_id": "06_stale_policy_context_requires_review",
+  "effect_created": false,
+  "reason_code": "IR_REVIEW_STALE_POLICY_CONTEXT",
+  "record_type": "review_ticket",
+  "review_queue": "incident_governance_review_queue"
+}
