@@ -4,7 +4,7 @@ This public demo contains only synthetic examples and local deterministic policy
 
 Please do not submit real customer data, vendor data, employee data, invoices, bank details, credentials, access tokens, or payment files when testing this demo.
 
-Report security concerns to: info@maxwellevidence.com
+Report security concerns to: oswaldo@maxwellevidence.com
 
 ## Intentional limitations
 
