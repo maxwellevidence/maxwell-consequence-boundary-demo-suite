@@ -8,7 +8,7 @@ or demo runs.
 
 If you believe you found a security concern in this public demo package, contact:
 
-`info@maxwellevidence.com`
+`oswaldo@maxwellevidence.com`
 
 This demo intentionally does not connect to a real database or return real sensitive data. The
 `data_access_effect_record.json` artifact records that access would be permitted under the demo
