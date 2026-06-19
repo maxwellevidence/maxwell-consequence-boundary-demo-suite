@@ -4,4 +4,4 @@ This package is a local public-preview demo. It should not be deployed as a prod
 
 Do not place real credentials, customer data, employee data, API keys, tokens, or private information into the demo inputs.
 
-If you find an issue in the public demo package, contact Maxwell Evidence at info@maxwellevidence.com.
+If you find an issue in the public demo package, contact Maxwell Evidence at oswaldo@maxwellevidence.com.
