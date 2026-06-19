@@ -6,4 +6,4 @@ Do not submit real customer data, employee data, credentials, access tokens, API
 private keys, financial records, health records, legal records, or government case records when
 running or discussing this demo.
 
-Security concerns can be sent to info@maxwellevidence.com.
+Security concerns can be sent to oswaldo@maxwellevidence.com.
